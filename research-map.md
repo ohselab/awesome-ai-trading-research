@@ -1,113 +1,148 @@
-# Research Landscape Map
+# 연구 분과 맵 (Research Landscape Map)
 
-> **Last Updated**: 2026-06-21
-> **Seed Papers**: 17 (A: 4, B: 7, C: 6)
-> **Total Citations**: ~300,000+
-> **Follow-up Papers**: 40+ (2024-2026)
-
----
-
-## Summary
-
-| Domain | Papers | Total Citations | Most Influential Paper | Key Keywords |
-|--------|--------|----------------|----------------------|--------------|
-| **A. System Trading** | 4 | ~8,232 | O'Hara 1995 (3,622) | Market microstructure, execution optimization, adaptive markets |
-| **B. Quant Trading** | 7 | ~111,700 | Engle 1982 (37,600) | Factor models, stat arb, cointegration, ARCH |
-| **C. AI/ML Trading** | 6 | ~183,055 | Vaswani 2017 (175,000) | Transformer, DRL, sentiment, financial LLM |
+> **작성일**: 2026-06-20  
+> **시드 논문**: 17편 (A: 4편, B: 7편, C: 6편)  
+> **총 인용수**: ~300,000+ (집계 기준일 현재)
 
 ---
 
-## Citation Tree
+## 📊 전체 요약
+
+| 분과 | 논문 수 | 총 인용수 | 가장 영향력 있는 논문 | 핵심 키워드 |
+|------|---------|----------|---------------------|------------|
+| **A. 시스템 트레이딩** | 4편 | ~8,232 | O'Hara 1995 (3,622) | 시장 미시구조, 실행 최적화, 적응적 시장 |
+| **B. 퀀트 트레이딩** | 7편 | ~111,700 | Engle 1982 (37,600) | 팩터 모델, 통계 차익거래, 공적분, ARCH |
+| **C. AI/ML 트레이딩** | 6편 | ~183,055 | Vaswani 2017 (175,000) | Transformer, DRL, 센티먼트, 금융 LLM |
+
+---
+
+## 🌳 연구 계보도 (Citation Tree)
 
 ```
-                          [Mathematical Foundations]
+                          [수학적 기반]
                               │
             ┌─────────────────┼─────────────────┐
             │                 │                 │
-     [B4] Time Series    [B1] Factor        [A4] Market
-     Econometrics        Investing          Microstructure
-     ├─ Engle 1982       ├─ Fama 1992       └─ O'Hara 1995
+     [B4] 시계열          [B1] 팩터          [A4] 시장
+     계량경제학           투자이론            미시구조
+     ├─ Engle 1982        ├─ Fama 1992       └─ O'Hara 1995
      │  (ARCH)            │  (3-factor)
      └─ Engle 1987        └─ Fama 2015
-        (Cointegration)      (5-factor)
+        (공적분)             (5-factor)
             │                 │                 │
             └────────┬────────┘                 │
                      │                          │
-              [B2] Statistical                  │
-              Arbitrage                         │
+              [B2] 통계 차익거래                 │
               ├─ Gatev 2006                     │
               └─ Avellaneda 2010                │
                      │                          │
                      └──────────┬───────────────┘
                                 │
-                         [A2] Algorithmic
-                         Trading
+                         [A2] 알고리즘
+                         트레이딩
                          └─ Almgren 2001
                                 │
                     ┌───────────┼───────────┐
                     │           │           │
-             [A1] Tech.    [A3] HFT    [B3] Portfolio
-             Analysis                   Optimization
-             └─ Lo 2000                   └─ Merton 1972
+             [A1] 기술적    [A3] HFT    [B3] 포트폴리오
+             분석                           최적화
+             └─ Lo 2000                     └─ Merton 1972
              └─ Lo 2004
                     │
-                    │         [Deep Learning Revolution 2017~]
+                    │         [딥러닝 혁명 2017~]
                     │              │
                     │    ┌─────────┼─────────┐
                     │    │         │         │
                     │  [C1] DL  [C2] DRL  [C3] NLP
-                    │  Price    Portfolio  Sentiment
-                    │  ├Vaswani ├Jiang    ├Xu 2018
-                    │  │ 2017   │ 2017    └Bollen 2011
+                    │  가격예측  포트폴리오  센티먼트
+                    │  └Vaswani  └Jiang    ├Xu 2018
+                    │   2017     2017      └Bollen 2011
                     │              │
                     └──────┬───────┘
                            │
-                    [C4] LLM Trading
+                    [C4] LLM 트레이딩
                     ├─ BloombergGPT 2023
-                    ├─ FinGPT 2023
-                    ├─ FinAgent 2024 (wow: 88)
-                    └─ TradingAgents 2024 (wow: 85)
+                    └─ FinGPT 2023
 ```
 
 ---
 
-## Cross-Domain Links
+## 🔬 분과별 핵심 발견
 
-| From | To | Connection |
-|------|-----|-----------|
-| B4 → B2 | Cointegration theory → Pairs trading statistical foundation |
-| B1 → C2 | Factor models → DRL portfolio reward function design |
-| C1 → C4 | Transformer → Financial LLM architecture |
-| A4 → A2 | Market microstructure → Execution algorithm design |
-| C4 ↔ C2 | LLM-RL hybrid: LLM for learning, RL for execution |
+### A. 시스템 트레이딩
+
+| 분과 | 핵심 논문 | 기여 | 실무 시사점 |
+|------|----------|------|-----------|
+| A1 | Lo 2004 | 적응적 시장 가설 — 시장 효율성의 진화적 해석 | 기술적 분석의 이론적 정당화 |
+| A1 | Lo 2000 | 기술적 분석의 수학적 기반 — 패턴 인식의 통계적 검증 | 차트 패턴의 신뢰성 평가 프레임워크 |
+| A2 | Almgren 2001 | 실행 최적화 이론 — 시장 충격 모델 | 알고리즘 매매 전략 설계의 바이블 |
+| A4 | O'Hara 1995 | 시장 미시구조 이론 — 가격 발견, 유동성 | 호가 구조 분석, 시장 설계 이해 |
 
 ---
 
-## Top 5 Most Cited Papers
+## 📈 인용 네트워크 분석
 
+### 가장 많이 인용되는 논문 (Top 5)
 1. **Vaswani 2017** — ~175,000 (Transformer)
-2. **Engle 1982** — ~37,600 (ARCH, Nobel Prize)
-3. **Engle 1987** — ~30,000 (Cointegration, Nobel Prize)
-4. **Jegadeesh 1993** — ~18,200 (Momentum)
+2. **Engle 1982** — ~37,600 (ARCH, 노벨상)
+3. **Engle 1987** — ~30,000 (공적분, 노벨상)
+4. **Jegadeesh 1993** — ~18,200 (모멘텀)
 5. **Fama 1992** — ~16,000 (3-factor)
 
----
-
-## Priority Follow-ups (2024-2026)
-
-### Priority 1 (Active Research)
-| Domain | Topic | Reason |
-|--------|-------|--------|
-| C4 | LLM Trading Agents | Fastest growing, most practical |
-| C2 | RL Portfolio (2024-2026) | DRL + LLM convergence |
-| B1 | Factor Investing (ML) | ML-based factor discovery |
-
-### Priority 2 (1-2 weeks)
-| Domain | Topic | Reason |
-|--------|-------|--------|
-| C3 | Financial Sentiment (LLM-based) | Paradigm shift from rule-based |
-| A2 | Execution Algorithms (ML) | ML-based execution optimization |
+### 분과 간 연결 고리
+- **B4 → B2**: 공적분 이론이 페어 트레이딩의 통계적 기반
+- **B1 → C2**: 팩터 모델이 DRL 포트폴리오의 보상 함수 설계에 영향
+- **C1 → C4**: Transformer가 금융 LLM의 아키텍처 기반
+- **A4 → A2**: 시장 미시구조 이론이 실행 알고리즘 설계에 필수
 
 ---
 
-*This map is based on 17 seed papers and 40+ follow-up papers. Continuously updated.*
+## 🎯 후속 조사 우선순위
+
+### 1순위 (즉시 조사 필요)
+| 분과 | 주제 | 이유 |
+|------|------|------|
+| C4 | LLM 기반 트레이딩 에이전트 (2024-2026) | 가장 빠르게 발전 중, the research community 핵심 역량과 직결 |
+| C2 | 강화학습 포트폴리오 (2024-2026) | DRL + LLM 결합 최신 연구 |
+| B1 | 팩터 투자 최신 (2024-2026) | 머신러닝 팩터 발견 연구 활발 |
+
+### 2순위 (1-2주 내)
+| 분과 | 주제 | 이유 |
+|------|------|------|
+| C3 | 금융 센티먼트 분석 최신 | LLM 기반 센티먼트 분석으로 패러다임 전환 |
+| A2 | 실행 알고리즘 최신 | ML 기반 실행 최적화 연구 |
+| B2 | 통계 차익거래 최신 | 딥러닝 기반 페어 발견 연구 |
+
+### 3순위 (2-4주 내)
+| 분과 | 주제 | 이유 |
+|------|------|------|
+| C5 | 합성 데이터 생성 | BTS 경험과 연결 |
+| A1 | 기술적 분석 최신 | DL 기반 차트 패턴 인식 |
+| B3 | 포트폴리오 최적화 최신 | DRL + 전통 최적화 결합 |
+
+---
+
+## 📁 상세 보고서
+
+- [A. 시스템 트레이딩](seed_A_system_trading.md) — 4편, ~13KB
+- [B. 퀀트 트레이딩](seed_B_quant.md) — 7편, ~13KB
+- [C. AI/ML 트레이딩](seed_C_ai_trading.md) — 6편, ~14KB
+
+### 후속 조사 보고서
+- [C2. RL 포트폴리오 관리 (2024-2026)](followup_C2_rl_portfolio.md) — 20편, ~17KB ✅ 완료
+- [C4. LLM 트레이딩 에이전트 (2024-2026)](followup_C4_llm_trading.md) — 20편, ~22KB ✅ 완료
+
+### 블로그 초안 (wow_score ≥80)
+- [C2] FPILOT: 추론 시간 최적화 (wow: 85) — `blog/drafts/C2_fpiplan_plan_before_trade.md`
+- [C2] 다변화 포트폴리오 DRL (wow: 82) — `blog/drafts/C2_drl_diversified_portfolio.md`
+- [C2] Deep Hedging with RL (wow: 80) — `blog/drafts/C2_deep_hedging_rl.md`
+- [C4] FinAgent 멀티모달 에이전트 (wow: 88) — `blog/drafts/C4_finagent_multimodal.md`
+- [C4] TradingAgents 멀티에이전트 (wow: 85) — `blog/drafts/C4_tradingagents_multiagent.md`
+- [C4] FinCon 언어 강화 (wow: 82) — `blog/drafts/C4_fincon_verbal_reinforcement.md`
+- [C4] AlphaAgent 알파 마이닝 (wow: 82) — `blog/drafts/C4_alphaagent_alpha_mining.md`
+- [C4] SHARP 자기진화 정책 (wow: 80) — `blog/drafts/C4_sharp_symbolic_policy.md`
+
+---
+
+*이 맵은 시드 논문 17편을 기반으로 작성되었으며, 후속 조사를 통해 지속적으로 확장됩니다.*
+*최종 업데이트: 2026-06-20 (C2, C4 후속 조사 완료)*
