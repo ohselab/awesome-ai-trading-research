@@ -1,229 +1,107 @@
-# Awesome AI Trading Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+# Awesome AI Trading Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](LICENSE)
 
-> A curated list of academic papers on **System Trading**, **Quantitative Finance**, and **AI/ML-powered Trading** — maintained by [OHSE AI Lab](https://ohselab.com)
+> A curated list of academic papers on **System Trading**, **Quantitative Finance**, and **AI/ML-powered Trading** — automatically collected from arXiv and scored on five dimensions. Maintained by [OHSE AI Lab](https://ohselab.com).
 
-[![GitHub Stars](https://img.shields.io/github/stars/ohselab/awesome-ai-trading-research?style=social)](https://github.com/ohselab/awesome-ai-trading-research)
-[![Last Updated](https://img.shields.io/badge/last--updated-2026--06--21-blue)](https://github.com/ohselab/awesome-ai-trading-research)
+[![Last Updated](https://img.shields.io/badge/updated-2026--06--22-blue)](https://github.com/ohselab/awesome-ai-trading-research)
+[![Papers](https://img.shields.io/badge/relevant%20papers-676-orange)](papers.md)
+[![S/A tier](https://img.shields.io/badge/S%2FA%20curated-87-brightgreen)](papers.md)
 
 ---
 
 ## Contents
 
+- [How This List Is Built](#how-this-list-is-built)
 - [Research Domains](#research-domains)
-- [Research Map](#research-map)
-- [Wow Papers (Score ≥ 80)](#wow-papers)
-- [Domain A: System Trading (Rule-Based)](#a-system-trading-rule-based)
-- [Domain B: Quantitative Trading (Statistics-Based)](#b-quantitative-trading-statistics-based)
-- [Domain C: AI/ML Trading](#c-aiml-trading)
-- [Key Trends (2024-2026)](#key-trends-2024-2026)
-- [Follow-up Studies](#follow-up-studies)
+- [Statistics](#statistics)
+- [Highlights (Top S/A)](#highlights-top-sa)
+- [Research Themes](#research-themes)
+- [Full Curation](#full-curation)
 
 ---
+
+## How This List Is Built
+
+This is **not a hand-maintained list**. A pipeline runs daily:
+
+1. **Collect** — new q-fin / cs papers from arXiv (daily + monthly backfill).
+2. **Relevance filter** — an LLM drops papers with no real finance/trading relevance.
+3. **5-dimension scoring** — each paper is scored 0–100 on **Novelty, Applicability, Rigor, Reproducibility, Insight**, with domain-specific weights; a composite score and tier (S/A/B/C/D) are computed in code.
+4. **Knowledge graph** — entities (methods, concepts, datasets) are extracted, normalized, and clustered into research themes.
+
+This list publishes the **S-tier (2) and A-tier (85)** papers. Lower tiers stay internal.
+
+> ℹ️ **Auto-generated daily** from the pipeline. Issues/PRs are not actively monitored — the list regenerates on each run.
 
 ## Research Domains
 
 ```
 Systems Trading & Quant R&D
 ├── A. System Trading (Rule-Based)
-│   ├── A1. Technical Analysis (chart patterns, indicators)
-│   ├── A2. Algorithmic Trading (execution algorithms)
-│   ├── A3. High-Frequency Trading (HFT)
-│   └── A4. Market Microstructure
-│
+│   ├── A1. Technical Analysis (chart patterns, technical indicators, trading rules)
+│   ├── A2. Algorithmic Trading (execution algorithms, order splitting, slippage)
+│   ├── A3. High-Frequency Trading (HFT) (ultra-low latency, market making, colocation)
+│   └── A4. Market Microstructure (order book, liquidity, price discovery)
 ├── B. Quantitative Trading (Statistics-Based)
-│   ├── B1. Factor Investing (Fama-French, momentum, value)
-│   ├── B2. Statistical Arbitrage (pairs trading, mean reversion)
-│   ├── B3. Portfolio Optimization (risk parity, Black-Litterman)
-│   └── B4. Financial Econometrics (GARCH, cointegration)
-│
-└── C. AI/ML Trading
-    ├── C1. Deep Learning Price Prediction (LSTM, Transformer)
-    ├── C2. Reinforcement Learning Portfolio Management
-    ├── C3. NLP/Sentiment Analysis Trading
-    ├── C4. LLM-based Trading Agents
-    └── C5. Generative Model-based Synthetic Data
+│   ├── B1. Factor Investing (asset pricing, Fama-French, momentum, value, smart beta)
+│   ├── B2. Statistical Arbitrage (pairs trading, mean reversion, cointegration)
+│   ├── B3. Portfolio Optimization (risk parity, asset allocation, Black-Litterman)
+│   └── B4. Financial Econometrics (GARCH, volatility modeling, cointegration, time series)
+├── C. AI/ML Trading
+│   ├── C1. Deep Learning Price Prediction (LSTM, Transformer, time-series forecasting)
+│   ├── C2. Reinforcement Learning Portfolio Management (deep RL, dynamic allocation)
+│   ├── C3. NLP / Sentiment Analysis (news, social media, earnings, financial text)
+│   ├── C4. LLM-based Trading Agents (financial LLMs, agentic systems, reasoning)
+│   └── C5. Generative Models / Synthetic Data (GAN, VAE, diffusion, data augmentation)
 ```
 
-> **13 sub-domains**, **17 seed papers** (~300,000+ total citations), **40+ follow-up papers** (2024-2026)
+## Statistics
 
-→ See the full [Research Map](research-map.md) for the citation tree and cross-domain links.
+| Metric | Value |
+|--------|-------|
+| Relevant papers (KB) | 676 |
+| S-tier | 2 |
+| A-tier | 85 |
+| Sub-domains | 13 |
+| Scoring | 5-dim composite (domain-weighted) |
 
----
+## Highlights (Top S/A)
 
-## Research Map
+- **[When Alpha Disappears: A One-Switch Benchmark for Decision-Time Leakage in Financial Backtests](https://arxiv.org/abs/2605.23959)** (2026) · `S` 81.0 — *machine learning, walk-forward validation* · decision-time leakage, backtest leakage, protocol-induced inflation, evaluation benchmark
+- **[Spurious Predictability in Financial Machine Learning](https://arxiv.org/abs/2604.15531)** (2026) · `S` 80.1 — *machine learning, walk-forward analysis, specification search, falsification audit* · spurious predictability, martingale difference, backtest overfitting, selection bias
+- **[Evaluating Structured Strategy Backtests: Peer Benchmarks, Regime Timing, and Live Performance](https://arxiv.org/abs/2604.18821)** (2026) · `A` 79.1 — *backtest, regime timing, peer benchmark* · structured strategy, pro forma performance, live performance, institutional allocator
+- **[An Explicit Solution to Black-Scholes Implied Volatility](https://arxiv.org/abs/2604.24480)** (2026) · `A` 76.8 — *black-scholes model, inverse gaussian distribution, quantile function* · implied volatility, option pricing, variance scale, explicit formula
+- **[When Forecast Accuracy Fails: Rank Correlation and Decision Quality in Multi-Market Battery Storage Optimization](https://arxiv.org/abs/2604.12082)** (2026) · `A` 75.1 — *hierarchical optimization, forecasting, rank correlation* · battery energy storage, forecast accuracy, decision quality, multi-market trading
+- **A Deterministic Limit Order Book Simulator with Hawkes-Driven Order Flow** · `A` 74.8 — *limit order book simulator, hawkes process, multivariate hawkes process, marked hawkes process* · market microstructure, order flow, stability, ergodicity
+- **[Orthogonal reparametrization of the Nelson-Siegel-Svensson interest rate curve model: conditioning, diagnostics, and identifiability](https://arxiv.org/abs/2604.19290)** (2026) · `A` 74.8 — *nelson-siegel-svensson model, orthogonal reparametrization, thin qr decomposition, nonlinear least squares* · yield curve, conditioning, identifiability, collinearity
+- **[PumpSense: Real-Time Detection and Target Extraction of Crypto Pump-and-Dumps on Telegram](https://arxiv.org/abs/2605.09431)** (2026) · `A` 74.7 — *natural language processing, text classification, named entity recognition* · pump and dump, telegram, real-time detection, target extraction
+- **[V4FinBench: Benchmarking Tabular Foundation Models, LLMs, and Standard Methods on Corporate Bankruptcy Prediction](https://arxiv.org/abs/2605.10896)** (2026) · `A` 74.2 — *tabular foundation model, large language model, logistic regression, random forest* · corporate bankruptcy prediction, class imbalance, multi-horizon forecasting, benchmarking
+- **[From Hypotheses to Factors: Constrained LLM Agents in Cryptocurrency Markets](https://arxiv.org/abs/2604.26747)** (2026) · `A` 74.0 — *large language model, agent, factor discovery, hypothesis search* · cryptocurrency factor discovery, sequential hypothesis search, falsifiable hypothesis, reproducible protocol
 
-| Domain | Papers | Total Citations | Most Influential | Key Keywords |
-|--------|--------|----------------|------------------|--------------|
-| **A. System Trading** | 4 | ~8,232 | O'Hara 1995 (3,622) | Market microstructure, execution optimization, adaptive markets |
-| **B. Quant Trading** | 7 | ~111,700 | Engle 1982 (37,600) | Factor models, stat arb, cointegration, ARCH |
-| **C. AI/ML Trading** | 6 | ~183,055 | Vaswani 2017 (175,000) | Transformer, DRL, sentiment, financial LLM |
+→ Full lists by domain in **[papers.md](papers.md)**.
 
-→ Full map: [research-map.md](research-map.md)
+## Research Themes
 
----
+Auto-detected from the paper co-occurrence graph:
 
-## Wow Papers
+- **large language model · multi agent system · transaction cost**
+- **reinforcement learning · neural network · deep learning**
+- **portfolio optimization · deep reinforcement learning · mean variance optimization**
+- **machine learning · asset pricing · walk forward validation**
+- **option pricing · implied volatility · black scholes**
+- **prediction market · market microstructure · forecasting**
+- **transformer · time series forecasting · time series foundation model**
+- **statistical arbitrage · pairs trading · mean reversion**
 
-Papers rated **Wow Score ≥ 80** — high practical value, novelty, and reproducibility.
+→ See **[research-map.md](research-map.md)** for the full landscape (per-domain tables, methods, concepts, asset classes, all themes).
 
-| Paper | Domain | Year | Wow | arXiv | Code |
-|-------|--------|------|-----|-------|------|
-| FinAgent: Multimodal Foundation Agent | C4 | 2024 | **88** | [2402.18485](https://arxiv.org/abs/2402.18485) | [✅](https://github.com/AI4Finance-Foundation/FinGPT) |
-| GIFT: LLM-Guided State-Reward Interface | C4 | 2026 | **88** | [2606.08450](https://arxiv.org/abs/2606.08450) | [✅](https://github.com/KAG778/GIFT) |
-| TradingAgents: Multi-Agent LLM Framework | C4 | 2024 | **85** | [2412.20138](https://arxiv.org/abs/2412.20138) | ✅ |
-| Beyond Agent Architecture: Reproducibility Audit | C4 | 2026 | **85** | [2606.08285](https://arxiv.org/abs/2606.08285) | ❌ |
-| FPILOT: Plan Before You Trade | C2 | 2026 | **85** | [2605.12653](https://arxiv.org/abs/2605.12653) | 🔜 |
-| FPQC-SAC: Quantum-Inspired RL | C2 | 2026 | **84** | [2606.10448](https://arxiv.org/abs/2606.10448) | ❌ |
-| Deep RL for Diversified Portfolio | C2 | 2026 | **82** | [2605.17307](https://arxiv.org/abs/2605.17307) | ❌ |
-| BAVAR-BLED: Regime-Aware Portfolio | C2 | 2026 | **82** | [2606.09104](https://arxiv.org/abs/2606.09104) | ❌ |
-| FinCon: Conceptual Verbal Reinforcement | C4 | 2024 | **82** | [2407.06567](https://arxiv.org/abs/2407.06567) | ✅ |
-| AlphaAgent: LLM-Driven Alpha Mining | C4 | 2025 | **82** | [2502.16789](https://arxiv.org/abs/2502.16789) | ✅ |
-| Deep Hedging with RL | C2 | 2025 | **80** | [2512.12420](https://arxiv.org/abs/2512.12420) | ✅ |
-| SHARP: Self-Evolving Rubric Policy | C4 | 2026 | **80** | [2605.06822](https://arxiv.org/abs/2605.06822) | ❌ |
+## Full Curation
 
-> **Wow Score criteria**: Practical applicability (30%), Novelty (25%), Performance (25%), Reproducibility (15%), Timeliness (5%)
-
-→ Full list: [wow-papers/](wow-papers/)
-
----
-
-## A. System Trading (Rule-Based)
-
-### A1. Technical Analysis
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| The Adaptive Markets Hypothesis | Andrew W. Lo | 2004 | J. Portfolio Mgmt. | ~1,416 | [DOI](https://doi.org/10.3905/jpm.2004.442611) |
-| Foundations of Technical Analysis | Lo, Mamaysky, Wang | 2000 | J. Finance | ~792 | [DOI](https://doi.org/10.1111/0022-1082.00265) |
-
-### A2. Algorithmic Trading
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| Optimal Execution of Portfolio Transactions | Almgren & Chriss | 2001 | J. Risk | ~2,402 | [DOI](https://doi.org/10.21314/JOR.2001.041) |
-
-### A4. Market Microstructure
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| Market Microstructure Theory (Book) | Maureen O'Hara | 1995 | Blackwell/Wiley | ~3,622 | [ISBN](https://isbnsearch.org/isbn/0631207619) |
-
-→ Detailed analysis: [domains/A_system_trading.md](domains/A_system_trading.md)
-
----
-
-## B. Quantitative Trading (Statistics-Based)
-
-### B1. Factor Investing
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| The Cross-Section of Expected Stock Returns | Fama & French | 1992 | J. Finance | ~16,000 | [DOI](https://doi.org/10.1111/j.1540-6261.1992.tb04398.x) |
-| A Five-Factor Asset Pricing Model | Fama & French | 2015 | J. Financial Economics | ~12,800 | [DOI](https://doi.org/10.1016/j.jfineco.2014.10.010) |
-| Returns to Buying Winners and Selling Losers | Jegadeesh & Titman | 1993 | J. Finance | ~18,200 | [DOI](https://doi.org/10.1111/j.1540-6261.1993.tb04702.x) |
-
-### B2. Statistical Arbitrage
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| Pairs Trading: Performance of a Relative-Value Arbitrage Rule | Gatev, Goetzmann, Rouwenhorst | 2006 | Rev. Financial Studies | ~3,500 | [DOI](https://doi.org/10.1093/rfs/hhj017) |
-| Statistical Arbitrage in the US Equities Market | Avellaneda & Lee | 2010 | Quantitative Finance | ~600 | [DOI](https://doi.org/10.1080/14697680903124632) |
-
-### B4. Financial Econometrics
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| Autoregressive Conditional Heteroscedasticity (ARCH) | Robert F. Engle | 1982 | Econometrica | ~37,600 | [DOI](https://doi.org/10.2307/1912773) |
-| Co-integration and Error Correction | Engle & Granger | 1987 | Econometrica | ~30,000 | [DOI](https://doi.org/10.2307/1913236) |
-
-→ Detailed analysis: [domains/B_quant_trading.md](domains/B_quant_trading.md)
-
----
-
-## C. AI/ML Trading
-
-### C1. Deep Learning / Transformers
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| Attention Is All You Need (Transformer) | Vaswani et al. | 2017 | NeurIPS 2017 | ~175,000 | [arXiv](https://arxiv.org/abs/1706.03762) |
-
-### C2. Reinforcement Learning Portfolio Management
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| Deep RL Framework for Portfolio Management | Jiang et al. | 2017 | arXiv | ~456 | [arXiv](https://arxiv.org/abs/1706.10059) |
-
-### C3. NLP/Sentiment Analysis
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| Twitter Mood Predicts the Stock Market | Bollen et al. | 2011 | J. Computational Science | ~5,401 | [DOI](https://doi.org/10.1016/j.jocs.2010.12.007) |
-| Stock Movement Prediction from Tweets | Xu & Cohen | 2018 | ACL 2018 | ~446 | [ACL](https://aclanthology.org/P18-1183) |
-
-### C4. LLM-based Trading Agents
-
-| Paper | Authors | Year | Venue | Citations | Link |
-|-------|---------|------|-------|-----------|------|
-| FinGPT: Open-Source Financial LLMs | Yang et al. | 2023 | IJCAI 2023 | ~408 | [arXiv](https://arxiv.org/abs/2306.06031) |
-| BloombergGPT: 50B Financial LLM | Wu et al. | 2023 | arXiv | ~1,346 | [arXiv](https://arxiv.org/abs/2303.17564) |
-
-→ Detailed analysis: [domains/C_ai_trading.md](domains/C_ai_trading.md)
-
----
-
-## Key Trends (2024-2026)
-
-| Trend | Description | Representative Papers | Impact |
-|-------|-------------|----------------------|--------|
-| **LLM ↔ RL Hybrid** | LLM for state/reward design + RL for execution | GIFT, FPILOT, SHARP | ⭐⭐⭐⭐⭐ |
-| **Execution Realism** | Reproducibility audits, real-world cost modeling | Beyond Agent Architecture | ⭐⭐⭐⭐⭐ |
-| **Regime-Aware Portfolio** | Multi-regime models, fat-tail handling | BAVAR-BLED, FR-LUX | ⭐⭐⭐⭐ |
-| **Self-Improving Agents** | Multi-agent, self-evolving policies | SHARP, FinCon, TradingAgents | ⭐⭐⭐⭐ |
-| **Quantum-Inspired RL** | Quantum circuits for financial RL | FPQC-SAC | ⭐⭐⭐ |
-
----
-
-## Follow-up Studies
-
-| Domain | Topic | Papers | Period |
-|--------|-------|--------|--------|
-| C2 | RL Portfolio Management | 20 papers | 2024-2026 |
-| C4 | LLM Trading Agents | 20 papers | 2024-2026 |
-
-→ [C2 follow-up: RL Portfolio Management](followups/C2_rl_portfolio_2024_2026.md)
-→ [C4 follow-up: LLM Trading Agents](followups/C4_llm_trading_2024_2026.md)
-
----
-
-## Data Sources
-
-| Source | Usage | Rate Limit |
-|--------|-------|------------|
-| Semantic Scholar | Citation data, recommendations | 100 req/sec (API key) |
-| arXiv | Preprints | 1 req/3sec |
-| Google Scholar | Peer-reviewed papers | Playwright scraping |
-
----
-
-## Contributing
-
-Contributions welcome! Please submit a PR with:
-- Paper title, authors, year, venue
-- arXiv ID or DOI
-- Brief description of key contribution
-- Wow score evaluation (optional)
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
+- 📄 **[papers.md](papers.md)** — all S/A papers by sub-domain, with method/concept tags
+- 🗺️ **[research-map.md](research-map.md)** — domain landscape, trends, themes
 
 ## License
 
-[MIT License](LICENSE) — Paper summaries reference original authors' licenses.
+The curated list and structure are licensed under [CC BY 4.0](LICENSE). Each paper's copyright belongs to its original authors. Links point to arXiv.
 
 ---
-
-**Maintained by**: [OHSE AI Lab](https://ohselab.com) (주식회사 오세에이아이연구소)
-**Contact**: research@ohselab.com
-**Last updated**: 2026-06-21
+*Maintained by [OHSE AI Lab](https://ohselab.com).*

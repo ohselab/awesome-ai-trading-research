@@ -1,148 +1,54 @@
-# 연구 분과 맵 (Research Landscape Map)
+# Research Map
 
-> **작성일**: 2026-06-20  
-> **시드 논문**: 17편 (A: 4편, B: 7편, C: 6편)  
-> **총 인용수**: ~300,000+ (집계 기준일 현재)
+> Current-state landscape from the live KB (676 relevant papers). Updated 2026-06-22.
 
----
+## Domain Landscape
 
-## 📊 전체 요약
+| Sub-domain | Papers | Avg score | Top paper |
+|---|---|---|---|
+| A1 Technical Analysis | 3 | 36.1 | [Visibility graphs can make money in financial ](https://arxiv.org/abs/2605.01300) (45.1/C) |
+| A2 Algorithmic Trading | 20 | 50.9 | [Structural Limits of OHLCV-Based Intraday Sign](https://arxiv.org/abs/2605.04004) (67.2/A) |
+| A3 High-Frequency Trading (HFT) | 4 | 33.4 | The Red Queen's Trap: Limits of Deep Evolution (41.5/C) |
+| A4 Market Microstructure | 79 | 51.0 | A Deterministic Limit Order Book Simulator wit (74.8/A) |
+| B1 Factor Investing | 21 | 58.4 | [Growing the Efficient Frontier on Panel Trees](https://arxiv.org/abs/2501.16730) (71.1/A) |
+| B2 Statistical Arbitrage | 16 | 54.1 | [Vault as a credit instrument](https://arxiv.org/abs/2604.17579) (73.1/A) |
+| B3 Portfolio Optimization | 81 | 56.0 | [Evaluating Structured Strategy Backtests: Peer](https://arxiv.org/abs/2604.18821) (79.1/A) |
+| B4 Financial Econometrics | 147 | 51.2 | [When Alpha Disappears: A One-Switch Benchmark ](https://arxiv.org/abs/2605.23959) (81.0/S) |
+| C1 Deep Learning Price Prediction | 45 | 42.8 | [Martingale Doppelgänger-Eval: An Identificatio](https://arxiv.org/abs/2606.17423) (67.4/A) |
+| C2 Reinforcement Learning Portfolio Management | 92 | 50.7 | [A Deep Reinforcement Learning Framework for th](https://arxiv.org/abs/1706.10059) (68.8/A) |
+| C3 NLP / Sentiment Analysis | 51 | 44.9 | [PumpSense: Real-Time Detection and Target Extr](https://arxiv.org/abs/2605.09431) (74.7/A) |
+| C4 LLM-based Trading Agents | 97 | 50.6 | [From Hypotheses to Factors: Constrained LLM Ag](https://arxiv.org/abs/2604.26747) (74.0/A) |
+| C5 Generative Models / Synthetic Data | 20 | 47.1 | [PRAGMA: Revolut Foundation Model](https://arxiv.org/abs/2604.08649) (63.8/B) |
 
-| 분과 | 논문 수 | 총 인용수 | 가장 영향력 있는 논문 | 핵심 키워드 |
-|------|---------|----------|---------------------|------------|
-| **A. 시스템 트레이딩** | 4편 | ~8,232 | O'Hara 1995 (3,622) | 시장 미시구조, 실행 최적화, 적응적 시장 |
-| **B. 퀀트 트레이딩** | 7편 | ~111,700 | Engle 1982 (37,600) | 팩터 모델, 통계 차익거래, 공적분, ARCH |
-| **C. AI/ML 트레이딩** | 6편 | ~183,055 | Vaswani 2017 (175,000) | Transformer, DRL, 센티먼트, 금융 LLM |
+## Key Methods
 
----
+large language model (57), reinforcement learning (39), machine learning (14), neural network (11), deep learning (10), multi-agent system (9), benchmarking (8), transformer (7), portfolio optimization (7), dynamic programming (7), monte carlo (7), stochastic control (7), garch (6), deep reinforcement learning (6), sentiment analysis (6)
 
-## 🌳 연구 계보도 (Citation Tree)
+## Key Concepts
 
-```
-                          [수학적 기반]
-                              │
-            ┌─────────────────┼─────────────────┐
-            │                 │                 │
-     [B4] 시계열          [B1] 팩터          [A4] 시장
-     계량경제학           투자이론            미시구조
-     ├─ Engle 1982        ├─ Fama 1992       └─ O'Hara 1995
-     │  (ARCH)            │  (3-factor)
-     └─ Engle 1987        └─ Fama 2015
-        (공적분)             (5-factor)
-            │                 │                 │
-            └────────┬────────┘                 │
-                     │                          │
-              [B2] 통계 차익거래                 │
-              ├─ Gatev 2006                     │
-              └─ Avellaneda 2010                │
-                     │                          │
-                     └──────────┬───────────────┘
-                                │
-                         [A2] 알고리즘
-                         트레이딩
-                         └─ Almgren 2001
-                                │
-                    ┌───────────┼───────────┐
-                    │           │           │
-             [A1] 기술적    [A3] HFT    [B3] 포트폴리오
-             분석                           최적화
-             └─ Lo 2000                     └─ Merton 1972
-             └─ Lo 2004
-                    │
-                    │         [딥러닝 혁명 2017~]
-                    │              │
-                    │    ┌─────────┼─────────┐
-                    │    │         │         │
-                    │  [C1] DL  [C2] DRL  [C3] NLP
-                    │  가격예측  포트폴리오  센티먼트
-                    │  └Vaswani  └Jiang    ├Xu 2018
-                    │   2017     2017      └Bollen 2011
-                    │              │
-                    └──────┬───────┘
-                           │
-                    [C4] LLM 트레이딩
-                    ├─ BloombergGPT 2023
-                    └─ FinGPT 2023
-```
+portfolio optimization (12), tail risk (10), option pricing (9), prediction market (8), limit order book (8), implied volatility (8), risk management (7), systemic risk (7), time series forecasting (7), portfolio allocation (6), market microstructure (5), transaction cost (5), portfolio management (5), asset pricing (5), statistical arbitrage (5)
 
----
+## Asset Classes
 
-## 🔬 분과별 핵심 발견
+multi (116), equity (103), none (65), crypto (37), options (19), bond (11), commodity (6), futures (5), etf (4), fx (2)
 
-### A. 시스템 트레이딩
+## Task Types
 
-| 분과 | 핵심 논문 | 기여 | 실무 시사점 |
-|------|----------|------|-----------|
-| A1 | Lo 2004 | 적응적 시장 가설 — 시장 효율성의 진화적 해석 | 기술적 분석의 이론적 정당화 |
-| A1 | Lo 2000 | 기술적 분석의 수학적 기반 — 패턴 인식의 통계적 검증 | 차트 패턴의 신뢰성 평가 프레임워크 |
-| A2 | Almgren 2001 | 실행 최적화 이론 — 시장 충격 모델 | 알고리즘 매매 전략 설계의 바이블 |
-| A4 | O'Hara 1995 | 시장 미시구조 이론 — 가격 발견, 유동성 | 호가 구조 분석, 시장 설계 이해 |
+analysis (172), portfolio (67), prediction (54), risk (29), generation (12), arbitrage (8), market_making (8), execution (7), other (6), sentiment (5)
 
----
+## Research Themes (graph communities)
 
-## 📈 인용 네트워크 분석
+Co-occurrence graph of methods/concepts, partitioned by modularity:
 
-### 가장 많이 인용되는 논문 (Top 5)
-1. **Vaswani 2017** — ~175,000 (Transformer)
-2. **Engle 1982** — ~37,600 (ARCH, 노벨상)
-3. **Engle 1987** — ~30,000 (공적분, 노벨상)
-4. **Jegadeesh 1993** — ~18,200 (모멘텀)
-5. **Fama 1992** — ~16,000 (3-factor)
-
-### 분과 간 연결 고리
-- **B4 → B2**: 공적분 이론이 페어 트레이딩의 통계적 기반
-- **B1 → C2**: 팩터 모델이 DRL 포트폴리오의 보상 함수 설계에 영향
-- **C1 → C4**: Transformer가 금융 LLM의 아키텍처 기반
-- **A4 → A2**: 시장 미시구조 이론이 실행 알고리즘 설계에 필수
-
----
-
-## 🎯 후속 조사 우선순위
-
-### 1순위 (즉시 조사 필요)
-| 분과 | 주제 | 이유 |
-|------|------|------|
-| C4 | LLM 기반 트레이딩 에이전트 (2024-2026) | 가장 빠르게 발전 중, the research community 핵심 역량과 직결 |
-| C2 | 강화학습 포트폴리오 (2024-2026) | DRL + LLM 결합 최신 연구 |
-| B1 | 팩터 투자 최신 (2024-2026) | 머신러닝 팩터 발견 연구 활발 |
-
-### 2순위 (1-2주 내)
-| 분과 | 주제 | 이유 |
-|------|------|------|
-| C3 | 금융 센티먼트 분석 최신 | LLM 기반 센티먼트 분석으로 패러다임 전환 |
-| A2 | 실행 알고리즘 최신 | ML 기반 실행 최적화 연구 |
-| B2 | 통계 차익거래 최신 | 딥러닝 기반 페어 발견 연구 |
-
-### 3순위 (2-4주 내)
-| 분과 | 주제 | 이유 |
-|------|------|------|
-| C5 | 합성 데이터 생성 | BTS 경험과 연결 |
-| A1 | 기술적 분석 최신 | DL 기반 차트 패턴 인식 |
-| B3 | 포트폴리오 최적화 최신 | DRL + 전통 최적화 결합 |
-
----
-
-## 📁 상세 보고서
-
-- [A. 시스템 트레이딩](seed_A_system_trading.md) — 4편, ~13KB
-- [B. 퀀트 트레이딩](seed_B_quant.md) — 7편, ~13KB
-- [C. AI/ML 트레이딩](seed_C_ai_trading.md) — 6편, ~14KB
-
-### 후속 조사 보고서
-- [C2. RL 포트폴리오 관리 (2024-2026)](followup_C2_rl_portfolio.md) — 20편, ~17KB ✅ 완료
-- [C4. LLM 트레이딩 에이전트 (2024-2026)](followup_C4_llm_trading.md) — 20편, ~22KB ✅ 완료
-
-### 블로그 초안 (wow_score ≥80)
-- [C2] FPILOT: 추론 시간 최적화 (wow: 85) — `blog/drafts/C2_fpiplan_plan_before_trade.md`
-- [C2] 다변화 포트폴리오 DRL (wow: 82) — `blog/drafts/C2_drl_diversified_portfolio.md`
-- [C2] Deep Hedging with RL (wow: 80) — `blog/drafts/C2_deep_hedging_rl.md`
-- [C4] FinAgent 멀티모달 에이전트 (wow: 88) — `blog/drafts/C4_finagent_multimodal.md`
-- [C4] TradingAgents 멀티에이전트 (wow: 85) — `blog/drafts/C4_tradingagents_multiagent.md`
-- [C4] FinCon 언어 강화 (wow: 82) — `blog/drafts/C4_fincon_verbal_reinforcement.md`
-- [C4] AlphaAgent 알파 마이닝 (wow: 82) — `blog/drafts/C4_alphaagent_alpha_mining.md`
-- [C4] SHARP 자기진화 정책 (wow: 80) — `blog/drafts/C4_sharp_symbolic_policy.md`
-
----
-
-*이 맵은 시드 논문 17편을 기반으로 작성되었으며, 후속 조사를 통해 지속적으로 확장됩니다.*
-*최종 업데이트: 2026-06-20 (C2, C4 후속 조사 완료)*
+1. **large language model · multi agent system · transaction cost**
+2. **reinforcement learning · neural network · deep learning**
+3. **portfolio optimization · deep reinforcement learning · mean variance optimization**
+4. **machine learning · asset pricing · walk forward validation**
+5. **option pricing · implied volatility · black scholes**
+6. **prediction market · market microstructure · forecasting**
+7. **transformer · time series forecasting · time series foundation model**
+8. **statistical arbitrage · pairs trading · mean reversion**
+9. **garch · volatility forecasting · realized volatility**
+10. **asset allocation · efficient frontier · efficient frontier**
+11. **systemic risk · contagion · financial network**
+12. **sentiment analysis · social media · investor sentiment**

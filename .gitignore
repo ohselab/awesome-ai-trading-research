@@ -1,17 +1,2 @@
-# OS
-.DS_Store
-Thumbs.db
-
-# Editor
 *.swp
-*.swo
-*~
-
-# Generated
-_generated/*.tmp
-
-# Internal
-*.env
-config/
-scripts/
-papers/
+.DS_Store
