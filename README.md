@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **2 S-tier** and **169 A-tier** papers.
+themes below. Currently publishing **2 S-tier** and **193 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 1262                                    |
+| Relevant papers screened | 1481                                    |
 | S-tier (published)       | 2                                       |
-| A-tier (published)       | 169                                     |
+| A-tier (published)       | 193                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -76,7 +76,7 @@ The highest-scoring papers across all domains:
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · benchmarking; reinforcement learning · option pricing · neural network; transformer · deep learning · regime shift; machine learning · portfolio optimization · portfolio construction; transaction cost · market impact · hedging; portfolio optimization · mean variance optimization · deep reinforcement learning; stochastic control · market making · liquidity provision; systemic risk · monte carlo · contagion.
+Clusters auto-detected from the paper co-occurrence graph: large language model · portfolio optimization · multi agent system; neural network · option pricing · deep learning; reinforcement learning · dynamic programming · risk aversion; transformer · regime shift · lstm; machine learning · limit order book · interpretability; portfolio optimization · mean variance optimization · portfolio selection; stochastic control · market making · liquidity provision; transaction cost · market impact · hedging.
 
 ## Contributing
 
