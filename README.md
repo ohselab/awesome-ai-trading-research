@@ -1,36 +1,31 @@
-# Awesome AI Trading Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](LICENSE)
+# Awesome AI Trading Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of academic papers on **System Trading**, **Quantitative Finance**, and **AI/ML-powered Trading** — automatically collected from arXiv and scored on five dimensions. Maintained by [OHSE AI Lab](https://ohselab.com).
+> Academic research on system trading, quantitative finance, and AI/ML-powered trading, curated and tier-ranked from arXiv.
 
-[![Last Updated](https://img.shields.io/badge/updated-2026--06--25-blue)](https://github.com/ohselab/awesome-ai-trading-research)
-[![Papers](https://img.shields.io/badge/relevant%20papers-1262-orange)](papers.md)
-[![S/A tier](https://img.shields.io/badge/S%2FA%20curated-172-brightgreen)](papers.md)
-
----
+A curated reading list of the strongest recent papers on **system trading**, **quantitative finance**, and
+**AI/ML-powered trading**. The full list, grouped by sub-domain and tier, is in [papers.md](papers.md), and the
+research landscape is mapped in [research-map.md](research-map.md).
 
 ## Contents
 
 - [How This List Is Built](#how-this-list-is-built)
 - [Research Domains](#research-domains)
 - [Statistics](#statistics)
-- [Highlights (Top S/A)](#highlights-top-sa)
+- [Highlights](#highlights)
 - [Research Themes](#research-themes)
-- [Full Curation](#full-curation)
-
----
 
 ## How This List Is Built
 
-This is **not a hand-maintained list**. A pipeline runs daily:
+The goal is a high-signal reading list: only papers a quant researcher would genuinely want to read.
+Candidate papers are collected daily from arXiv (with a monthly backfill of older months) and filtered for
+genuine finance/trading relevance. Each is then **pre-scored** 0–100 on five dimensions — novelty, applicability,
+rigor, reproducibility, and insight — with domain-specific weights, yielding a composite score and tier (S/A/B/C/D)
+computed in code.
 
-1. **Collect** — new q-fin / cs papers from arXiv (daily + monthly backfill).
-2. **Relevance filter** — an LLM drops papers with no real finance/trading relevance.
-3. **5-dimension scoring** — each paper is scored 0–100 on **Novelty, Applicability, Rigor, Reproducibility, Insight**, with domain-specific weights; a composite score and tier (S/A/B/C/D) are computed in code.
-4. **Knowledge graph** — entities (methods, concepts, datasets) are extracted, normalized, and clustered into research themes.
-
-This list publishes the **S-tier (2) and A-tier (170)** papers. Lower tiers stay internal.
-
-> ℹ️ **Auto-generated daily** from the pipeline. Issues/PRs are not actively monitored — the list regenerates on each run.
+Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
+by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
+lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
+themes below. Currently publishing **2 S-tier** and **169 A-tier** papers.
 
 ## Research Domains
 
@@ -56,52 +51,33 @@ Systems Trading & Quant R&D
 
 ## Statistics
 
-| Metric | Value |
-|--------|-------|
-| Relevant papers (KB) | 1262 |
-| S-tier | 2 |
-| A-tier | 170 |
-| Sub-domains | 13 |
-| Scoring | 5-dim composite (domain-weighted) |
+| Metric                   | Value                                   |
+| ------------------------ | --------------------------------------- |
+| Relevant papers screened | 1262                                    |
+| S-tier (published)       | 2                                       |
+| A-tier (published)       | 169                                     |
+| Sub-domains              | 13                                      |
+| Scoring                  | 5-dimension composite (domain-weighted) |
 
-## Highlights (Top S/A)
+## Highlights
 
-- **[When Alpha Disappears: A One-Switch Benchmark for Decision-Time Leakage in Financial Backtests](https://arxiv.org/abs/2605.23959)** (2026) · `S` 81.0 — *machine learning, walk-forward validation* · decision-time leakage, backtest leakage, protocol-induced inflation, evaluation benchmark
-- **[Spurious Predictability in Financial Machine Learning](https://arxiv.org/abs/2604.15531)** (2026) · `S` 80.1 — *machine learning, walk-forward analysis, specification search, falsification audit* · spurious predictability, martingale difference, backtest overfitting, selection bias
-- **[Evaluating Structured Strategy Backtests: Peer Benchmarks, Regime Timing, and Live Performance](https://arxiv.org/abs/2604.18821)** (2026) · `A` 79.1 — *backtest, regime timing, peer benchmark* · structured strategy, pro forma performance, live performance, institutional allocator
-- **[Implementation Risk in Portfolio Backtesting: A Previously Unquantified Source of Error](https://arxiv.org/abs/2603.20319)** (2026) · `A` 78.7 — *backtesting, metrology* · implementation risk, portfolio backtesting, engine sensitivity, implementation uncertainty interval
-- **[An Explicit Solution to Black-Scholes Implied Volatility](https://arxiv.org/abs/2604.24480)** (2026) · `A` 76.8 — *black-scholes model, inverse gaussian distribution, quantile function* · implied volatility, option pricing, variance scale, explicit formula
-- **[When Forecast Accuracy Fails: Rank Correlation and Decision Quality in Multi-Market Battery Storage Optimization](https://arxiv.org/abs/2604.12082)** (2026) · `A` 75.1 — *hierarchical optimization, forecasting, rank correlation* · battery energy storage, forecast accuracy, decision quality, multi-market trading
-- **[Optimal execution on Uniswap v2/v3 under transient price impact](https://arxiv.org/abs/2601.03799)** (2026) · `A` 75.1 — *optimal execution, transient price impact, automated market maker, uniswap v2* · liquidation, price impact, transient impact, permanent impact
-- **[DatedGPT: Preventing Lookahead Bias in Large Language Models with Time-Aware Pretraining](https://arxiv.org/abs/2603.11838)** (2026) · `A` 75.0 — *large language model, pretraining* · lookahead bias, backtesting, time-aware pretraining, forecasting validity
-- **A Deterministic Limit Order Book Simulator with Hawkes-Driven Order Flow** · `A` 74.8 — *limit order book simulator, hawkes process, multivariate hawkes process, marked hawkes process* · market microstructure, order flow, stability, ergodicity
-- **[Orthogonal reparametrization of the Nelson-Siegel-Svensson interest rate curve model: conditioning, diagnostics, and identifiability](https://arxiv.org/abs/2604.19290)** (2026) · `A` 74.8 — *nelson-siegel-svensson model, orthogonal reparametrization, thin qr decomposition, nonlinear least squares* · yield curve, conditioning, identifiability, collinearity
+The highest-scoring papers across all domains:
 
-→ Full lists by domain in **[papers.md](papers.md)**.
+- [When Alpha Disappears: A One-Switch Benchmark for Decision-Time Leakage in Financial Backtests](https://arxiv.org/abs/2605.23959) - We introduce When Alpha Disappears, a paired evaluation benchmark for diagnosing decision-time leakage in financial machine-learning backtests.
+- [Spurious Predictability in Financial Machine Learning](https://arxiv.org/abs/2604.15531) - Adaptive specification search generates statistically significant backtests even under martingale-difference nulls.
+- [Evaluating Structured Strategy Backtests: Peer Benchmarks, Regime Timing, and Live Performance](https://arxiv.org/abs/2604.18821) - Institutional allocators often evaluate structured strategies on the basis of marketed backtests -- hypothetical track records constructed by applying a strategy's rules to historical data prior to any live trading.
+- [Implementation Risk in Portfolio Backtesting: A Previously Unquantified Source of Error](https://arxiv.org/abs/2603.20319) - Portfolio backtesting is the primary tool for evaluating investment strategies before deployment, yet practitioners implicitly assume that different engines produce identical results for the same strategy.
+- [An Explicit Solution to Black-Scholes Implied Volatility](https://arxiv.org/abs/2604.24480) - Black-Scholes implied volatility is a quantile.
+- [When Forecast Accuracy Fails: Rank Correlation and Decision Quality in Multi-Market Battery Storage Optimization](https://arxiv.org/abs/2604.12082) - Battery energy storage systems (BESS) participating in multi-market electricity trading require price forecasts to optimize dispatch decisions.
+- [Optimal execution on Uniswap v2/v3 under transient price impact](https://arxiv.org/abs/2601.03799) - We study the optimal liquidation of a large position on Uniswap v2 and Uniswap v3 in discrete time.
+- [DatedGPT: Preventing Lookahead Bias in Large Language Models with Time-Aware Pretraining](https://arxiv.org/abs/2603.11838) - In financial backtesting, large language models pretrained on internet-scale data risk introducing lookahead bias that undermines their forecasting validity, as they may have already seen the true outcome during.
+- [A Deterministic Limit Order Book Simulator with Hawkes-Driven Order Flow](https://arxiv.org/abs/2510.08085) - We present a reproducible research framework for market microstructure combining a deterministic C++ limit order book (LOB) simulator with stochastic order flow generated by multivariate marked Hawkes processes.
+- [Orthogonal reparametrization of the Nelson-Siegel-Svensson interest rate curve model: conditioning, diagnostics, and identifiability](https://arxiv.org/abs/2604.19290) - The Nelson-Siegel-Svensson (NSS) interest rate curve model yields a separable nonlinear least-squares problem whose inner linear block is often ill-conditioned because the basis functions become nearly collinear.
 
 ## Research Themes
 
-Auto-detected from the paper co-occurrence graph:
+Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · benchmarking; reinforcement learning · option pricing · neural network; transformer · deep learning · regime shift; machine learning · portfolio optimization · portfolio construction; transaction cost · market impact · hedging; portfolio optimization · mean variance optimization · deep reinforcement learning; stochastic control · market making · liquidity provision; systemic risk · monte carlo · contagion.
 
-- **large language model · multi agent system · benchmarking**
-- **reinforcement learning · option pricing · neural network**
-- **transformer · deep learning · regime shift**
-- **machine learning · portfolio optimization · portfolio construction**
-- **transaction cost · market impact · hedging**
-- **portfolio optimization · mean variance optimization · deep reinforcement learning**
-- **stochastic control · market making · liquidity provision**
-- **systemic risk · monte carlo · contagion**
+## Contributing
 
-→ See **[research-map.md](research-map.md)** for the full landscape (per-domain tables, methods, concepts, asset classes, all themes).
-
-## Full Curation
-
-- 📄 **[papers.md](papers.md)** — all S/A papers by sub-domain, with method/concept tags
-- 🗺️ **[research-map.md](research-map.md)** — domain landscape, trends, themes
-
-## License
-
-The curated list and structure are licensed under [CC BY 4.0](LICENSE). Each paper's copyright belongs to its original authors. Links point to arXiv.
-
----
-*Maintained by [OHSE AI Lab](https://ohselab.com).*
+Corrections and paper suggestions are welcome — see [contributing.md](contributing.md).

@@ -13,7 +13,7 @@
 | B1 Factor Investing | 41 | 60.6 | [Growing the Efficient Frontier on Panel Trees](https://arxiv.org/abs/2501.16730) (71.1/A) |
 | B2 Statistical Arbitrage | 26 | 57.5 | [Vault as a credit instrument](https://arxiv.org/abs/2604.17579) (73.1/A) |
 | B3 Portfolio Optimization | 170 | 56.5 | [Evaluating Structured Strategy Backtests: Peer](https://arxiv.org/abs/2604.18821) (79.1/A) |
-| B4 Financial Econometrics | 330 | 51.8 | [When Alpha Disappears: A One-Switch Benchmark ](https://arxiv.org/abs/2605.23959) (81.0/S) |
+| B4 Financial Econometrics | 330 | 51.7 | [When Alpha Disappears: A One-Switch Benchmark ](https://arxiv.org/abs/2605.23959) (81.0/S) |
 | C1 Deep Learning Price Prediction | 74 | 46.1 | [Martingale Doppelgänger-Eval: An Identificatio](https://arxiv.org/abs/2606.17423) (67.4/A) |
 | C2 Reinforcement Learning Portfolio Management | 134 | 52.6 | [DeePM: Regime-Robust Deep Learning for Systema](https://arxiv.org/abs/2601.05975) (70.9/A) |
 | C3 NLP / Sentiment Analysis | 83 | 47.0 | [PumpSense: Real-Time Detection and Target Extr](https://arxiv.org/abs/2605.09431) (74.7/A) |
