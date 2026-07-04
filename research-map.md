@@ -1,40 +1,40 @@
 # Research Map
 
-> Current-state landscape from the live KB (2253 relevant papers). Updated 2026-07-02.
+> Current-state landscape from the live KB (2433 relevant papers). Updated 2026-07-04.
 
 ## Domain Landscape
 
 | Sub-domain | Papers | Avg score | Top paper |
 |---|---|---|---|
-| A1 Technical Analysis | 16 | 42.0 | [Revisiting the Structure of Trend Premia: When](https://arxiv.org/abs/2510.23150) (61.5/B) |
-| A2 Algorithmic Trading | 82 | 53.4 | [PredictionMarketBench: A SWE-bench-Style Frame](https://arxiv.org/abs/2602.00133) (76.1/A) |
-| A3 High-Frequency Trading (HFT) | 12 | 49.6 | [ABIDES-MARL: A Multi-Agent Reinforcement Learn](https://arxiv.org/abs/2511.02016) (70.3/A) |
-| A4 Market Microstructure | 327 | 53.4 | [RED-2400: A Public Benchmark of Algorithmicall](https://arxiv.org/abs/2605.12151) (81.8/S) |
-| B1 Factor Investing | 71 | 59.2 | [Hubble: An LLM-Driven Agentic Framework for Sa](https://arxiv.org/abs/2604.09601) (76.1/A) |
-| B2 Statistical Arbitrage | 32 | 57.0 | [Multi-Period Martingale Optimal Transport: Cla](https://arxiv.org/abs/2601.05290) (74.6/A) |
-| B3 Portfolio Optimization | 312 | 56.9 | [Evaluating Structured Strategy Backtests: Peer](https://arxiv.org/abs/2604.18821) (79.1/A) |
-| B4 Financial Econometrics | 640 | 51.9 | [Spurious Predictability in Financial Machine L](https://arxiv.org/abs/2604.15531) (78.9/A) |
-| C1 Deep Learning Price Prediction | 147 | 46.5 | [Kronos: A Foundation Model for the Language of](https://arxiv.org/abs/2508.02739) (79.7/A) |
-| C2 Reinforcement Learning Portfolio Management | 192 | 53.4 | [Myopic Optimality: why reinforcement learning ](https://arxiv.org/abs/2509.12764) (77.3/A) |
-| C3 NLP / Sentiment Analysis | 153 | 48.8 | [PumpSense: Real-Time Detection and Target Extr](https://arxiv.org/abs/2605.09431) (74.8/A) |
-| C4 LLM-based Trading Agents | 220 | 52.3 | [DatedGPT: Preventing Lookahead Bias in Large L](https://arxiv.org/abs/2603.11838) (77.9/A) |
-| C5 Generative Models / Synthetic Data | 49 | 52.5 | [CTBench: Cryptocurrency Time Series Generation](https://arxiv.org/abs/2508.02758) (76.9/A) |
+| A1 Technical Analysis | 18 | 43.6 | [Revisiting the Structure of Trend Premia: When](https://arxiv.org/abs/2510.23150) (61.5/B) |
+| A2 Algorithmic Trading | 91 | 53.9 | [PredictionMarketBench: A SWE-bench-Style Frame](https://arxiv.org/abs/2602.00133) (76.1/A) |
+| A3 High-Frequency Trading (HFT) | 13 | 48.4 | [ABIDES-MARL: A Multi-Agent Reinforcement Learn](https://arxiv.org/abs/2511.02016) (70.3/A) |
+| A4 Market Microstructure | 349 | 53.3 | [RED-2400: A Public Benchmark of Algorithmicall](https://arxiv.org/abs/2605.12151) (81.8/S) |
+| B1 Factor Investing | 79 | 59.1 | [Hubble: An LLM-Driven Agentic Framework for Sa](https://arxiv.org/abs/2604.09601) (76.1/A) |
+| B2 Statistical Arbitrage | 33 | 57.3 | [Multi-Period Martingale Optimal Transport: Cla](https://arxiv.org/abs/2601.05290) (74.6/A) |
+| B3 Portfolio Optimization | 342 | 57.0 | [Evaluating Structured Strategy Backtests: Peer](https://arxiv.org/abs/2604.18821) (79.1/A) |
+| B4 Financial Econometrics | 692 | 51.7 | [Spurious Predictability in Financial Machine L](https://arxiv.org/abs/2604.15531) (78.9/A) |
+| C1 Deep Learning Price Prediction | 156 | 46.7 | [Kronos: A Foundation Model for the Language of](https://arxiv.org/abs/2508.02739) (79.7/A) |
+| C2 Reinforcement Learning Portfolio Management | 203 | 53.2 | [Myopic Optimality: why reinforcement learning ](https://arxiv.org/abs/2509.12764) (77.3/A) |
+| C3 NLP / Sentiment Analysis | 170 | 48.5 | [PumpSense: Real-Time Detection and Target Extr](https://arxiv.org/abs/2605.09431) (74.8/A) |
+| C4 LLM-based Trading Agents | 236 | 52.0 | [DatedGPT: Preventing Lookahead Bias in Large L](https://arxiv.org/abs/2603.11838) (77.9/A) |
+| C5 Generative Models / Synthetic Data | 51 | 52.1 | [CTBench: Cryptocurrency Time Series Generation](https://arxiv.org/abs/2508.02758) (76.9/A) |
 
 ## Key Methods
 
-large language model (214), reinforcement learning (122), machine learning (61), transformer (46), neural network (40), deep learning (35), multi-agent system (31), portfolio optimization (29), stochastic control (26), graph neural network (26), lstm (21), deep reinforcement learning (20), heston model (19), benchmarking (18), mean-variance optimization (18)
+large language model (223), reinforcement learning (131), machine learning (70), transformer (47), neural network (42), deep learning (38), multi-agent system (33), portfolio optimization (32), stochastic control (27), graph neural network (27), deep reinforcement learning (23), mean-variance optimization (22), lstm (21), heston model (21), diffusion model (19)
 
 ## Key Concepts
 
-portfolio optimization (49), option pricing (34), limit order book (30), risk management (26), transaction costs (21), regime shift (21), tail risk (20), systemic risk (20), interpretability (20), hedging (20), portfolio construction (20), portfolio management (19), volatility (19), market making (18), market impact (16)
+portfolio optimization (58), option pricing (35), limit order book (32), risk management (30), transaction costs (24), interpretability (23), tail risk (22), portfolio construction (22), systemic risk (21), regime shift (21), hedging (20), portfolio management (19), market making (19), arbitrage (19), volatility (19)
 
 ## Asset Classes
 
-multi (409), equity (408), none (238), crypto (137), options (112), commodity (37), bond (34), futures (17), etf (10), fx (10)
+equity (445), multi (437), none (257), crypto (147), options (117), commodity (37), bond (36), futures (22), fx (12), etf (10)
 
 ## Task Types
 
-analysis (616), portfolio (255), prediction (235), risk (137), generation (50), execution (35), market_making (30), arbitrage (25), other (15), sentiment (14)
+analysis (656), portfolio (282), prediction (253), risk (146), generation (50), execution (38), market_making (31), arbitrage (28), other (20), sentiment (16)
 
 ## Research Themes (graph communities)
 
@@ -42,13 +42,13 @@ Co-occurrence graph of methods/concepts, partitioned by modularity:
 
 1. **large language model · multi agent system · portfolio management**
 2. **reinforcement learning · transaction cost · stochastic control**
-3. **portfolio optimization · transformer · risk management**
-4. **neural network · deep learning · option pricing**
-5. **machine learning · portfolio optimization · interpretability**
-6. **limit order book · diffusion model · hawkes process**
+3. **neural network · deep learning · option pricing**
+4. **transformer · regime shift · tail risk**
+5. **portfolio optimization · risk management · mean variance optimization**
+6. **machine learning · portfolio optimization · portfolio construction**
 7. **graph neural network · systemic risk · decentralized finance**
-8. **arbitrage · liquidity provision · prediction market**
-9. **optimization · game theory · price impact**
-10. **portfolio selection · statistical arbitrage · bayesian inference**
-11. **value at risk · heavy tails · value at risk**
+8. **limit order book · diffusion model · hawkes process**
+9. **arbitrage · liquidity provision · market microstructure**
+10. **optimization · price impact · game theory**
+11. **value at risk · value at risk · heavy tails**
 12. **probabilistic forecasting · distributionally robust optimization · wasserstein distance**

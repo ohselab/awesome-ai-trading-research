@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **1 S-tier** and **303 A-tier** papers.
+themes below. Currently publishing **1 S-tier** and **301 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 2253                                    |
+| Relevant papers screened | 2433                                    |
 | S-tier (published)       | 1                                       |
-| A-tier (published)       | 303                                     |
+| A-tier (published)       | 301                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -76,7 +76,7 @@ The highest-scoring papers across all domains:
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · portfolio management; reinforcement learning · transaction cost · stochastic control; portfolio optimization · transformer · risk management; neural network · deep learning · option pricing; machine learning · portfolio optimization · interpretability; limit order book · diffusion model · hawkes process; graph neural network · systemic risk · decentralized finance; arbitrage · liquidity provision · prediction market.
+Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · portfolio management; reinforcement learning · transaction cost · stochastic control; neural network · deep learning · option pricing; transformer · regime shift · tail risk; portfolio optimization · risk management · mean variance optimization; machine learning · portfolio optimization · portfolio construction; graph neural network · systemic risk · decentralized finance; limit order book · diffusion model · hawkes process.
 
 ## Contributing
 
