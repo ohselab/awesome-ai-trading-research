@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **1 S-tier** and **317 A-tier** papers.
+themes below. Currently publishing **1 S-tier** and **330 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 2849                                    |
+| Relevant papers screened | 3010                                    |
 | S-tier (published)       | 1                                       |
-| A-tier (published)       | 317                                     |
+| A-tier (published)       | 330                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -71,12 +71,12 @@ The highest-scoring papers across all domains:
 - [DatedGPT: Preventing Lookahead Bias in Large Language Models with Time-Aware Pretraining](https://arxiv.org/abs/2603.11838) - In financial backtesting, large language models pretrained on internet-scale data risk introducing lookahead bias that undermines their forecasting validity, as they may have already seen the true outcome during.
 - [Myopic Optimality: why reinforcement learning portfolio management strategies lose money](https://arxiv.org/abs/2509.12764) - Myopic optimization (MO) outperforms reinforcement learning (RL) in portfolio management: RL yields lower or negative returns, higher variance, larger costs, heavier CVaR, lower profitability, and greater model risk.
 - [Implementation Risk in Portfolio Backtesting: A Previously Unquantified Source of Error](https://arxiv.org/abs/2603.20319) - Portfolio backtesting is the primary tool for evaluating investment strategies before deployment, yet practitioners implicitly assume that different engines produce identical results for the same strategy.
+- [QuantBench: Benchmarking AI Methods for Quantitative Investment](https://arxiv.org/abs/2504.18600) - The field of artificial intelligence (AI) in quantitative investment has seen significant advancements, yet it lacks a standardized benchmark aligned with industry practices.
 - [V4FinBench: Benchmarking Tabular Foundation Models, LLMs, and Standard Methods on Corporate Bankruptcy Prediction](https://arxiv.org/abs/2605.10896) - Corporate bankruptcy prediction is a high-stakes financial task characterized by severe class imbalance and multi-horizon forecasting demands.
-- [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · interpretability; transformer · limit order book · regime shift; reinforcement learning · deep reinforcement learning · multi agent reinforcement learning; neural network · deep learning · option pricing; transaction cost · stochastic control · hedging; portfolio optimization · risk management · portfolio optimization; machine learning · natural language processing · factor model; graph neural network · systemic risk · decentralized finance.
+Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · retrieval augmented generation; neural network · deep learning · option pricing; transformer · limit order book · lstm; portfolio optimization · risk management · portfolio optimization; reinforcement learning · deep reinforcement learning · multi agent reinforcement learning; machine learning · interpretability · factor model; stochastic control · market making · decentralized finance; graph neural network · systemic risk · financial network.
 
 ## Contributing
 
