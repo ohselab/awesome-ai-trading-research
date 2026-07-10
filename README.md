@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **1 S-tier** and **341 A-tier** papers.
+themes below. Currently publishing **1 S-tier** and **351 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 3174                                    |
+| Relevant papers screened | 3300                                    |
 | S-tier (published)       | 1                                       |
-| A-tier (published)       | 341                                     |
+| A-tier (published)       | 351                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -76,7 +76,7 @@ The highest-scoring papers across all domains:
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · retrieval augmented generation; neural network · deep learning · option pricing; portfolio optimization · risk management · portfolio optimization; transformer · limit order book · lstm; reinforcement learning · deep reinforcement learning · multi agent reinforcement learning; machine learning · interpretability · factor model; stochastic control · market making · decentralized finance; multimodal learning · foundation model · time series forecasting.
+Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · retrieval augmented generation; reinforcement learning · portfolio optimization · risk management; deep learning · neural network · option pricing; transformer · limit order book · stochastic control; machine learning · portfolio optimization · interpretability; decentralized finance · liquidity provision · arbitrage; multimodal learning · foundation model · time series forecasting; graph neural network · systemic risk · financial network.
 
 ## Contributing
 
