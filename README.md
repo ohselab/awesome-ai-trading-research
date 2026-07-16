@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **1 S-tier** and **375 A-tier** papers.
+themes below. Currently publishing **1 S-tier** and **379 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 3933                                    |
+| Relevant papers screened | 4049                                    |
 | S-tier (published)       | 1                                       |
-| A-tier (published)       | 375                                     |
+| A-tier (published)       | 379                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -76,7 +76,7 @@ The highest-scoring papers across all domains:
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · transaction cost; large language model · multi agent system · sentiment analysis; transformer · limit order book · price impact; neural network · deep learning · option pricing; machine learning · interpretability · factor model; stochastic control · decentralized finance · liquidity provision; graph neural network · systemic risk · financial network; optimization · game theory · causal inference.
+Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · sentiment analysis; neural network · deep learning · transaction cost; transformer · limit order book · price impact; portfolio optimization · risk management · portfolio optimization; reinforcement learning · deep reinforcement learning · portfolio management; machine learning · interpretability · factor model; decentralized finance · liquidity provision · decentralized exchange; graph neural network · systemic risk · financial network.
 
 ## Contributing
 
