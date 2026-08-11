@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **0 S-tier** and **401 A-tier** papers.
+themes below. Currently publishing **0 S-tier** and **398 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 5762                                    |
+| Relevant papers screened | 5777                                    |
 | S-tier (published)       | 0                                       |
-| A-tier (published)       | 401                                     |
+| A-tier (published)       | 398                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -69,14 +69,14 @@ The highest-scoring papers across all domains:
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - Large Language Models (LLMs) have demonstrated notable capabilities across financial tasks, including financial report summarization, earnings call transcript analysis, and asset classification.
 - [Asymmetry PRISM: A CPU/GPU Portfolio Optimization Engine for Deadline-Bounded Institutional Rebalancing](https://arxiv.org/abs/2606.23367) - Institutional rebalancing is a batched optimization workload with a hard operating deadline: hundreds of accounts need new weights under budget, turnover, exposure, exclusion, and tax-aware controls before trading.
 - [Representation Signatures and Risk-Feedback Alignment in LLM Trading Agents](https://arxiv.org/abs/2605.28850) - We study behavioral alignment and representation dynamics of large language model (LLM) agents in financial decision environments.
+- [The Decision Geometry of Covariance Estimation for the Global Minimum-Variance Portfolio under Heavy Tails](https://arxiv.org/abs/2606.27462) - The global minimum-variance portfolio (GMVP) is the canonical decision built from an estimated covariance matrix, yet covariance estimators are universally evaluated by matrix-norm loss, which is not the object the.
 - [FinGPT: Democratizing Internet-scale Data for Financial Large Language Models](https://arxiv.org/abs/2307.10485) - Large language models (LLMs) have demonstrated remarkable proficiency in understanding and generating human-like texts, which may potentially revolutionize the finance industry.
-- [Generating Synergistic Formulaic Alpha Collections via Reinforcement Learning](https://arxiv.org/abs/2306.12964) - In the field of quantitative trading, it is common practice to transform raw historical stock data into indicative signals for the market trend.
 - [Kronos: A Foundation Model for the Language of Financial Markets](https://arxiv.org/abs/2508.02739) - The success of large-scale pre-training paradigm, exemplified by Large Language Models (LLMs), has inspired the development of Time Series Foundation Models (TSFMs).
 - [Quantifying Sub-Optimality in Routing for Automated Market Makers](https://arxiv.org/abs/2607.20762) - We provide a large-scale empirical audit of DEX routing using 2.98 million WETH-USDC swaps on Ethereum.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; large language model · multi agent system · sentiment analysis; deep learning · neural network · option pricing; machine learning · transformer · graph neural network; limit order book · volatility · market making; liquidity provision · decentralized finance · decentralized exchange; time series forecasting · online learning · electricity price forecasting; backward stochastic differential equation · mean field game · incomplete market.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; large language model · multi agent system · sentiment analysis; deep learning · neural network · option pricing; machine learning · transformer · graph neural network; limit order book · volatility · market making; liquidity provision · decentralized finance · decentralized exchange; time series forecasting · online learning · electricity price forecasting; clustering · wasserstein distance · distributionally robust optimization.
 
 ## Contributing
 
