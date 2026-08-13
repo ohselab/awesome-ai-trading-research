@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **0 S-tier** and **405 A-tier** papers.
+themes below. Currently publishing **0 S-tier** and **396 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 5893                                    |
+| Relevant papers screened | 5975                                    |
 | S-tier (published)       | 0                                       |
-| A-tier (published)       | 405                                     |
+| A-tier (published)       | 396                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -72,11 +72,11 @@ The highest-scoring papers across all domains:
 - [The Decision Geometry of Covariance Estimation for the Global Minimum-Variance Portfolio under Heavy Tails](https://arxiv.org/abs/2606.27462) - The global minimum-variance portfolio (GMVP) is the canonical decision built from an estimated covariance matrix, yet covariance estimators are universally evaluated by matrix-norm loss, which is not the object the.
 - [FinGPT: Democratizing Internet-scale Data for Financial Large Language Models](https://arxiv.org/abs/2307.10485) - Large language models (LLMs) have demonstrated remarkable proficiency in understanding and generating human-like texts, which may potentially revolutionize the finance industry.
 - [Kronos: A Foundation Model for the Language of Financial Markets](https://arxiv.org/abs/2508.02739) - The success of large-scale pre-training paradigm, exemplified by Large Language Models (LLMs), has inspired the development of Time Series Foundation Models (TSFMs).
-- [Quantifying Sub-Optimality in Routing for Automated Market Makers](https://arxiv.org/abs/2607.20762) - We provide a large-scale empirical audit of DEX routing using 2.98 million WETH-USDC swaps on Ethereum.
+- [Data-Dependent Bounds for Online Portfolio Selection Without Lipschitzness and Smoothness](https://arxiv.org/abs/2305.13946) - This work introduces the first small-loss and gradual-variation regret bounds for online portfolio selection, marking the first instances of data-dependent bounds for online convex optimization with non-Lipschitz.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · risk management; large language model · multi agent system · sentiment analysis; deep learning · neural network · option pricing; machine learning · transformer · graph neural network; stochastic control · limit order book · liquidity provision; backward stochastic differential equation · mean field game · incomplete market; online learning · electricity price forecasting · uncertainty quantification; factor model · mean reversion · statistical arbitrage.
+Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · sentiment analysis; reinforcement learning · portfolio optimization · risk management; deep learning · neural network · option pricing; machine learning · transformer · graph neural network; limit order book · liquidity provision · volatility; stochastic control · portfolio selection · backward stochastic differential equation; online learning · electricity price forecasting · uncertainty quantification; factor model · mean reversion · statistical arbitrage.
 
 ## Contributing
 
