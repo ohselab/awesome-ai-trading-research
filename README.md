@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **0 S-tier** and **396 A-tier** papers.
+themes below. Currently publishing **0 S-tier** and **386 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 5975                                    |
+| Relevant papers screened | 5989                                    |
 | S-tier (published)       | 0                                       |
-| A-tier (published)       | 396                                     |
+| A-tier (published)       | 386                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -76,7 +76,7 @@ The highest-scoring papers across all domains:
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: large language model · multi agent system · sentiment analysis; reinforcement learning · portfolio optimization · risk management; deep learning · neural network · option pricing; machine learning · transformer · graph neural network; limit order book · liquidity provision · volatility; stochastic control · portfolio selection · backward stochastic differential equation; online learning · electricity price forecasting · uncertainty quantification; factor model · mean reversion · statistical arbitrage.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · risk management; large language model · multi agent system · sentiment analysis; deep learning · neural network · option pricing; machine learning · transformer · graph neural network; limit order book · liquidity provision · volatility; stochastic control · portfolio selection · backward stochastic differential equation; online learning · electricity price forecasting · uncertainty quantification; mean reversion · statistical arbitrage · ornstein uhlenbeck process.
 
 ## Contributing
 
