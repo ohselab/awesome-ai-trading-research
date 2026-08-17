@@ -53,7 +53,7 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 6122                                    |
+| Relevant papers screened | 6216                                    |
 | S-tier (published)       | 0                                       |
 | A-tier (published)       | 359                                     |
 | Sub-domains              | 13                                      |
@@ -76,7 +76,7 @@ The highest-scoring papers across all domains:
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: large language model · transformer · sentiment analysis; reinforcement learning · portfolio optimization · mean variance optimization; deep learning · neural network · option pricing; limit order book · liquidity provision · volatility; machine learning · graph neural network · interpretability; stochastic control · portfolio selection · robust optimization; probabilistic forecasting · online learning · electricity price forecasting; market efficiency · term structure · fractional brownian motion.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · mean variance optimization; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · volatility; machine learning · graph neural network · interpretability; online learning · probabilistic forecasting · electricity price forecasting; market efficiency · term structure · fractional brownian motion; wasserstein distance · distributionally robust optimization · topological data analysis.
 
 ## Contributing
 
