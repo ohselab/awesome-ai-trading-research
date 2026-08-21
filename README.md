@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **0 S-tier** and **360 A-tier** papers.
+themes below. Currently publishing **0 S-tier** and **365 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 6541                                    |
+| Relevant papers screened | 6658                                    |
 | S-tier (published)       | 0                                       |
-| A-tier (published)       | 360                                     |
+| A-tier (published)       | 365                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -63,6 +63,7 @@ Systems Trading & Quant R&D
 
 The highest-scoring papers across all domains:
 
+- [FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning](https://arxiv.org/abs/2211.03107) - Finance is a particularly difficult playground for deep reinforcement learning.
 - [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
@@ -72,11 +73,10 @@ The highest-scoring papers across all domains:
 - [The Decision Geometry of Covariance Estimation for the Global Minimum-Variance Portfolio under Heavy Tails](https://arxiv.org/abs/2606.27462) - The global minimum-variance portfolio (GMVP) is the canonical decision built from an estimated covariance matrix, yet covariance estimators are universally evaluated by matrix-norm loss, which is not the object the.
 - [FinGPT: Democratizing Internet-scale Data for Financial Large Language Models](https://arxiv.org/abs/2307.10485) - Large language models (LLMs) have demonstrated remarkable proficiency in understanding and generating human-like texts, which may potentially revolutionize the finance industry.
 - [Kronos: A Foundation Model for the Language of Financial Markets](https://arxiv.org/abs/2508.02739) - The success of large-scale pre-training paradigm, exemplified by Large Language Models (LLMs), has inspired the development of Time Series Foundation Models (TSFMs).
-- [Data-Dependent Bounds for Online Portfolio Selection Without Lipschitzness and Smoothness](https://arxiv.org/abs/2305.13946) - This work introduces the first small-loss and gradual-variation regret bounds for online portfolio selection, marking the first instances of data-dependent bounds for online convex optimization with non-Lipschitz.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; large language model · transformer · sentiment analysis; deep learning · neural network · option pricing; limit order book · liquidity provision · decentralized finance; machine learning · interpretability · lstm; graph neural network · systemic risk · financial network; non stationarity · online learning · probabilistic forecasting; clustering · wasserstein distance · distributionally robust optimization.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · deep reinforcement learning; large language model · transformer · sentiment analysis; deep learning · neural network · option pricing; machine learning · graph neural network · interpretability; limit order book · volatility · market making; stochastic control · robust optimization · backward stochastic differential equation; liquidity provision · decentralized finance · decentralized exchange; non stationarity · online learning · probabilistic forecasting.
 
 ## Contributing
 
