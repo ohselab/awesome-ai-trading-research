@@ -10,7 +10,7 @@
 | A2 Algorithmic Trading | 434 | 48.9 | [The Science and Practice of Trend-Following Sy](https://arxiv.org/abs/2607.19497) (72.8/A) |
 | A3 High-Frequency Trading (HFT) | 70 | 54.0 | [C++ Design Patterns for Low-latency Applicatio](https://arxiv.org/abs/2309.04259) (69.5/A) |
 | A4 Market Microstructure | 822 | 54.5 | [JAX-LOB: A GPU-Accelerated limit order book si](https://arxiv.org/abs/2308.13289) (78.3/A) |
-| B1 Factor Investing | 208 | 55.5 | [High-Throughput Asset Pricing](https://arxiv.org/abs/2311.10685) (74.5/A) |
+| B1 Factor Investing | 208 | 55.6 | [High-Throughput Asset Pricing](https://arxiv.org/abs/2311.10685) (74.5/A) |
 | B2 Statistical Arbitrage | 67 | 55.4 | [Graph Learning for Foreign Exchange Rate Predi](https://arxiv.org/abs/2508.14784) (67.5/A) |
 | B3 Portfolio Optimization | 1458 | 55.7 | [Asymmetry PRISM: A CPU/GPU Portfolio Optimizat](https://arxiv.org/abs/2606.23367) (77.2/A) |
 | B4 Financial Econometrics | 1496 | 53.2 | [Fast reliable pricing and calibration of the r](https://arxiv.org/abs/2508.15080) (73.7/A) |

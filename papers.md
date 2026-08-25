@@ -1,6 +1,6 @@
 # S/A-Tier Paper Curation
 
-> Human-approved curation of the top **382** papers (S and A tier) from the live KB. Updated 2026-08-25.
+> Human-approved curation of the top **383** papers (S and A tier) from the live KB. Updated 2026-08-25.
 
 Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (strong). Tiers come from a 0–100 weighted 5-dimension score; the published selection is reviewed and approved by a human curator.
 
@@ -86,12 +86,13 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 
 ## B. Quantitative Trading (Statistics-Based)
 
-### B1. Factor Investing (22)
+### B1. Factor Investing (23)
 
 
 - [High-Throughput Asset Pricing](https://arxiv.org/abs/2311.10685) - We apply empirical Bayes (EB) to mine data on 136,000 long-short strategies constructed from accounting ratios, past returns, and ticker symbols.
 - [Latent Factor Analysis in Short Panels](https://arxiv.org/abs/2306.14004) - We develop a pseudo maximum likelihood method for latent factor analysis in short panels without imposing sphericity nor Gaussianity.
 - [R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization](https://arxiv.org/abs/2505.15155) - Financial markets pose fundamental challenges for asset return prediction due to their high dimensionality, non-stationarity, and persistent volatility.
+- [Machine Learning Enhanced Multi-Factor Quantitative Trading: A Cross-Sectional Portfolio Optimization Approach with Bias Correction](https://arxiv.org/abs/2507.07107) - Rolling-window factor pipelines for Chinese A-share markets contain a subtle but costly flaw: daily price-move limits (+/-10% main-board, +/-20% STAR/ChiNext) render a fraction of closing prices non-executable, yet.
 - [AlphaEval: A Comprehensive and Efficient Evaluation Framework for Formula Alpha Mining](https://arxiv.org/abs/2508.13174) - Formula alpha mining, which generates predictive signals from financial data, is critical for quantitative investment.
 - [Dynamic Latent-Factor Model with High-Dimensional Asset Characteristics](https://arxiv.org/abs/2405.15721) - We develop novel estimation procedures with supporting econometric theory for a dynamic latent-factor model with high-dimensional asset characteristics, that is, the number of characteristics is on the order of the.
 - [Learning to Learn Financial Networks for Optimising Momentum Strategies](https://arxiv.org/abs/2308.12212) - Network momentum provides a novel type of risk premium, which exploits the interconnections among assets in a financial network to predict future returns.
