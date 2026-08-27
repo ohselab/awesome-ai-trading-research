@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **1 S-tier** and **416 A-tier** papers.
+themes below. Currently publishing **1 S-tier** and **432 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 7049                                    |
+| Relevant papers screened | 7137                                    |
 | S-tier (published)       | 1                                       |
-| A-tier (published)       | 416                                     |
+| A-tier (published)       | 432                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -63,20 +63,20 @@ Systems Trading & Quant R&D
 
 The highest-scoring papers across all domains:
 
-- [KellyBoost: Growth-Optimal Portfolio Construction with Gradient-Boosted Trees](https://arxiv.org/abs/2608.23393) - KellyBoost is a single multi-output XGBoost model whose softmax output is the portfolio: with y the vector of per-asset holding-period returns, the training loss is - log(1 + w y), the negative log growth rate, so.
+- [Towards Generalizable Reinforcement Learning for Trade Execution](https://arxiv.org/abs/2307.11685) - Optimized trade execution is to sell (or buy) a given amount of assets in a given time with the lowest possible trading cost.
 - [FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning](https://arxiv.org/abs/2211.03107) - Finance is a particularly difficult playground for deep reinforcement learning.
 - [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
-- [Can LLM-based Financial Investing Strategies Outperform the Market in Long Run?](https://arxiv.org/abs/2505.07078) - Large Language Models (LLMs) have recently been leveraged for asset pricing tasks and stock trading applications, enabling AI agents to generate investment decisions from unstructured financial data.
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
-- [Arbitrage-Aware Multi-Step Forecasting of Implied Volatility Surfaces: Modelling Surface Trajectories Using Latent Diffusion](https://arxiv.org/abs/2608.22478) - Implied volatility surfaces summarise the option market and are central to many financial applications.
-- [Conditionally Elicitable Dynamic Risk Measures for Deep Reinforcement Learning](https://arxiv.org/abs/2206.14666) - We propose a novel framework to solve risk-sensitive reinforcement learning (RL) problems where the agent optimises time-consistent dynamic spectral risk measures.
+- [Volatility of Volatility and Leverage Effect from Options](https://arxiv.org/abs/2305.04137) - We propose model-free (nonparametric) estimators of the volatility of volatility and leverage effect using high-frequency observations of short-dated options.
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - Large Language Models (LLMs) have demonstrated notable capabilities across financial tasks, including financial report summarization, earnings call transcript analysis, and asset classification.
 - [Asymmetry PRISM: A CPU/GPU Portfolio Optimization Engine for Deadline-Bounded Institutional Rebalancing](https://arxiv.org/abs/2606.23367) - Institutional rebalancing is a batched optimization workload with a hard operating deadline: hundreds of accounts need new weights under budget, turnover, exposure, exclusion, and tax-aware controls before trading.
+- [Representation Signatures and Risk-Feedback Alignment in LLM Trading Agents](https://arxiv.org/abs/2605.28850) - We study behavioral alignment and representation dynamics of large language model (LLM) agents in financial decision environments.
+- [Robust Distortion Risk Measures](https://arxiv.org/abs/2205.08850) - The robustness of risk measures to changes in underlying loss distributions (distributional uncertainty) is of crucial importance in making well-informed decisions.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · deep reinforcement learning; large language model · transformer · sentiment analysis; deep learning · neural network · option pricing; limit order book · liquidity provision · decentralized finance; machine learning · graph neural network · interpretability; stochastic control · portfolio selection · robust optimization; online learning · probabilistic forecasting · electricity price forecasting; statistical arbitrage · mean reversion · maximum likelihood estimation.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · decentralized finance; machine learning · graph neural network · interpretability; online learning · probabilistic forecasting · electricity price forecasting; clustering · wasserstein distance · distributionally robust optimization; factor model · statistical arbitrage · factor model.
 
 ## Contributing
 
