@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **2 S-tier** and **446 A-tier** papers.
+themes below. Currently publishing **0 S-tier** and **524 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 7212                                    |
-| S-tier (published)       | 2                                       |
-| A-tier (published)       | 446                                     |
+| Relevant papers screened | 7484                                    |
+| S-tier (published)       | 0                                       |
+| A-tier (published)       | 524                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -63,20 +63,20 @@ Systems Trading & Quant R&D
 
 The highest-scoring papers across all domains:
 
-- [Do t-Statistic Hurdles Need to be Raised?](https://arxiv.org/abs/2204.10275) - Many scholars have called for raising statistical hurdles to guard against false discoveries in academic publications.
-- [On Parametric Optimal Execution and Machine Learning Surrogates](https://arxiv.org/abs/2204.08581) - We investigate optimal order execution problems in discrete time with instantaneous price impact and stochastic resilience.
 - [FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning](https://arxiv.org/abs/2211.03107) - Finance is a particularly difficult playground for deep reinforcement learning.
-- [Sequence-Based Target Coin Prediction for Cryptocurrency Pump-and-Dump](https://arxiv.org/abs/2204.12929) - With the proliferation of pump-and-dump schemes (P&Ds) in the cryptocurrency market, it becomes imperative to detect such fraudulent activities in advance to alert potentially susceptible investors.
-- [Poisoning Agentic Alpha: Adversarial Vulnerabilities Across Roles and Architectures in Multi-Agent Trading Systems](https://arxiv.org/abs/2608.24069) - LLM-based multi-agent trading systems, in which specialized agents collaborate through structured communication to produce trading decisions, are moving rapidly from research prototypes to live deployments that.
+- [Time-Causal VAE: Robust Financial Time Series Generator](https://arxiv.org/abs/2411.02947) - We build a time-causal variational autoencoder (TC-VAE) for robust generation of financial time series data.
+- [Distributional Model Equivalence for Risk-Sensitive Reinforcement Learning](https://arxiv.org/abs/2307.01708) - We consider the problem of learning models for risk-sensitive reinforcement learning.
 - [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
+- [Distributionally robust risk evaluation with a causality constraint and structural information](https://arxiv.org/abs/2203.10571) - This work studies the distributionally robust evaluation of expected values over temporal data.
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
-- [Optimal Routing for Constant Function Market Makers](https://arxiv.org/abs/2204.05238) - We consider the problem of optimally executing an order involving multiple crypto-assets, sometimes called tokens, on a network of multiple constant function market makers (CFMMs).
+- [Sell Me This Stock: Unsafe Recommendation Drift in LLM Agents](https://arxiv.org/abs/2603.12564) - People increasingly use LLM agents for multi-turn financial recommendations, where the agent pulls market data through tools and tracks user preferences across turns.
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - Large Language Models (LLMs) have demonstrated notable capabilities across financial tasks, including financial report summarization, earnings call transcript analysis, and asset classification.
+- [Asymmetry PRISM: A CPU/GPU Portfolio Optimization Engine for Deadline-Bounded Institutional Rebalancing](https://arxiv.org/abs/2606.23367) - Institutional rebalancing is a batched optimization workload with a hard operating deadline: hundreds of accounts need new weights under budget, turnover, exposure, exclusion, and tax-aware controls before trading.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · decentralized finance; machine learning · graph neural network · interpretability; electricity price forecasting · online learning · probabilistic forecasting; clustering · regime switching · wasserstein distance; factor model · statistical arbitrage · factor model.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · decentralized finance; machine learning · graph neural network · systemic risk; electricity price forecasting · online learning · probabilistic forecasting; clustering · wasserstein distance · distributionally robust optimization; factor model · statistical arbitrage · factor model.
 
 ## Contributing
 
