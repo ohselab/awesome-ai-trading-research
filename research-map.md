@@ -1,6 +1,6 @@
 # Research Map
 
-> Current-state landscape from the live KB (7484 relevant papers). Updated 2026-08-31.
+> Current-state landscape from the live KB (7484 relevant papers). Updated 2026-09-01.
 
 ## Domain Landscape
 
