@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **0 S-tier** and **524 A-tier** papers.
+themes below. Currently publishing **0 S-tier** and **513 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 7484                                    |
+| Relevant papers screened | 7591                                    |
 | S-tier (published)       | 0                                       |
-| A-tier (published)       | 524                                     |
+| A-tier (published)       | 513                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -64,19 +64,19 @@ Systems Trading & Quant R&D
 The highest-scoring papers across all domains:
 
 - [FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning](https://arxiv.org/abs/2211.03107) - Finance is a particularly difficult playground for deep reinforcement learning.
-- [Time-Causal VAE: Robust Financial Time Series Generator](https://arxiv.org/abs/2411.02947) - We build a time-causal variational autoencoder (TC-VAE) for robust generation of financial time series data.
-- [Distributional Model Equivalence for Risk-Sensitive Reinforcement Learning](https://arxiv.org/abs/2307.01708) - We consider the problem of learning models for risk-sensitive reinforcement learning.
+- [Mean-Covariance Robust Risk Measurement](https://arxiv.org/abs/2112.09959) - We introduce a universal framework for mean-covariance robust risk measurement and portfolio optimization.
 - [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
-- [Distributionally robust risk evaluation with a causality constraint and structural information](https://arxiv.org/abs/2203.10571) - This work studies the distributionally robust evaluation of expected values over temporal data.
+- [What survives honest evaluation? Leakage-safe, search-aware assessment of LLM-driven trading strategy discovery](https://arxiv.org/abs/2608.27734) - Large language models (LLMs) are increasingly used to discover trading strategies, and much of the resulting literature shares a methodological weakness: many candidate strategies are generated, the best is reported.
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
-- [Sell Me This Stock: Unsafe Recommendation Drift in LLM Agents](https://arxiv.org/abs/2603.12564) - People increasingly use LLM agents for multi-turn financial recommendations, where the agent pulls market data through tools and tracks user preferences across turns.
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - Large Language Models (LLMs) have demonstrated notable capabilities across financial tasks, including financial report summarization, earnings call transcript analysis, and asset classification.
 - [Asymmetry PRISM: A CPU/GPU Portfolio Optimization Engine for Deadline-Bounded Institutional Rebalancing](https://arxiv.org/abs/2606.23367) - Institutional rebalancing is a batched optimization workload with a hard operating deadline: hundreds of accounts need new weights under budget, turnover, exposure, exclusion, and tax-aware controls before trading.
+- [Representation Signatures and Risk-Feedback Alignment in LLM Trading Agents](https://arxiv.org/abs/2605.28850) - We study behavioral alignment and representation dynamics of large language model (LLM) agents in financial decision environments.
+- [Non-linear shrinkage of the price return covariance matrix is far from optimal for portfolio optimisation](https://arxiv.org/abs/2112.07521) - Portfolio optimization requires sophisticated covariance estimators that are able to filter out estimation noise.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · decentralized finance; machine learning · graph neural network · systemic risk; electricity price forecasting · online learning · probabilistic forecasting; clustering · wasserstein distance · distributionally robust optimization; factor model · statistical arbitrage · factor model.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · decentralized finance; machine learning · graph neural network · systemic risk; financial time series · diffusion model · generative adversarial network; electricity price forecasting · online learning · probabilistic forecasting; factor model · deep neural network · statistical arbitrage.
 
 ## Contributing
 
