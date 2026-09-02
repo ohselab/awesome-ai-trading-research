@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **0 S-tier** and **513 A-tier** papers.
+themes below. Currently publishing **1 S-tier** and **524 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 7591                                    |
-| S-tier (published)       | 0                                       |
-| A-tier (published)       | 513                                     |
+| Relevant papers screened | 7699                                    |
+| S-tier (published)       | 1                                       |
+| A-tier (published)       | 524                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -63,20 +63,20 @@ Systems Trading & Quant R&D
 
 The highest-scoring papers across all domains:
 
+- [FinRL-Meta: A Universe of Near-Real Market Environments for Data-Driven Deep Reinforcement Learning in Quantitative Finance](https://arxiv.org/abs/2112.06753) - Deep reinforcement learning (DRL) has shown huge potentials in building financial market simulators recently.
 - [FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning](https://arxiv.org/abs/2211.03107) - Finance is a particularly difficult playground for deep reinforcement learning.
-- [Mean-Covariance Robust Risk Measurement](https://arxiv.org/abs/2112.09959) - We introduce a universal framework for mean-covariance robust risk measurement and portfolio optimization.
 - [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
-- [What survives honest evaluation? Leakage-safe, search-aware assessment of LLM-driven trading strategy discovery](https://arxiv.org/abs/2608.27734) - Large language models (LLMs) are increasingly used to discover trading strategies, and much of the resulting literature shares a methodological weakness: many candidate strategies are generated, the best is reported.
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - Large Language Models (LLMs) have demonstrated notable capabilities across financial tasks, including financial report summarization, earnings call transcript analysis, and asset classification.
 - [Asymmetry PRISM: A CPU/GPU Portfolio Optimization Engine for Deadline-Bounded Institutional Rebalancing](https://arxiv.org/abs/2606.23367) - Institutional rebalancing is a batched optimization workload with a hard operating deadline: hundreds of accounts need new weights under budget, turnover, exposure, exclusion, and tax-aware controls before trading.
 - [Representation Signatures and Risk-Feedback Alignment in LLM Trading Agents](https://arxiv.org/abs/2605.28850) - We study behavioral alignment and representation dynamics of large language model (LLM) agents in financial decision environments.
-- [Non-linear shrinkage of the price return covariance matrix is far from optimal for portfolio optimisation](https://arxiv.org/abs/2112.07521) - Portfolio optimization requires sophisticated covariance estimators that are able to filter out estimation noise.
+- [Cleaning the covariance matrix of strongly nonstationary systems with time-independent eigenvalues](https://arxiv.org/abs/2111.13109) - We propose a data-driven way to reduce the noise of covariance matrices of nonstationary systems.
+- [HLOB -- Information Persistence and Structure in Limit Order Books](https://arxiv.org/abs/2405.18938) - We introduce a novel large-scale deep learning model for Limit Order Book mid-price changes forecasting, and we name it `HLOB'.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · decentralized finance; machine learning · graph neural network · systemic risk; financial time series · diffusion model · generative adversarial network; electricity price forecasting · online learning · probabilistic forecasting; factor model · deep neural network · statistical arbitrage.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · decentralized finance; machine learning · interpretability · financial time series; graph neural network · systemic risk · network analysis; lstm · garch · volatility forecasting; electricity price forecasting · online learning · probabilistic forecasting.
 
 ## Contributing
 
