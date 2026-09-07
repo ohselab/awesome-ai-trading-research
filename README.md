@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **1 S-tier** and **576 A-tier** papers.
+themes below. Currently publishing **2 S-tier** and **589 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 8051                                    |
-| S-tier (published)       | 1                                       |
-| A-tier (published)       | 576                                     |
+| Relevant papers screened | 8164                                    |
+| S-tier (published)       | 2                                       |
+| A-tier (published)       | 589                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -63,20 +63,20 @@ Systems Trading & Quant R&D
 
 The highest-scoring papers across all domains:
 
+- [Cleaning large-dimensional covariance matrices for correlated samples](https://arxiv.org/abs/2107.01352) - We elucidate the problem of estimating large-dimensional covariance matrices in the presence of correlations between samples.
 - [FinRL-Meta: A Universe of Near-Real Market Environments for Data-Driven Deep Reinforcement Learning in Quantitative Finance](https://arxiv.org/abs/2112.06753) - Deep reinforcement learning (DRL) has shown huge potentials in building financial market simulators recently.
 - [FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning](https://arxiv.org/abs/2211.03107) - Finance is a particularly difficult playground for deep reinforcement learning.
-- [Cleaning large-dimensional covariance matrices for correlated samples](https://arxiv.org/abs/2107.01352) - We elucidate the problem of estimating large-dimensional covariance matrices in the presence of correlations between samples.
 - [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
-- [Volatility Parametrizations with Random Coefficients: Analytic Flexibility for Implied Volatility Surfaces](https://arxiv.org/abs/2411.04041) - It is a market practice to express market-implied volatilities in some parametric form.
+- [Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows](https://arxiv.org/abs/2608.24842) - Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment decisions.
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - Large Language Models (LLMs) have demonstrated notable capabilities across financial tasks, including financial report summarization, earnings call transcript analysis, and asset classification.
 - [Asymmetry PRISM: A CPU/GPU Portfolio Optimization Engine for Deadline-Bounded Institutional Rebalancing](https://arxiv.org/abs/2606.23367) - Institutional rebalancing is a batched optimization workload with a hard operating deadline: hundreds of accounts need new weights under budget, turnover, exposure, exclusion, and tax-aware controls before trading.
-- [Representation Signatures and Risk-Feedback Alignment in LLM Trading Agents](https://arxiv.org/abs/2605.28850) - We study behavioral alignment and representation dynamics of large language model (LLM) agents in financial decision environments.
+- [Dynamic Shrinkage Estimation of the High-Dimensional Minimum-Variance Portfolio](https://arxiv.org/abs/2106.02131) - In this paper, new results in random matrix theory are derived which allow us to construct a shrinkage estimator of the global minimum variance (GMV) portfolio when the shrinkage target is a random object.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · decentralized finance; machine learning · graph neural network · systemic risk; financial time series · diffusion model · generative adversarial network; electricity price forecasting · online learning · probabilistic forecasting; optimal transport · distributionally robust optimization · bayesian inference.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · decentralized finance; machine learning · graph neural network · systemic risk; financial time series · diffusion model · generative adversarial network; online learning · electricity price forecasting · probabilistic forecasting; optimal transport · bayesian inference · distributionally robust optimization.
 
 ## Contributing
 
