@@ -1,23 +1,23 @@
 # Research Map
 
-> Current-state landscape from the live KB (8274 relevant papers). Updated 2026-09-08.
+> Current-state landscape from the live KB (8274 relevant papers). Updated 2026-09-09.
 
 ## Domain Landscape
 
 | Sub-domain | Papers | Avg score | Top paper |
 |---|---|---|---|
 | A1 Technical Analysis | 40 | 45.7 | [Retail Trader&#39;s Ruin: An Anatomy of Popula](https://arxiv.org/abs/2607.20093) (70.0/A) |
-| A2 Algorithmic Trading | 547 | 49.5 | [The quintic Ornstein-Uhlenbeck volatility mode](https://arxiv.org/abs/2212.10917) (76.4/A) |
-| A3 High-Frequency Trading (HFT) | 80 | 53.7 | [C++ Design Patterns for Low-latency Applicatio](https://arxiv.org/abs/2309.04259) (69.5/A) |
-| A4 Market Microstructure | 986 | 54.6 | [JAX-LOB: A GPU-Accelerated limit order book si](https://arxiv.org/abs/2308.13289) (78.3/A) |
-| B1 Factor Investing | 240 | 55.4 | [Agentic Empirical Asset Pricing: Methodologica](https://arxiv.org/abs/2609.00731) (76.6/A) |
+| A2 Algorithmic Trading | 537 | 49.2 | [Path Shadowing Monte-Carlo](https://arxiv.org/abs/2308.01486) (78.2/A) |
+| A3 High-Frequency Trading (HFT) | 82 | 53.8 | [C++ Design Patterns for Low-latency Applicatio](https://arxiv.org/abs/2309.04259) (69.5/A) |
+| A4 Market Microstructure | 988 | 54.6 | [JAX-LOB: A GPU-Accelerated limit order book si](https://arxiv.org/abs/2308.13289) (78.3/A) |
+| B1 Factor Investing | 239 | 55.3 | [High-Throughput Asset Pricing](https://arxiv.org/abs/2311.10685) (74.5/A) |
 | B2 Statistical Arbitrage | 81 | 55.9 | [Lead-lag detection and network clustering for ](https://arxiv.org/abs/2201.08283) (69.8/A) |
-| B3 Portfolio Optimization | 1789 | 56.0 | [Cleaning large-dimensional covariance matrices](https://arxiv.org/abs/2107.01352) (82.5/S) |
-| B4 Financial Econometrics | 1851 | 53.1 | [Graph Neural Networks for Forecasting Multivar](https://arxiv.org/abs/2308.01419) (74.1/A) |
+| B3 Portfolio Optimization | 1794 | 56.0 | [Cleaning large-dimensional covariance matrices](https://arxiv.org/abs/2107.01352) (82.5/S) |
+| B4 Financial Econometrics | 1855 | 53.2 | [Fast reliable pricing and calibration of the r](https://arxiv.org/abs/2508.15080) (73.7/A) |
 | C1 Deep Learning Price Prediction | 815 | 47.8 | [Kronos: A Foundation Model for the Language of](https://arxiv.org/abs/2508.02739) (76.1/A) |
-| C2 Reinforcement Learning Portfolio Management | 553 | 54.4 | [FinRL-Meta: A Universe of Near-Real Market Env](https://arxiv.org/abs/2112.06753) (81.0/S) |
-| C3 NLP / Sentiment Analysis | 618 | 52.6 | [TriAgent: Divergence-Aware Multi-Agent Committ](https://arxiv.org/abs/2607.19794) (78.3/A) |
-| C4 LLM-based Trading Agents | 512 | 54.9 | [Time Travel is Cheating: Going Live with DeepF](https://arxiv.org/abs/2505.11065) (77.2/A) |
+| C2 Reinforcement Learning Portfolio Management | 551 | 54.4 | [FinRL-Meta: A Universe of Near-Real Market Env](https://arxiv.org/abs/2112.06753) (81.0/S) |
+| C3 NLP / Sentiment Analysis | 619 | 52.6 | [TriAgent: Divergence-Aware Multi-Agent Committ](https://arxiv.org/abs/2607.19794) (78.3/A) |
+| C4 LLM-based Trading Agents | 511 | 54.9 | [Time Travel is Cheating: Going Live with DeepF](https://arxiv.org/abs/2505.11065) (77.2/A) |
 | C5 Generative Models / Synthetic Data | 162 | 54.6 | [CTBench: Cryptocurrency Time Series Generation](https://arxiv.org/abs/2508.02758) (78.5/A) |
 
 ## Key Methods
