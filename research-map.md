@@ -45,10 +45,10 @@ Co-occurrence graph of methods/concepts, partitioned by modularity:
 3. **large language model · transformer · sentiment analysis**
 4. **limit order book · liquidity provision · market impact**
 5. **machine learning · financial time series · interpretability**
-6. **graph neural network · systemic risk · network analysis**
+6. **graph neural network · systemic risk · clustering**
 7. **electricity price forecasting · online learning · probabilistic forecasting**
-8. **mean reversion · deep neural network · statistical arbitrage**
-9. **distributionally robust optimization · optimal transport · wasserstein distance**
-10. **heavy tails · copula · volatility clustering**
+8. **heavy tails · uncertainty · market regime**
+9. **mean reversion · deep neural network · statistical arbitrage**
+10. **distributionally robust optimization · optimal transport · wasserstein distance**
 11. **market efficiency · vector autoregression · artificial intelligence**
 12. **stochastic optimization · linear programming · stochastic dominance**
