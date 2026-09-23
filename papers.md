@@ -1,6 +1,6 @@
 # S/A-Tier Paper Curation
 
-> Human-approved curation of the top **747** papers (S and A tier) from the live KB. Updated 2026-09-24.
+> Human-approved curation of the top **750** papers (S and A tier) from the live KB. Updated 2026-09-24.
 
 Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (strong). Tiers come from a 0–100 weighted 5-dimension score; the published selection is reviewed and approved by a human curator.
 
@@ -622,7 +622,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [HouseTS: A Large-Scale, Multimodal Spatiotemporal U.S. Housing Dataset and Benchmark](https://arxiv.org/abs/2506.00765) - Accurate long-horizon house-price forecasting requires benchmarks that capture temporal dynamics together with time-varying local context.
 - [Evaluating Financial Relational Graphs: Interpretation Before Prediction](https://arxiv.org/abs/2410.07216) - Accurate and robust stock trend forecasting has been a crucial and challenging task, as stock price changes are influenced by multiple factors.
 
-### C2. Reinforcement Learning Portfolio Management (41)
+### C2. Reinforcement Learning Portfolio Management (43)
 
 **S-tier**
 
@@ -631,6 +631,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 **A-tier**
 
 - [FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning](https://arxiv.org/abs/2211.03107) - Finance is a particularly difficult playground for deep reinforcement learning.
+- [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/abs/2006.04779) - Effectively leveraging large, previously collected datasets in reinforcement learning (RL) is a key challenge for large-scale real-world applications.
 - [FinRL: Deep Reinforcement Learning Framework to Automate Trading in Quantitative Finance](https://arxiv.org/abs/2111.09395) - Deep reinforcement learning (DRL) has been envisioned to have a competitive edge in quantitative finance.
 - [Dynamic Datasets and Market Environments for Financial Reinforcement Learning](https://arxiv.org/abs/2304.13174) - The financial market is a particularly challenging playground for deep reinforcement learning due to its unique feature of dynamic datasets.
 - [A Natural Actor-Critic Algorithm with Downside Risk Constraints](https://arxiv.org/abs/2007.04203) - Existing work on risk-sensitive reinforcement learning - both for symmetric and downside risk measures - has typically used direct Monte-Carlo estimation of policy gradients.
@@ -663,6 +664,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Tail-Safe Hedging: Explainable Risk-Sensitive Reinforcement Learning with a White-Box CBF--QP Safety Layer in Arbitrage-Free Markets](https://arxiv.org/abs/2510.04555) - We introduce Tail-Safe, a deployability-oriented framework for derivatives hedging that unifies distributional, risk-sensitive reinforcement learning with a white-box control-barrier-function (CBF) quadratic-program.
 - [High-Confidence Off-Policy (or Counterfactual) Variance Estimation](https://arxiv.org/abs/2101.09847) - Many sequential decision-making systems leverage data collected using prior policies to propose a new policy.
 - [Robo-Advising: Enhancing Investment with Inverse Optimization and Deep Reinforcement Learning](https://arxiv.org/abs/2105.09264) - Machine Learning (ML) has been embraced as a powerful tool by the financial industry, with notable applications spreading in various domains including investment management.
+- [Risk-Sensitive Reinforcement Learning: Near-Optimal Risk-Sample Tradeoff in Regret](https://arxiv.org/abs/2006.13827) - We study risk-sensitive reinforcement learning in episodic Markov decision processes with unknown transition kernels, where the goal is to optimize the total reward under the risk measure of exponential utility.
 - [Breaking the Dimensional Barrier: A Pontryagin-Guided Direct Policy Optimization for Continuous-Time Multi-Asset Portfolio Choice](https://arxiv.org/abs/2504.11116) - We introduce the Pontryagin-Guided Direct Policy Optimization (PG-DPO) framework for high-dimensional continuous-time portfolio choice.
 - [Provably Efficient Risk-Sensitive Reinforcement Learning: Iterated CVaR and Worst Path](https://arxiv.org/abs/2206.02678) - In this paper, we study a novel episodic risk-sensitive Reinforcement Learning (RL) problem, named Iterated CVaR RL, which aims to maximize the tail of the reward-to-go at each step, and focuses on tightly.
 - [Reinforcement Learning for Option Hedging: Static Implied-Volatility Fit versus Shortfall-Aware Performance](https://arxiv.org/abs/2601.01709) - We extend the Q-learner in Black-Scholes (QLBS) framework by incorporating risk aversion and trading costs, and propose a novel Replication Learning of Option Pricing (RLOP) approach.
@@ -671,7 +673,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Risk-Sensitive Markov Decision Processes with Long-Run CVaR Criterion](https://arxiv.org/abs/2210.08740) - CVaR (Conditional Value at Risk) is a risk metric widely used in finance.
 - [Regret Bounds for Risk-Sensitive Reinforcement Learning](https://arxiv.org/abs/2210.05650) - In safety-critical applications of reinforcement learning such as healthcare and robotics, it is often desirable to optimize risk-sensitive objectives that account for tail outcomes rather than expected reward.
 
-### C3. NLP / Sentiment Analysis (47)
+### C3. NLP / Sentiment Analysis (48)
 
 
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
@@ -704,6 +706,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [ECTSum: A New Benchmark Dataset For Bullet Point Summarization of Long Earnings Call Transcripts](https://arxiv.org/abs/2210.12467) - Despite tremendous progress in automatic summarization, state-of-the-art methods are predominantly trained to excel in summarizing short newswire articles, or documents with strong layout biases such as scientific.
 - [Bloated Disclosures: Can ChatGPT Help Investors Process Information?](https://arxiv.org/abs/2306.10224) - Generative AI tools such as ChatGPT can fundamentally change the way investors process information.
 - [Chronologically Consistent Large Language Models](https://arxiv.org/abs/2502.21206) - Large language models are increasingly used in social sciences, but their training data can introduce lookahead bias and training leakage.
+- [Automatic Domain Adaptation Outperforms Manual Domain Adaptation for Predicting Financial Outcomes](https://arxiv.org/abs/2006.14209) - In this paper, we automatically create sentiment dictionaries for predicting financial outcomes.
 - [Optimal Text-Based Time-Series Indices](https://arxiv.org/abs/2405.10449) - We propose an approach to construct text-based time-series indices in an optimal way--typically, indices that maximize the contemporaneous relation or the predictive performance with respect to a target variable.
 - [Which Voices Move Markets? Speaker Identity and the Cross-Section of Post-Earnings Returns](https://arxiv.org/abs/2604.13260) - We utilize FinBERT, a domain-specific transformer model, to parse 6.5 million sentences from 16,428 S&P 500 quarterly earnings call transcripts (2015-2025) and demonstrate that post-earnings stock returns are not.
 - [Same Company, Same Signal: The Role of Identity in Earnings Call Transcripts](https://arxiv.org/abs/2412.18029) - Post-earnings volatility prediction is critical for investors, with previous works often leveraging earnings call transcripts under the assumption that their rich semantics contribute significantly.
