@@ -1,6 +1,6 @@
 # S/A-Tier Paper Curation
 
-> Human-approved curation of the top **744** papers (S and A tier) from the live KB. Updated 2026-09-25.
+> Human-approved curation of the top **756** papers (S and A tier) from the live KB. Updated 2026-09-25.
 
 Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (strong). Tiers come from a 0–100 weighted 5-dimension score; the published selection is reviewed and approved by a human curator.
 
@@ -13,7 +13,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Retail Trader&#39;s Ruin: An Anatomy of Popular Signal Failure](https://arxiv.org/abs/2607.20093) - We test whether five widely promoted retail signal families - trend, oscillator, candlestick, volume, and calendar rules - deliver a positive, economically meaningful, net-of-cost, and survivable edge.
 - [Trends, Reversion, and Critical Phenomena in Financial Markets](https://arxiv.org/abs/2006.07847) - Financial markets across all asset classes are known to exhibit trends.
 
-### A2. Algorithmic Trading (20)
+### A2. Algorithmic Trading (21)
 
 **S-tier**
 
@@ -24,6 +24,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Evidence of Crowding on Russell 3000 Reconstitution Events](https://arxiv.org/abs/2006.07456) - We develop a methodology which replicates in great accuracy the FTSE Russell indexes reconstitutions, including the quarterly rebalancings due to new initial public offerings (IPOs).
 - [Cyclic Arbitrage in Decentralized Exchanges](https://arxiv.org/abs/2105.02784) - Decentralized Exchanges (DEXes) enable users to create markets for exchanging any pair of cryptocurrencies.
 - [The Science and Practice of Trend-Following Systems](https://arxiv.org/abs/2607.19497) - We present a unified approach to designing trend-following (TF) systems and classify them into European, American, and Time Series Momentum categories.
+- [Differential Machine Learning](https://arxiv.org/abs/2005.02347) - Differential machine learning combines automatic adjoint differentiation (AAD) with modern machine learning (ML) in the context of risk management of financial Derivatives.
 - [Predictive Extrema, Unprofitable Policies: An AI-Assisted Audit of Candle-Based Binance Spot Timing Models](https://arxiv.org/abs/2607.19453) - We audit whether candle-based machine-learning models can turn predictions of cryptocurrency extrema or short-horizon outcomes into positive Binance Spot paper policies after assumed costs.
 - [If It Walks Like an Arbitrage: Protocol-Agnostic Detection with Decidable Structural Equivalence](https://arxiv.org/abs/2608.20377) - Ethereum transactions admit a canonical structural form.
 - [Towards Generalizable Reinforcement Learning for Trade Execution](https://arxiv.org/abs/2307.11685) - Optimized trade execution is to sell (or buy) a given amount of assets in a given time with the lowest possible trading cost.
@@ -53,12 +54,13 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Data-driven measures of high-frequency trading](https://arxiv.org/abs/2405.08101) - High-frequency trading (HFT) accounts for almost half of equity trading volume, yet it is not identified in public data.
 - [Interpretable ML for High-Frequency Execution](https://arxiv.org/abs/2307.04863) - Order placement tactics play a crucial role in high-frequency trading algorithms and their design is based on understanding the dynamics of the order book.
 
-### A4. Market Microstructure (70)
+### A4. Market Microstructure (72)
 
 
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
 - [ABIDES-Gym: Gym Environments for Multi-Agent Discrete Event Simulation and Application to Financial Markets](https://arxiv.org/abs/2110.14771) - Model-free Reinforcement Learning (RL) requires the ability to sample trajectories by taking actions in the original problem environment or a simulated version of it.
 - [Constant Function Market Makers: Multi-Asset Trades via Convex Optimization](https://arxiv.org/abs/2107.12484) - The rise of Ethereum and other blockchains that support smart contracts has led to the creation of decentralized exchanges (DEXs), such as Uniswap, Balancer, Curve, mStable, and SushiSwap, which enable agents to.
+- [Pump and Dumps in the Bitcoin Era: Real Time Detection of Cryptocurrency Market Manipulations](https://arxiv.org/abs/2005.06610) - In the last years, cryptocurrencies are increasingly popular.
 - [Quantifying Sub-Optimality in Routing for Automated Market Makers](https://arxiv.org/abs/2607.20762) - We provide a large-scale empirical audit of DEX routing using 2.98 million WETH-USDC swaps on Ethereum.
 - [Automated Market Making and Loss-Versus-Rebalancing](https://arxiv.org/abs/2208.06046) - We consider the market microstructure of automated market makers (AMMs) from the perspective of liquidity providers (LPs).
 - [The Design and Regulation of Exchanges: A Formal Approach](https://arxiv.org/abs/2210.05447) - We use formal methods to specify, design, and monitor continuous double auctions, which are widely used to match buyers and sellers at exchanges of foreign currencies, stocks, and commodities.
@@ -115,6 +117,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Velocity- and Regime-Aware Detection of Intraday Options Market Manipulation, with Explainable Attribution](https://arxiv.org/abs/2608.05373) - Intraday market manipulation is hard to detect because its footprint is brief, buried in millions of quotes, and statistically similar to ordinary volatility.
 - [Replicating Monotonic Payoffs Without Oracles](https://arxiv.org/abs/2111.13740) - In this paper, we show that any monotonic payoff can be replicated using only liquidity provider shares in constant function market makers (CFMMs), without the need for additional collateral or oracles.
 - [Adaptive trading strategies across liquidity pools](https://arxiv.org/abs/2008.07807) - In this article, we provide a flexible framework for optimal trading in an asset listed on different venues.
+- [Non-parametric Estimation of Quadratic Hawkes Processes for Order Book Events](https://arxiv.org/abs/2005.05730) - We propose an actionable calibration procedure for general Quadratic Hawkes models of order book events (market orders, limit orders, cancellations).
 - [Multi-Agent Reinforcement Learning in a Realistic Limit Order Book Market Simulation](https://arxiv.org/abs/2006.05574) - Optimal order execution is widely studied by industry practitioners and academic researchers because it determines the profitability of investment decisions and high-level trading strategies, particularly those.
 - [Marginal Price Optimization](https://arxiv.org/abs/2502.08258) - We introduce a new framework for optimal routing and arbitrage in AMM driven markets.
 - [Bridging the Reality Gap in Limit Order Book Simulation](https://arxiv.org/abs/2603.24137) - We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L.
@@ -185,7 +188,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Bertram's Pairs Trading Strategy with Bounded Risk](https://arxiv.org/abs/2102.04160) - Finding Bertram's optimal trading strategy for a pair of cointegrated assets following the Ornstein--Uhlenbeck price difference process can be formulated as an unconstrained convex optimization problem for.
 - [Stochastic arbitrage with market index options](https://arxiv.org/abs/2207.00949) - Opportunities for stochastic arbitrage in an options market arise when it is possible to construct a portfolio of options which provides a positive option premium and which, when combined with a direct investment in.
 
-### B3. Portfolio Optimization (230)
+### B3. Portfolio Optimization (235)
 
 **S-tier**
 
@@ -240,6 +243,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Neural networks can detect model-free static arbitrage strategies](https://arxiv.org/abs/2306.16422) - In this paper we demonstrate both theoretically as well as numerically that neural networks can detect model-free static arbitrage opportunities whenever the market admits some.
 - [Optimizing Expected Shortfall under an $\ell_1$ constraint -- an analytic approach](https://arxiv.org/abs/2103.04375) - Expected Shortfall (ES), the average loss above a high quantile, is the current financial regulatory market risk measure.
 - [Strategic Asset Allocation with Illiquid Alternatives](https://arxiv.org/abs/2207.07767) - We address the problem of strategic asset allocation (SAA) with portfolios that include illiquid alternative asset classes.
+- [Deep xVA solver -- A neural network based counterparty credit risk management framework](https://arxiv.org/abs/2005.02633) - In this paper, we present a novel computational framework for portfolio-wide risk management problems, where the presence of a potentially large number of risk factors makes traditional numerical techniques ineffective.
 - [Robust Hedging of American Options via Aggregated Snell Envelopes](https://arxiv.org/abs/2506.14553) - We construct an aggregator for a family of Snell envelopes in a nondominated framework.
 - [Wasserstein-Kelly Portfolios: A Robust Data-Driven Solution to Optimize Portfolio Growth](https://arxiv.org/abs/2302.13979) - We introduce a robust variant of the Kelly portfolio optimization model, called the Wasserstein-Kelly portfolio optimization.
 - [Risk Budgeting Portfolios: Existence and Computation](https://arxiv.org/abs/2211.07212) - Modern portfolio theory has provided for decades the main framework for optimizing portfolios.
@@ -308,7 +312,9 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Portfolio risk allocation through Shapley value](https://arxiv.org/abs/2103.05453) - We argue that using the Shapley value of cooperative game theory as the scheme for risk allocation among non-orthogonal risk factors is a natural way of interpreting the contribution made by each of such factors to.
 - [Calibration of Local Volatility Models with Stochastic Interest Rates using Optimal Transport](https://arxiv.org/abs/2305.00200) - We develop a non-parametric, semimartingale optimal transport, calibration methodology for local volatility models with stochastic interest rate.
 - [Model-free Portfolio Theory: A Rough Path Approach](https://arxiv.org/abs/2109.01843) - Based on a rough path foundation, we develop a model-free approach to stochastic portfolio theory (SPT).
+- [Recipes for hedging exotics with illiquid vanillas](https://arxiv.org/abs/2005.10064) - In this paper, we address the question of the optimal Delta and Vega hedging of a book of exotic options when there are execution costs associated with the trading of vanilla options.
 - [Equilibrium stochastic control with implicitly defined objective functions](https://arxiv.org/abs/2312.15173) - This paper considers a class of stochastic control problems with implicitly defined objective functions, which are the sources of time-inconsistency.
+- [Statistical inference for the EU portfolio in high dimensions](https://arxiv.org/abs/2005.04761) - In this paper, using the shrinkage-based approach for portfolio weights and modern results from random matrix theory we construct an effective procedure for testing the efficiency of the expected utility (EU).
 - [Sample Average Approximation for Portfolio Optimization under CVaR constraint in an (re)insurance context](https://arxiv.org/abs/2410.10239) - We consider optimal allocation problems with Conditional Value-At-Risk (CVaR) constraint.
 - [Mean-Variance Investment and Risk Control Strategies -- A Time-Consistent Approach via A Forward Auxiliary Process](https://arxiv.org/abs/2101.03954) - We consider an optimal investment and risk control problem for an insurer under the mean-variance (MV) criterion.
 - [Sparse High-Order Portfolios via Proximal DCA and SCA](https://arxiv.org/abs/2008.12953) - In this paper, we aim at solving the cardinality constrained high-order portfolio optimization, i.e., mean-variance-skewness-kurtosis model with cardinality constraint (MVSKC).
@@ -362,6 +368,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Deep Learning Algorithms for Hedging with Frictions](https://arxiv.org/abs/2111.01931) - This work studies the deep learning-based numerical algorithms for optimal hedging problems in markets with general convex transaction costs on the trading rates, focusing on their scalability of trading time horizon.
 - [MAD Risk Parity Portfolios](https://arxiv.org/abs/2110.12282) - In this paper, we investigate the features and the performance of the Risk Parity (RP) portfolios using the Mean Absolute Deviation (MAD) as a risk measure.
 - [Extremal Mean-Variance Functionals over Wasserstein Balls: Applications to Risk Sharing](https://arxiv.org/abs/2609.23571) - We characterize the worst- and best-case values of a mean-variance functional over a 2-Wasserstein ball.
+- [Quadratic Hedging for Sequential Claims with Random Weights in Discrete Time](https://arxiv.org/abs/2005.06015) - We study a quadratic hedging problem for a sequence of contingent claims with random weights in discrete time.
 - [Bid--Ask Martingale Optimal Transport](https://arxiv.org/abs/2603.24605) - Martingale Optimal Transport (MOT) provides a framework for robust pricing and hedging of illiquid derivatives.
 - [Sustainable Investment: ESG Impacts on Large Portfolio](https://arxiv.org/abs/2602.14439) - This paper investigates the impact of environmental, social, and governance (ESG) constraint on a regularized mean-variance (MV) portfolio optimization problem in a large-dimensional setting, in which a positive.
 - [Order Optimal Regret Bounds for Sharpe Ratio Optimization under Thompson Sampling](https://arxiv.org/abs/2508.13749) - In this paper, we study sequential decision-making for maximizing the Sharpe ratio (SR) in a stochastic multi-armed bandit (MAB) setting.
@@ -393,6 +400,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Deep Risk Model: A Deep Learning Solution for Mining Latent Risk Factors to Improve Covariance Matrix Estimation](https://arxiv.org/abs/2107.05201) - Modeling and managing portfolio risk is perhaps the most important step to achieve growing and preserving investment performance.
 - [$N$-player and Mean-field Games in Itô-diffusion Markets with Competitive or Homophilous Interaction](https://arxiv.org/abs/2106.00581) - In Itô-diffusion environments, we introduce and analyze $N$-player and common-noise mean-field games in the context of optimal portfolio choice in a common market.
 - [The Efficient Hedging Frontier with Deep Neural Networks](https://arxiv.org/abs/2104.05280) - The trade off between risks and returns gives rise to multi-criteria optimisation problems that are well understood in finance, efficient frontiers being the tool to navigate their set of optimal solutions.
+- [A game theoretical approach to homothetic robust forward investment performance processes in stochastic factor models](https://arxiv.org/abs/2005.10660) - This paper studies an optimal forward investment problem in an incomplete market with model uncertainty, in which the underlying stocks depend on the correlated stochastic factors.
 - [Optimal Consumption-Investment with Epstein-Zin Utility under Leverage Constraint](https://arxiv.org/abs/2509.21929) - We study optimal portfolio choice under Epstein-Zin recursive utility in the presence of general leverage constraints.
 - [Simplicial persistence of financial markets: filtering, generative processes and portfolio risk](https://arxiv.org/abs/2009.08794) - We introduce simplicial persistence, a measure of time evolution of network motifs in subsequent temporal layers.
 - [Adaptive Multilevel Stochastic Approximation of the Value-at-Risk](https://arxiv.org/abs/2408.06531) - Crépey, Frikha, and Louzi (2025) introduced a multilevel stochastic approximation scheme to compute the value-at-risk of a financial loss that is only simulatable by Monte Carlo.
@@ -423,12 +431,13 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Asymptotic minimization of expected time to reach a large wealth level in an asset market game](https://arxiv.org/abs/2007.04909) - We consider a stochastic game-theoretic model of a discrete-time asset market with short-lived assets and endogenous asset prices.
 - [Markowitz portfolio selection for multivariate affine and quadratic Volterra models](https://arxiv.org/abs/2006.13539) - This paper concerns portfolio selection with multiple assets under rough covariance matrix.
 
-### B4. Financial Econometrics (156)
+### B4. Financial Econometrics (159)
 
 
 - [Forecasting day-ahead electricity prices: A review of state-of-the-art algorithms, best practices and an open-access benchmark](https://arxiv.org/abs/2008.08004) - While the field of electricity price forecasting has benefited from plenty of contributions in the last two decades, it arguably lacks a rigorous approach to evaluating new predictive algorithms.
 - [Fast reliable pricing and calibration of the rough Heston model](https://arxiv.org/abs/2508.15080) - The paper is an extended and modified version of the preprint S.Boyarchenko and S.Levendorskiĭ ``Correct implied volatility shapes and reliable pricing in the rough Heston model".
 - [Continuous Hidden Markov Models for Equity Returns: Heavy-Tail Emission Families and Regime-Conditional Value-at-Risk](https://arxiv.org/abs/2606.23492) - Synthetic generators of daily equity returns let practitioners stress test, backtest, and design scenarios that a single realized market history cannot supply, but only if the generator reproduces the stylized facts.
+- [No arbitrage SVI](https://arxiv.org/abs/2005.03340) - We fully characterize the absence of Butterfly arbitrage in the SVI formula for implied total variance proposed by Gatheral in 2004.
 - [Deep learning of transition probability densities for stochastic asset models with applications in option pricing](https://arxiv.org/abs/2105.10467) - Transition probability density functions (TPDFs) are fundamental to computational finance, including option pricing and hedging.
 - [Distributionally robust risk evaluation with a causality constraint and structural information](https://arxiv.org/abs/2203.10571) - This work studies the distributionally robust evaluation of expected values over temporal data.
 - [Marginals Versus Copulas: Which Account For More Model Risk In Multivariate Risk Forecasting?](https://arxiv.org/abs/2109.10946) - Copulas.
@@ -547,11 +556,13 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Fast, Reliable, and Error-Bounded Option Pricing with Pretrained Neural Networks: A GJR--GARCH Study](https://arxiv.org/abs/2606.15502) - Many models in quantitative finance have no closed-form option prices and rely on slow, noisy Monte Carlo simulation; neural surrogates restore speed but offer no error guarantees.
 - [Innovative Extensions to Option Pricing: Asymmetric Brownian Motion and Random Walk Approaches](https://arxiv.org/abs/2606.22293) - Classical option pricing models, such as Bachelier and Black--Scholes--Merton, postulate symmetric Brownian diffusion, which limits their capacity to reflect empirical phenomena including return skewness, heavy.
 - [Ito-Wentzell Formula and Dupire Stochastic PDE](https://arxiv.org/abs/2607.12479) - Starting from the classic result of Wentzell, we derive a conditional forward equation and an associated stochastic Dupire PDE for a local-stochastic-volatility model (LSV).
+- [Extensions of Dupire Formula: Stochastic Interest Rates and Stochastic Local Volatility](https://arxiv.org/abs/2005.05530) - We derive generalizations of Dupire formula to the cases of general stochastic drift and/or stochastic local volatility.
 - [Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most](https://arxiv.org/abs/2605.22672) - We document inverse scaling in LLMs on forecasting problems whose underlying time series exhibit superlinear growth and tail risk of regime change, a structure common in finance and epidemiology.
 - [Multivariate GARCH and portfolio variance prediction: A forecast reconciliation perspective](https://arxiv.org/abs/2603.17463) - We assess the advantage of combining univariate and multivariate portfolio risk forecasts with the aid of forecast reconciliation techniques.
 - [Beyond Correlation: Positive Definite Dependence Measures for Robust Inference, Flexible Scenarios, and Causal Modeling for Financial Portfolios](https://arxiv.org/abs/2504.15268) - We live in a multivariate world, and effective modeling of financial portfolios, including their construction, allocation, forecasting, and risk analysis, simply is not possible without explicitly modeling the.
 - [HARd to Beat: The Overlooked Impact of Rolling Windows in the Era of Machine Learning](https://arxiv.org/abs/2406.08041) - We investigate the predictive abilities of the heterogeneous autoregressive (HAR) model compared to machine learning (ML) techniques across an unprecedented dataset of 1,455 stocks.
 - [Optimal probabilistic forecasts for risk management](https://arxiv.org/abs/2303.01651) - This paper explores the implications of producing forecast distributions that are optimized according to scoring rules that are relevant to financial risk management.
+- [Semi-closed form prices of barrier options in the time-dependent CEV and CIR models](https://arxiv.org/abs/2005.05459) - We continue a series of papers where prices of the barrier options written on the underlying, which dynamics follows some one factor stochastic model with time-dependent coefficients and the barrier, are obtained in.
 - [A Càdlàg Rough Path Foundation for Robust Finance](https://arxiv.org/abs/2109.04225) - Using rough path theory, we provide a pathwise foundation for stochastic Itô integration, which covers most commonly applied trading strategies and mathematical models of financial markets, including those under.
 - [Estimating Future VaR from Value Samples and Applications to Future Initial Margin](https://arxiv.org/abs/2104.11768) - Predicting future values at risk (fVaR) is an important problem in finance.
 - [Algorithmic Monitoring: Measuring Market Stress with Machine Learning](https://arxiv.org/abs/2602.07066) - I construct a Market Stress Probability Index (MSPI) that estimates the probability of high stress in the U.S.
@@ -795,7 +806,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [QuantEval: A Benchmark for Financial Quantitative Tasks in Large Language Models](https://arxiv.org/abs/2601.08689) - Large Language Models (LLMs) have shown strong capabilities across many domains, yet their evaluation in financial quantitative tasks remains fragmented and mostly limited to knowledge-centric question answering.
 - [F$^2$Agent: Financial Fusion of Agentic Intelligence for Multimodal Trading](https://arxiv.org/abs/2608.05668) - With increasingly diverse and heterogeneous information sources, effectively leveraging multimodal data is becoming pivotal for high-quality financial trading.
 
-### C5. Generative Models / Synthetic Data (22)
+### C5. Generative Models / Synthetic Data (23)
 
 
 - [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
@@ -807,6 +818,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Decoupled Probabilistic Forecasting and Arbitrage-Aware Refinement of Implied Volatility Surfaces](https://arxiv.org/abs/2607.29220) - Implied volatility surface forecasting is essential for option valuation, hedging,and risk management, but remains difficult because future surfaces are stochastic while pricing inputs must satisfy static.
 - [Generating Realistic Stock Market Order Streams](https://arxiv.org/abs/2006.04212) - We propose an approach to generate realistic and high-fidelity stock market data based on generative adversarial networks (GANs).
 - [Denoising Subordinated Probabilistic Models: Diffusion with a Tempered-Stable Volatility Clock, and What the Noise Mechanism Actually Controls](https://arxiv.org/abs/2607.19218) - Heavy-tailed diffusion models replace Gaussian noise by a Gaussian variance mixture: denoising Levy probabilistic models (DLPM) take the mixing variables i.i.d.
+- [A generative adversarial network approach to calibration of local stochastic volatility models](https://arxiv.org/abs/2005.02505) - We propose a fully data-driven approach to calibrate local stochastic volatility (LSV) models, circumventing in particular the ad hoc interpolation of the volatility surface.
 - [Universal Diffusion Models for Implied Volatility Surfaces: Learning Shared Dynamics Across Stocks](https://arxiv.org/abs/2609.22893) - Modeling the dynamics of option implied volatility surface (IVS) is crucial for pricing, hedging, and risk-managing option portfolios.
 - [Generating drawdown-realistic financial price paths using path signatures](https://arxiv.org/abs/2309.04507) - A novel generative machine learning approach for the simulation of sequences of financial price data with drawdowns quantifiably close to empirical data is introduced.
 - [ByteGen: A Tokenizer-Free Generative Model for Orderbook Events in Byte Space](https://arxiv.org/abs/2508.02247) - Generative modeling of high-frequency limit order book (LOB) dynamics is a critical yet unsolved challenge in quantitative finance, essential for robust market simulation and strategy backtesting.
