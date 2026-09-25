@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **3 S-tier** and **757 A-tier** papers.
+themes below. Currently publishing **3 S-tier** and **751 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 9475                                    |
+| Relevant papers screened | 9480                                    |
 | S-tier (published)       | 3                                       |
-| A-tier (published)       | 757                                     |
+| A-tier (published)       | 751                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -68,10 +68,10 @@ The highest-scoring papers across all domains:
 - [FinRL-Meta: A Universe of Near-Real Market Environments for Data-Driven Deep Reinforcement Learning in Quantitative Finance](https://arxiv.org/abs/2112.06753) - Deep reinforcement learning (DRL) has shown huge potentials in building financial market simulators recently.
 - [FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning](https://arxiv.org/abs/2211.03107) - Finance is a particularly difficult playground for deep reinforcement learning.
 - [Evidence of Crowding on Russell 3000 Reconstitution Events](https://arxiv.org/abs/2006.07456) - We develop a methodology which replicates in great accuracy the FTSE Russell indexes reconstitutions, including the quarterly rebalancings due to new initial public offerings (IPOs).
-- [Differential Machine Learning](https://arxiv.org/abs/2005.02347) - Differential machine learning combines automatic adjoint differentiation (AAD) with modern machine learning (ML) in the context of risk management of financial Derivatives.
 - [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
+- [Propose, Don&#39;t Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors](https://arxiv.org/abs/2609.27051) - Language-model agents now run the whole of quantitative factor research: they propose investment factors, backtest them, select the survivors and retire them.
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - Large Language Models (LLMs) have demonstrated notable capabilities across financial tasks, including financial report summarization, earnings call transcript analysis, and asset classification.
 
 ## Research Themes
