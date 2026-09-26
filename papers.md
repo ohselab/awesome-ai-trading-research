@@ -1,6 +1,6 @@
 # S/A-Tier Paper Curation
 
-> Human-approved curation of the top **762** papers (S and A tier) from the live KB. Updated 2026-09-27.
+> Human-approved curation of the top **767** papers (S and A tier) from the live KB. Updated 2026-09-27.
 
 Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (strong). Tiers come from a 0–100 weighted 5-dimension score; the published selection is reviewed and approved by a human curator.
 
@@ -53,7 +53,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Data-driven measures of high-frequency trading](https://arxiv.org/abs/2405.08101) - High-frequency trading (HFT) accounts for almost half of equity trading volume, yet it is not identified in public data.
 - [Interpretable ML for High-Frequency Execution](https://arxiv.org/abs/2307.04863) - Order placement tactics play a crucial role in high-frequency trading algorithms and their design is based on understanding the dynamics of the order book.
 
-### A4. Market Microstructure (73)
+### A4. Market Microstructure (74)
 
 
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
@@ -84,6 +84,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [OpenMarket: A Synchronized Polymarket-Binance Dataset for High-Frequency Prediction-Market Research](https://arxiv.org/abs/2607.26245) - OpenMarket began as an attempt to trade Polymarket's BTC 15-minute binary markets against Binance BTC/USDT order flow.
 - [Fast Agent-Based Simulation Framework with Applications to Reinforcement Learning and the Study of Trading Latency Effects](https://arxiv.org/abs/2008.07871) - We introduce a new software toolbox for agent-based simulation.
 - [Learning who is in the market from time series: market participant discovery through adversarial calibration of multi-agent simulators](https://arxiv.org/abs/2108.00664) - In electronic trading markets often only the price or volume time series, that result from interaction of multiple market participants, are directly observable.
+- [Optimal market making with persistent order flow](https://arxiv.org/abs/2003.05958) - \noindent We address the issue of market making on electronic markets when taking into account the clustering and long memory properties of market order flows.
 - [Loss-Versus-Rebalancing under Deterministic and Generalized block-times](https://arxiv.org/abs/2505.05113) - Although modern blockchains almost universally produce blocks at fixed intervals, existing models still lack an analytical formula for the loss-versus-rebalancing (LVR) incurred by Automated Market Makers (AMMs).
 - [Public Trader Identity: Adverse Selection and Return Predictability](https://arxiv.org/abs/2608.04373) - Informed traders are supposed to need anonymity: they profit by hiding among the uninformed.
 - [When is cross impact relevant?](https://arxiv.org/abs/2305.16915) - Trading pressure from one asset can move the price of another, a phenomenon referred to as cross impact.
@@ -133,7 +134,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 
 ## B. Quantitative Trading (Statistics-Based)
 
-### B1. Factor Investing (38)
+### B1. Factor Investing (39)
 
 
 - [Propose, Don&#39;t Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors](https://arxiv.org/abs/2609.27051) - Language-model agents now run the whole of quantitative factor research: they propose investment factors, backtest them, select the survivors and retire them.
@@ -167,6 +168,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Network Momentum across Asset Classes](https://arxiv.org/abs/2308.11294) - We investigate the concept of network momentum, a novel trading signal derived from momentum spillover across assets.
 - [Towards Evology: a Market Ecology Agent-Based Model of US Equity Mutual Funds](https://arxiv.org/abs/2210.11344) - The profitability of various investment styles in investment funds depends on macroeconomic conditions.
 - [Financial factors selection with knockoffs: fund replication, explanatory and prediction networks](https://arxiv.org/abs/2103.05921) - We apply the knockoff procedure to factor selection in finance.
+- [Equity Factors: To Short Or Not To Short, That Is The Question](https://arxiv.org/abs/2003.10419) - What is the best market-neutral implementation of classical Equity Factors?
 - [Identifying Risk Variables From Raw ESG Data Using Its Hierarchical Structure](https://arxiv.org/abs/2508.18679) - Environmental, Social, and Governance (ESG) data provides non-financial insights into corporations.
 - [The Price of Permission: Classification Uncertainty in Constrained Capital Markets](https://arxiv.org/abs/2608.12634) - Shariah-compliant equity screening provides a transparent setting in which institutional rules determine who may own a stock.
 - [Not All Factors Crowd Equally: Modeling, Measuring, and Trading on Alpha Decay](https://arxiv.org/abs/2512.11913) - We derive a specific functional form for factor alpha decay -- hyperbolic decay alpha(t) = K/(1+lambda*t) -- from a game-theoretic equilibrium model, and test it against linear and exponential alternatives.
@@ -190,7 +192,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Bertram's Pairs Trading Strategy with Bounded Risk](https://arxiv.org/abs/2102.04160) - Finding Bertram's optimal trading strategy for a pair of cointegrated assets following the Ornstein--Uhlenbeck price difference process can be formulated as an unconstrained convex optimization problem for.
 - [Stochastic arbitrage with market index options](https://arxiv.org/abs/2207.00949) - Opportunities for stochastic arbitrage in an options market arise when it is possible to construct a portfolio of options which provides a positive option premium and which, when combined with a direct investment in.
 
-### B3. Portfolio Optimization (238)
+### B3. Portfolio Optimization (241)
 
 **S-tier**
 
@@ -243,6 +245,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Implementation Risk in Portfolio Backtesting: A Previously Unquantified Source of Error](https://arxiv.org/abs/2603.20319) - Portfolio backtesting is the primary tool for evaluating investment strategies before deployment, yet practitioners implicitly assume that different engines produce identical results for the same strategy.
 - [Mean-Field Liquidation Games with Market Drop-out](https://arxiv.org/abs/2303.05783) - We consider a novel class of portfolio liquidation games with market drop-out ("absorption").
 - [Distributionally Robust Martingale Optimal Transport](https://arxiv.org/abs/2106.07191) - We study the problem of bounding path-dependent expectations (within any finite time horizon $d$) over the class of discrete-time martingales whose marginal distributions lie within a prescribed tolerance of a given.
+- [Relative Arbitrage: Sharp Time Horizons and Motion by Curvature](https://arxiv.org/abs/2003.13601) - We characterize the minimal time horizon over which any equity market with $d \geq 2$ stocks and sufficient intrinsic volatility admits relative arbitrage with respect to the market portfolio.
 - [Ensembling Portfolio Strategies for Long-Term Investments: A Distribution-Free Preference Framework for Decision-Making and Algorithms](https://arxiv.org/abs/2406.03652) - This paper investigates the problem of ensembling multiple strategies for sequential portfolios to outperform individual strategies in terms of long-term wealth.
 - [Neural networks can detect model-free static arbitrage strategies](https://arxiv.org/abs/2306.16422) - In this paper we demonstrate both theoretically as well as numerically that neural networks can detect model-free static arbitrage opportunities whenever the market admits some.
 - [Optimizing Expected Shortfall under an $\ell_1$ constraint -- an analytic approach](https://arxiv.org/abs/2103.04375) - Expected Shortfall (ES), the average loss above a high quantile, is the current financial regulatory market risk measure.
@@ -264,6 +267,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Finance-Informed Neural Network: Learning the Geometry of Option Pricing](https://arxiv.org/abs/2412.12213) - We propose a Finance-Informed Neural Network (FINN) for option pricing and hedging that integrates financial theory directly into machine learning.
 - [Covariance matrix filtering and portfolio optimisation: the Average Oracle vs Non-Linear Shrinkage and all the variants of DCC-NLS](https://arxiv.org/abs/2309.17219) - The Average Oracle, a simple and very fast covariance filtering method, is shown to yield superior Sharpe ratios than the current state-of-the-art (and complex) methods, Dynamic Conditional Covariance coupled to.
 - [Risk Parity Portfolios with Skewness Risk: An Application to Factor Investing and Alternative Risk Premia](https://arxiv.org/abs/2202.10721) - This article develops a model that takes into account skewness risk in risk parity portfolios.
+- [Covariance matrix filtering with bootstrapped hierarchies](https://arxiv.org/abs/2003.05807) - Statistical inference of the dependence between objects often relies on covariance matrices.
 - [Functionally Generated Portfolios Under Stochastic Transaction Costs: Theory and Empirical Evidence](https://arxiv.org/abs/2507.09196) - Assuming frictionless trading, classical stochastic portfolio theory (SPT) provides relative arbitrage strategies.
 - [A Practical Guide to Simulating Correlated Binary Outcomes](https://arxiv.org/abs/2607.16801) - Simulating dependent Bernoulli outcomes with prescribed means and pairwise Pearson correlations is a common task in risk modeling.
 - [When to efficiently rebalance a portfolio](https://arxiv.org/abs/2308.08745) - A constant weight asset allocation is a popular investment strategy and is optimal under a suitable continuous model.
@@ -321,6 +325,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Calibration of Local Volatility Models with Stochastic Interest Rates using Optimal Transport](https://arxiv.org/abs/2305.00200) - We develop a non-parametric, semimartingale optimal transport, calibration methodology for local volatility models with stochastic interest rate.
 - [Model-free Portfolio Theory: A Rough Path Approach](https://arxiv.org/abs/2109.01843) - Based on a rough path foundation, we develop a model-free approach to stochastic portfolio theory (SPT).
 - [Equilibrium stochastic control with implicitly defined objective functions](https://arxiv.org/abs/2312.15173) - This paper considers a class of stochastic control problems with implicitly defined objective functions, which are the sources of time-inconsistency.
+- [Equations and Shape of the Optimal Band Strategy](https://arxiv.org/abs/2003.04646) - We consider the problem of the optimal trading strategy in the presence of a price predictor, linear trading costs and a quadratic risk control.
 - [Sample Average Approximation for Portfolio Optimization under CVaR constraint in an (re)insurance context](https://arxiv.org/abs/2410.10239) - We consider optimal allocation problems with Conditional Value-At-Risk (CVaR) constraint.
 - [Mean-Variance Investment and Risk Control Strategies -- A Time-Consistent Approach via A Forward Auxiliary Process](https://arxiv.org/abs/2101.03954) - We consider an optimal investment and risk control problem for an insurer under the mean-variance (MV) criterion.
 - [Sparse High-Order Portfolios via Proximal DCA and SCA](https://arxiv.org/abs/2008.12953) - In this paper, we aim at solving the cardinality constrained high-order portfolio optimization, i.e., mean-variance-skewness-kurtosis model with cardinality constraint (MVSKC).
