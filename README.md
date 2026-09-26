@@ -76,7 +76,7 @@ The highest-scoring papers across all domains:
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · transaction cost; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · market impact; machine learning · graph neural network · systemic risk; stochastic control · backward stochastic differential equation · mean field game; factor model · deep neural network · statistical arbitrage; electricity price forecasting · online learning · probabilistic forecasting.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · transaction cost; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · market making; machine learning · graph neural network · systemic risk; stochastic control · backward stochastic differential equation · mean field game; factor model · clustering · statistical arbitrage; electricity price forecasting · online learning · probabilistic forecasting.
 
 ## Contributing
 
