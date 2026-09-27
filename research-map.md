@@ -45,10 +45,10 @@ Co-occurrence graph of methods/concepts, partitioned by modularity:
 3. **large language model · transformer · sentiment analysis**
 4. **limit order book · liquidity provision · market making**
 5. **machine learning · graph neural network · systemic risk**
-6. **stochastic control · backward stochastic differential equation · mean field game**
-7. **factor model · clustering · statistical arbitrage**
-8. **electricity price forecasting · online learning · probabilistic forecasting**
+6. **stochastic control · mean field game · backward stochastic differential equation**
+7. **electricity price forecasting · online learning · probabilistic forecasting**
+8. **deep neural network · statistical arbitrage · linear programming**
 9. **market efficiency · trend following · autocorrelation**
-10. **deep neural network · stochastic optimization · linear programming**
-11. **dependence structure · correlation · universal approximation**
+10. **dependence structure · correlation · universal approximation**
+11. **topological data analysis · index tracking · sparse portfolio**
 12. **representation learning · self supervised learning · contrastive learning**
