@@ -40,15 +40,15 @@ analysis (2832), portfolio (1221), prediction (1109), risk (835), other (343), e
 
 Co-occurrence graph of methods/concepts, partitioned by modularity:
 
-1. **reinforcement learning · portfolio optimization · transaction cost**
+1. **reinforcement learning · portfolio optimization · stochastic control**
 2. **deep learning · neural network · option pricing**
 3. **large language model · transformer · sentiment analysis**
 4. **limit order book · liquidity provision · market making**
 5. **machine learning · graph neural network · systemic risk**
-6. **stochastic control · mean field game · backward stochastic differential equation**
+6. **factor model · clustering · statistical arbitrage**
 7. **electricity price forecasting · online learning · probabilistic forecasting**
-8. **deep neural network · statistical arbitrage · linear programming**
-9. **market efficiency · trend following · autocorrelation**
-10. **dependence structure · correlation · universal approximation**
-11. **topological data analysis · index tracking · sparse portfolio**
-12. **representation learning · self supervised learning · contrastive learning**
+8. **mean field game · forward backward stochastic differential equation · nash equilibrium**
+9. **wasserstein distance · distributionally robust optimization · optimal transport**
+10. **market efficiency · trend following · autocorrelation**
+11. **deep neural network · stochastic optimization · linear programming**
+12. **dependence structure · correlation · universal approximation**
