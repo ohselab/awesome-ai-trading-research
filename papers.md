@@ -1,6 +1,6 @@
 # S/A-Tier Paper Curation
 
-> Human-approved curation of the top **782** papers (S and A tier) from the live KB. Updated 2026-09-29.
+> Human-approved curation of the top **787** papers (S and A tier) from the live KB. Updated 2026-09-29.
 
 Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (strong). Tiers come from a 0–100 weighted 5-dimension score; the published selection is reviewed and approved by a human curator.
 
@@ -53,7 +53,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Data-driven measures of high-frequency trading](https://arxiv.org/abs/2405.08101) - High-frequency trading (HFT) accounts for almost half of equity trading volume, yet it is not identified in public data.
 - [Interpretable ML for High-Frequency Execution](https://arxiv.org/abs/2307.04863) - Order placement tactics play a crucial role in high-frequency trading algorithms and their design is based on understanding the dynamics of the order book.
 
-### A4. Market Microstructure (76)
+### A4. Market Microstructure (77)
 
 
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
@@ -73,6 +73,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [When Frictions are Fractional: Rough Noise in High-Frequency Data](https://arxiv.org/abs/2106.16149) - The analysis of high-frequency financial data is often impeded by the presence of noise.
 - [How to build a cross-impact model from first principles: Theoretical requirements and empirical results](https://arxiv.org/abs/2004.01624) - Trading a financial instrument pushes its price and those of other assets, a phenomenon known as cross-impact.
 - [Don't Let MEV Slip: The Costs of Swapping on the Uniswap Protocol](https://arxiv.org/abs/2309.13648) - We present the first in-depth empirical characterization of the costs of trading on a decentralized exchange (DEX).
+- [Zooming In on Equity Factor Crowding](https://arxiv.org/abs/2001.04185) - Crowding is most likely an important factor in the deterioration of strategy performance, the increase of trading costs and the development of systemic risk.
 - [Exponential Kernels with Latency in Hawkes Processes: Applications in Finance](https://arxiv.org/abs/2101.06348) - The Tick library allows researchers in market microstructure to simulate and learn Hawkes process in high-frequency data, with optimized parametric and non-parametric learners.
 - [RED-2400: A Public Benchmark of Algorithmically-Rejected Trading Events with Outcome Labels](https://arxiv.org/abs/2605.12151) - RED-2400 is a public benchmark of 6,660 algorithmically-rejected trading events from a live Solana decentralised-exchange filter stack, observed continuously over 22 calendar days (2026-04-10T21:10Z through.
 - [Quantifying Price Improvement in Order Flow Auctions](https://arxiv.org/abs/2405.00537) - This work introduces a framework for evaluating onchain order flow auctions (OFAs), emphasizing the metric of price improvement.
@@ -192,7 +193,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Stochastic arbitrage with market index options](https://arxiv.org/abs/2207.00949) - Opportunities for stochastic arbitrage in an options market arise when it is possible to construct a portfolio of options which provides a positive option premium and which, when combined with a direct investment in.
 - [The Fair Basis: Funding and capital in the reduced form framework](https://arxiv.org/abs/2002.08531) - A negative basis trade enters a long bond position and buys protection on the issuer of the bond through credit default swap (CDS), aiming at arbitrage profit due to the bond-CDS basis.
 
-### B3. Portfolio Optimization (247)
+### B3. Portfolio Optimization (248)
 
 **S-tier**
 
@@ -296,6 +297,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [The law of one price in quadratic hedging and mean-variance portfolio selection](https://arxiv.org/abs/2210.15613) - The law of one price (LOP) broadly asserts that identical financial flows should command the same price.
 - [Hedging under rough volatility](https://arxiv.org/abs/2105.04073) - In this chapter we first briefly review the existing approaches to hedging in rough volatility models.
 - [Time-inconsistent Markovian control problems under model uncertainty with application to the mean-variance portfolio selection](https://arxiv.org/abs/2002.02604) - In this paper we study a class of time-inconsistent terminal Markovian control problems in discrete time subject to model uncertainty.
+- [Cross Currency Valuation and Hedging in the Multiple Curve Framework](https://arxiv.org/abs/2001.11012) - We generalize the results of Bielecki and Rutkowski (2015) on funding and collateralization to a multi-currency framework and link their results with those of Piterbarg (2012), Moreni and Pallavicini (2017), and.
 - [On a multivariate extension for Copula-based Conditional Value at Risk](https://arxiv.org/abs/2508.16132) - Copula-based Conditional Value at Risk (CCVaR) is defined as an alternative version of the classical Conditional Value at Risk (CVaR) for multivariate random vectors intended to be real-valued.
 - [Robustness or Crowding: Experimental Design for Trading Strategy Capacity](https://arxiv.org/abs/2608.08405) - How much capital a trading strategy can absorb before its edge disappears is a causal question about how much is deployed, but it is answered with observational proxies that rest on incompatible assumptions.
 - [Portfolio Construction with Gaussian Mixture Returns and Exponential Utility via Convex Optimization](https://arxiv.org/abs/2205.04563) - We consider the problem of choosing an optimal portfolio, assuming the asset returns have a Gaussian mixture (GM) distribution, with the objective of maximizing expected exponential utility.
@@ -447,7 +449,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Markowitz portfolio selection for multivariate affine and quadratic Volterra models](https://arxiv.org/abs/2006.13539) - This paper concerns portfolio selection with multiple assets under rough covariance matrix.
 - [Reactive Global Minimum Variance Portfolios with $k-$BAHC covariance cleaning](https://arxiv.org/abs/2005.08703) - We introduce a $k$-fold boosted version of our Boostrapped Average Hierarchical Clustering cleaning procedure for correlation and covariance matrices.
 
-### B4. Financial Econometrics (166)
+### B4. Financial Econometrics (168)
 
 
 - [Volatility has to be rough](https://arxiv.org/abs/2002.09215) - First, we give an asymptotic expansion of short-dated at-the-money implied volatility that refines the preceding works and proves in particular that non-rough volatility models are inconsistent to a power law of.
@@ -532,6 +534,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Fat Tails and Black Swans: Exact Results for Multiplicative Processes with Resets](https://arxiv.org/abs/2105.11679) - We consider a class of multiplicative processes which, added with stochastic reset events, give origin to stationary distributions with power-law tails -- ubiquitous in the statistics of social, economic, and.
 - [The Market Price of Risk for Delivery Periods: Pricing Swaps and Options in Electricity Markets](https://arxiv.org/abs/2002.07561) - In electricity markets, futures contracts typically function as a swap since they deliver the underlying over a period of time.
 - [Strikingly Suspicious Overnight and Intraday Returns](https://arxiv.org/abs/2010.01727) - The world's stock markets display a strikingly suspicious pattern of overnight and intraday returns.
+- [Nonparametric Pricing and Hedging of Volatility Swaps in Stochastic Volatility Models](https://arxiv.org/abs/2001.02404) - In this paper the zero vanna implied volatility approximation for the price of freshly minted volatility swaps is generalised to seasoned volatility swaps.
 - [Heath-Jarrow-Morton meet lifted Heston in energy markets for joint historical and implied calibration](https://arxiv.org/abs/2501.05975) - In energy markets, joint historical and implied calibration is of paramount importance for practitioners, yet notoriously challenging due to the need to align historical correlations of futures contracts with implied.
 - [Model Risk via Signature-Induced Optimal Transport](https://arxiv.org/abs/2607.20343) - We propose a signature-induced, optimal transport framework for path-space model risk, in which ambiguity between stochastic path laws is factorized through optimal transport costs on signature coordinates under a.
 - [The Econometrics of Financial Duration Modeling](https://arxiv.org/abs/2208.02098) - We establish new results for estimation and inference in financial durations models, where events are observed over a given time span, such as a trading day, or a week.
@@ -596,6 +599,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [In-Sample and Out-of-Sample Sharpe Ratios for Linear Predictive Models](https://arxiv.org/abs/2501.03938) - We study how much the in-sample performance of trading strategies based on linear predictive models is reduced out-of-sample due to overfitting.
 - [Weak error estimates for rough volatility models](https://arxiv.org/abs/2212.01591) - We consider a class of stochastic processes with rough stochastic volatility, examples of which include the rough Bergomi and rough Stein-Stein model, that have gained considerable importance in quantitative finance.
 - [Credit spread approximation and improvement using random forest regression](https://arxiv.org/abs/2106.07358) - Credit Default Swap (CDS) levels provide a market appreciation of companies' default risk.
+- [The quadratic rough Heston model and the joint S&P 500/VIX smile calibration problem](https://arxiv.org/abs/2001.01789) - Fitting simultaneously SPX and VIX smiles is known to be one of the most challenging problems in volatility modeling.
 - [Proof-of-Stake Dynamics: The Elusive Price Anchor and Endogenous Volatility Harvesting](https://arxiv.org/abs/2607.16622) - In this paper, we develop an open-economy macroeconomic model of a Proof-of-Stake network to analyze nominal token-price dynamics and the systemic effects of speculative capital.
 - [Weak Markovian Approximations of Rough Heston](https://arxiv.org/abs/2309.07023) - The rough Heston model is a very popular recent model in mathematical finance; however, the lack of Markov and semimartingale properties poses significant challenges in both theory and practice.
 - [Neural Generalised AutoRegressive Conditional Heteroskedasticity](https://arxiv.org/abs/2202.11285) - We propose Neural GARCH, a class of methods to model conditional heteroskedasticity in financial time series.
@@ -703,7 +707,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Risk-Sensitive Markov Decision Processes with Long-Run CVaR Criterion](https://arxiv.org/abs/2210.08740) - CVaR (Conditional Value at Risk) is a risk metric widely used in finance.
 - [Regret Bounds for Risk-Sensitive Reinforcement Learning](https://arxiv.org/abs/2210.05650) - In safety-critical applications of reinforcement learning such as healthcare and robotics, it is often desirable to optimize risk-sensitive objectives that account for tail outcomes rather than expected reward.
 
-### C3. NLP / Sentiment Analysis (50)
+### C3. NLP / Sentiment Analysis (51)
 
 
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
@@ -729,6 +733,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Generative AI, Managerial Expectations, and Economic Activity](https://arxiv.org/abs/2410.03897) - We use generative AI to extract managerial expectations about their economic outlook from 120,000+ corporate conference call transcripts.
 - [Assessing Look-Ahead Bias in Stock Return Predictions Generated By GPT Sentiment Analysis](https://arxiv.org/abs/2309.17322) - Large language models (LLMs), including ChatGPT, can extract profitable trading signals from the sentiment in news text.
 - [Won: Establishing Best Practices for Korean Financial NLP](https://arxiv.org/abs/2503.17963) - In this work, we present the first open leaderboard for evaluating Korean large language models focused on finance.
+- [From Stock Prediction to Financial Relevance: Repurposing Attention Weights to Assess News Relevance Without Manual Annotations](https://arxiv.org/abs/2001.09466) - We present a method to automatically identify financially relevant news using stock price movements and news headlines as input.
 - [From Transcripts to Insights: Uncovering Corporate Risks Using Generative AI](https://arxiv.org/abs/2310.17721) - We explore the value of generative AI tools, such as ChatGPT, in helping investors uncover dimensions of corporate risk.
 - [FinBen: A Holistic Financial Benchmark for Large Language Models](https://arxiv.org/abs/2402.12659) - LLMs have transformed NLP and shown promise in various fields, yet their potential in finance is underexplored due to a lack of comprehensive evaluation benchmarks, the rapid development of LLMs, and the complexity.
 - [A Scalable and Adaptive System to Infer the Industry Sectors of Companies: Prompt + Model Tuning of Generative Language Models](https://arxiv.org/abs/2306.03313) - The Private Equity (PE) firms operate investment funds by acquiring and managing companies to achieve a high return upon selling.
