@@ -1,6 +1,6 @@
 # S/A-Tier Paper Curation
 
-> Human-approved curation of the top **797** papers (S and A tier) from the live KB. Updated 2026-09-30.
+> Human-approved curation of the top **800** papers (S and A tier) from the live KB. Updated 2026-09-30.
 
 Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (strong). Tiers come from a 0–100 weighted 5-dimension score; the published selection is reviewed and approved by a human curator.
 
@@ -455,7 +455,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Statistical Learning with Conditional Value at Risk](https://arxiv.org/abs/2002.05826) - We propose a risk-averse statistical learning framework wherein the performance of a learning algorithm is evaluated by the conditional value-at-risk (CVaR) of losses rather than the expected loss.
 - [Supermartingale deflators in the absence of a numéraire](https://arxiv.org/abs/2001.05906) - In this paper we study arbitrage theory of financial markets in the absence of a numéraire both in discrete and continuous time.
 
-### B4. Financial Econometrics (170)
+### B4. Financial Econometrics (173)
 
 
 - [Forecasting day-ahead electricity prices: A review of state-of-the-art algorithms, best practices and an open-access benchmark](https://arxiv.org/abs/2008.08004) - While the field of electricity price forecasting has benefited from plenty of contributions in the last two decades, it arguably lacks a rigorous approach to evaluating new predictive algorithms.
@@ -544,6 +544,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Model Risk via Signature-Induced Optimal Transport](https://arxiv.org/abs/2607.20343) - We propose a signature-induced, optimal transport framework for path-space model risk, in which ambiguity between stochastic path laws is factorized through optimal transport costs on signature coordinates under a.
 - [The Econometrics of Financial Duration Modeling](https://arxiv.org/abs/2208.02098) - We establish new results for estimation and inference in financial durations models, where events are observed over a given time span, such as a trading day, or a week.
 - [Dynamic functional time-series forecasts of foreign exchange implied volatility surfaces](https://arxiv.org/abs/2107.14026) - This paper presents static and dynamic versions of univariate, multivariate, and multilevel functional time-series methods to forecast implied volatility surfaces in foreign exchange markets.
+- [Pricing FX Options under Intermediate Currency](https://arxiv.org/abs/1912.01387) - We suggest an intermediate currency approach that allows us to price options on all FX markets simultaneously under the same risk-neutral measure which ensures consistency of FX option prices across all markets.
 - [Sharp Large Deviations and Gibbs Conditioning for Threshold Models in Portfolio Credit Risk](https://arxiv.org/abs/2509.19151) - We obtain sharp large deviation estimates for exceedance probabilities in dependent triangular array threshold models with a diverging number of latent factors.
 - [Probabilistic Predictions of Option Prices with Modular Approximate Bayesian Inference](https://arxiv.org/abs/2412.00658) - A new approximate Bayesian inferential framework is proposed that exploits multiple information sources -- daily spot returns, high-frequency spot data and option prices -- and enables fast calculation of.
 - [Path-dependent PDEs for volatility derivatives](https://arxiv.org/abs/2311.08289) - We regard options on VIX and Realised Variance as solutions to path-dependent partial differential equations (PDEs) in a continuous stochastic volatility model.
@@ -566,6 +567,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Sparse modeling approach to the arbitrage-free interpolation of plain-vanilla option prices and implied volatilities](https://arxiv.org/abs/2205.10865) - We present a method for the arbitrage-free interpolation of plain-vanilla option prices and implied volatilities, which is based on a system of integral equations that relates terminal density and option prices.
 - [From Rough to Multifractal volatility: the log S-fBM model](https://arxiv.org/abs/2201.09516) - We introduce a family of random measures $M_{H,T} (d t)$, namely log S-fBM, such that, for $H>0$, $M_{H,T}(d t) = e^{ω_{H,T}(t)} d t$ where $ω_{H,T}(t)$ is a Gaussian process that can be considered as a stationary.
 - [Simulation of the drawdown and its duration in Lévy models via stick-breaking Gaussian approximation](https://arxiv.org/abs/2011.06618) - We develop a computational method for expected functionals of the drawdown and its duration in exponential Lévy models.
+- [On the uniqueness of solutions of stochastic Volterra equations](https://arxiv.org/abs/1912.05917) - We prove strong existence and uniqueness, and Hölder regularity, of a large class of stochastic Volterra equations, with singular kernels and non-Lipschitz diffusion coefficient.
 - [Estimating the Stochastic Discount Factor from Option Prices and Predicting the Equity Premium](https://arxiv.org/abs/2607.08500) - This paper proposes a stochastic discount factor (SDF) scaled by time-varying volatility.
 - [Simulation-based Forecasting for Intraday Power Markets: Modelling Fundamental Drivers for Location, Shape and Scale of the Price Distribution](https://arxiv.org/abs/2211.13002) - During the last years, European intraday power markets have gained importance for balancing forecast errors due to the rising volumes of intermittent renewable generation.
 - [150 Years of Return Predictability Around the World: A Holistic View](https://arxiv.org/abs/2209.00121) - Using new annual data of 16 developed countries across bond, equity, and housing markets, I study the return predictability using the payout-price ratios, i.e., coupon price, dividend price, and rent price.
@@ -615,6 +617,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Explicit no arbitrage domain for sub-SVIs via reparametrization](https://arxiv.org/abs/2106.02418) - The no Butterfly arbitrage domain of Gatheral SVI 5-parameters formula for the volatility smile has been recently described.
 - [Long vs Short Time Scales: the Rough Dilemma and Beyond](https://arxiv.org/abs/2008.07822) - Using a large dataset on major FX rates, we test the robustness of the rough fractional volatility model over different time scales, by including smoothing and measurement errors into the analysis.
 - [Credit migration: Generating generators](https://arxiv.org/abs/2006.11146) - Markovian credit migration models are a reasonably standard tool nowadays, but there are fundamental difficulties with calibrating them.
+- [A Dynamic Default Contagion Model: From Eisenberg-Noe to the Mean Field](https://arxiv.org/abs/1912.08695) - In this work we introduce a model of default contagion that combines the approaches of Eisenberg-Noe interbank networks and dynamic mean field interactions.
 - [Long memory score-driven models as approximations for rough Ornstein-Uhlenbeck processes](https://arxiv.org/abs/2509.09105) - This paper investigates the continuous-time limit of score-driven models with long memory.
 - [Forecasting Realized Volatility with Time Series Foundation Models: A Comparison with Econometric Benchmarks](https://arxiv.org/abs/2607.05291) - We ask whether pretrained time series foundation models (TSFMs) improve on established econometric benchmarks for forecasting realized volatility.
 - [Criteria for the absence of arbitrage in general diffusion markets](https://arxiv.org/abs/2306.11470) - We establish deterministic necessary and sufficient conditions for the no-arbitrage notions NA ("no arbitrage"), NUPBR ("no unbounded profit with bounded risk") and NFLVR ("no free lunch with vanishing risk") in.
