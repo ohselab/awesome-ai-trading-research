@@ -1,6 +1,6 @@
 # S/A-Tier Paper Curation
 
-> Human-approved curation of the top **793** papers (S and A tier) from the live KB. Updated 2026-09-30.
+> Human-approved curation of the top **797** papers (S and A tier) from the live KB. Updated 2026-09-30.
 
 Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (strong). Tiers come from a 0–100 weighted 5-dimension score; the published selection is reviewed and approved by a human curator.
 
@@ -55,7 +55,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Data-driven measures of high-frequency trading](https://arxiv.org/abs/2405.08101) - High-frequency trading (HFT) accounts for almost half of equity trading volume, yet it is not identified in public data.
 - [Interpretable ML for High-Frequency Execution](https://arxiv.org/abs/2307.04863) - Order placement tactics play a crucial role in high-frequency trading algorithms and their design is based on understanding the dynamics of the order book.
 
-### A4. Market Microstructure (76)
+### A4. Market Microstructure (78)
 
 
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
@@ -64,6 +64,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Quantifying Sub-Optimality in Routing for Automated Market Makers](https://arxiv.org/abs/2607.20762) - We provide a large-scale empirical audit of DEX routing using 2.98 million WETH-USDC swaps on Ethereum.
 - [Automated Market Making and Loss-Versus-Rebalancing](https://arxiv.org/abs/2208.06046) - We consider the market microstructure of automated market makers (AMMs) from the perspective of liquidity providers (LPs).
 - [The Design and Regulation of Exchanges: A Formal Approach](https://arxiv.org/abs/2210.05447) - We use formal methods to specify, design, and monitor continuous double auctions, which are widely used to match buyers and sellers at exchanges of foreign currencies, stocks, and commodities.
+- [Portfolio liquidation under transient price impact -- theoretical solution and implementation with 100 NASDAQ stocks](https://arxiv.org/abs/1912.06426) - We derive an explicit solution for deterministic market impact parameters in the Graewe and Horst (2017) portfolio liquidation model.
 - [Nonparametric Estimation of Self- and Cross-Impact](https://arxiv.org/abs/2510.06879) - We introduce an offline nonparametric estimator for concave multi-asset propagator models based on a dataset of correlated price trajectories and metaorders.
 - [Autodeleveraging: Impossibilities and Optimization](https://arxiv.org/abs/2512.01112) - Autodeleveraging (ADL) is a last-resort loss socialization mechanism for perpetual futures venues.
 - [Generative AI for End-to-End Limit Order Book Modelling: A Token-Level Autoregressive Generative Model of Message Flow Using a Deep State Space Network](https://arxiv.org/abs/2309.00638) - Developing a generative model of realistic order flow in financial markets is a challenging open problem, with numerous applications for market participants.
@@ -116,6 +117,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Optimal liquidation with temporary and permanent price impact, an application to cryptocurrencies](https://arxiv.org/abs/2303.10043) - This paper studies the optimal liquidation of stocks in the presence of temporary and permanent price impacts, and we focus in the case of cryptocurrencies.
 - [Is Trend Still Your Friend?: A Microstructural Account of the Demise of Short-Term Trend-Following](https://arxiv.org/abs/2607.01550) - Systematic trend following has, on average, been profitable for at least two centuries; yet since approximately 2009, short-term trends have ceased to deliver reliable returns.
 - [Jump detection in high-frequency order prices](https://arxiv.org/abs/2403.00819) - We propose methods to infer jumps of a semi-martingale, which describes long-term price dynamics, based on discrete, noisy, high-frequency observations.
+- [Get Real: Realism Metrics for Robust Limit Order Book Market Simulations](https://arxiv.org/abs/1912.04941) - Machine learning (especially reinforcement learning) methods for trading are increasingly reliant on simulation for agent training and testing.
 - [The "double" square-root law: Evidence for the mechanical origin of market impact using Tokyo Stock Exchange data](https://arxiv.org/abs/2502.16246) - Understanding the impact of trades on prices is a crucial question for both academic research and industry practice.
 - [No Tick-Size Too Small: A General Method for Modelling Small Tick Limit Order Books](https://arxiv.org/abs/2410.08744) - Tick-sizes not only influence the granularity of the price formation process but also affect market agents' behavior.
 - [Velocity- and Regime-Aware Detection of Intraday Options Market Manipulation, with Explainable Attribution](https://arxiv.org/abs/2608.05373) - Intraday market manipulation is hard to detect because its footprint is brief, buried in millions of quotes, and statistically similar to ordinary volatility.
@@ -194,7 +196,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Bertram's Pairs Trading Strategy with Bounded Risk](https://arxiv.org/abs/2102.04160) - Finding Bertram's optimal trading strategy for a pair of cointegrated assets following the Ornstein--Uhlenbeck price difference process can be formulated as an unconstrained convex optimization problem for.
 - [Stochastic arbitrage with market index options](https://arxiv.org/abs/2207.00949) - Opportunities for stochastic arbitrage in an options market arise when it is possible to construct a portfolio of options which provides a positive option premium and which, when combined with a direct investment in.
 
-### B3. Portfolio Optimization (250)
+### B3. Portfolio Optimization (251)
 
 **S-tier**
 
@@ -337,6 +339,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [A pure dual approach for hedging Bermudan options](https://arxiv.org/abs/2404.18761) - This paper develops a new dual approach to compute the hedging portfolio of a Bermudan option and its initial value.
 - [Rethinking Synthetic Scenario Realism: Compatibility, Not Fidelity, Drives Hedging Performance](https://arxiv.org/abs/2608.20842) - Deep hedging is a data-driven approach to learn hedging strategies.
 - [Portfolio Construction as Linearly Constrained Separable Optimization](https://arxiv.org/abs/2103.05455) - Mean-variance portfolio optimization problems often involve separable nonconvex terms, including penalties on capital gains, integer share constraints, and minimum position and trade sizes.
+- [Leakage of rank-dependent functionally generated trading strategies](https://arxiv.org/abs/1912.04221) - This paper investigates the so-called leakage effect of trading strategies generated functionally from rank-dependent portfolio generating functions.
 - [Unified Approach for Hedging Impermanent Loss of Liquidity Provision](https://arxiv.org/abs/2407.05146) - We develop static and dynamic approaches for hedging of the impermanent loss (IL) of liquidity provision (LP) staked at Decentralised Exchanges (DEXes) which employ Uniswap V2 and V3 protocols.
 - [Construction and Hedging of Equity Index Options Portfolios](https://arxiv.org/abs/2407.13908) - This research presents a comprehensive evaluation of systematic index option-writing strategies, focusing on S&P500 index options.
 - [Mod-Poisson approximation schemes: Applications to credit risk](https://arxiv.org/abs/2211.04436) - We introduce a new numerical approximation method for functionals of factor credit portfolio models based on the theory of mod-$φ$ convergence and mod-$φ$ approximation schemes.
@@ -452,7 +455,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Statistical Learning with Conditional Value at Risk](https://arxiv.org/abs/2002.05826) - We propose a risk-averse statistical learning framework wherein the performance of a learning algorithm is evaluated by the conditional value-at-risk (CVaR) of losses rather than the expected loss.
 - [Supermartingale deflators in the absence of a numéraire](https://arxiv.org/abs/2001.05906) - In this paper we study arbitrage theory of financial markets in the absence of a numéraire both in discrete and continuous time.
 
-### B4. Financial Econometrics (169)
+### B4. Financial Econometrics (170)
 
 
 - [Forecasting day-ahead electricity prices: A review of state-of-the-art algorithms, best practices and an open-access benchmark](https://arxiv.org/abs/2008.08004) - While the field of electricity price forecasting has benefited from plenty of contributions in the last two decades, it arguably lacks a rigorous approach to evaluating new predictive algorithms.
@@ -584,6 +587,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Fast, Reliable, and Error-Bounded Option Pricing with Pretrained Neural Networks: A GJR--GARCH Study](https://arxiv.org/abs/2606.15502) - Many models in quantitative finance have no closed-form option prices and rely on slow, noisy Monte Carlo simulation; neural surrogates restore speed but offer no error guarantees.
 - [Innovative Extensions to Option Pricing: Asymmetric Brownian Motion and Random Walk Approaches](https://arxiv.org/abs/2606.22293) - Classical option pricing models, such as Bachelier and Black--Scholes--Merton, postulate symmetric Brownian diffusion, which limits their capacity to reflect empirical phenomena including return skewness, heavy.
 - [Ito-Wentzell Formula and Dupire Stochastic PDE](https://arxiv.org/abs/2607.12479) - Starting from the classic result of Wentzell, we derive a conditional forward equation and an associated stochastic Dupire PDE for a local-stochastic-volatility model (LSV).
+- [Credit Risk: Simple Closed Form Approximate Maximum Likelihood Estimator](https://arxiv.org/abs/1912.12611) - We consider discrete default intensity based and logit type reduced form models for conditional default probabilities for corporate loans where we develop simple closed form approximations to the maximum likelihood.
 - [Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most](https://arxiv.org/abs/2605.22672) - We document inverse scaling in LLMs on forecasting problems whose underlying time series exhibit superlinear growth and tail risk of regime change, a structure common in finance and epidemiology.
 - [Multivariate GARCH and portfolio variance prediction: A forecast reconciliation perspective](https://arxiv.org/abs/2603.17463) - We assess the advantage of combining univariate and multivariate portfolio risk forecasts with the aid of forecast reconciliation techniques.
 - [Beyond Correlation: Positive Definite Dependence Measures for Robust Inference, Flexible Scenarios, and Causal Modeling for Financial Portfolios](https://arxiv.org/abs/2504.15268) - We live in a multivariate world, and effective modeling of financial portfolios, including their construction, allocation, forecasting, and risk analysis, simply is not possible without explicitly modeling the.

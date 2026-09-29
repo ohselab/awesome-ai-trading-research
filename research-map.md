@@ -1,22 +1,22 @@
 # Research Map
 
-> Current-state landscape from the live KB (9838 relevant papers). Updated 2026-09-30.
+> Current-state landscape from the live KB (9888 relevant papers). Updated 2026-09-30.
 
 ## Domain Landscape
 
 | Sub-domain | Papers | Avg score | Top paper |
 |---|---|---|---|
-| A1 Technical Analysis | 54 | 47.8 | [Retail Trader&#39;s Ruin: An Anatomy of Popula](https://arxiv.org/abs/2607.20093) (70.0/A) |
-| A2 Algorithmic Trading | 627 | 49.1 | [Qlib: An AI-oriented Quantitative Investment P](https://arxiv.org/abs/2009.11189) (81.5/S) |
-| A3 High-Frequency Trading (HFT) | 104 | 54.5 | [NAPLES;Mining the lead-lag Relationship from N](https://arxiv.org/abs/2002.00724) (70.8/A) |
-| A4 Market Microstructure | 1194 | 54.3 | [JAX-LOB: A GPU-Accelerated limit order book si](https://arxiv.org/abs/2308.13289) (78.3/A) |
-| B1 Factor Investing | 296 | 55.4 | [Propose, Don&#39;t Judge: An Anytime-Valid Ref](https://arxiv.org/abs/2609.27051) (77.4/A) |
+| A1 Technical Analysis | 56 | 47.8 | [Retail Trader&#39;s Ruin: An Anatomy of Popula](https://arxiv.org/abs/2607.20093) (70.0/A) |
+| A2 Algorithmic Trading | 631 | 49.2 | [Qlib: An AI-oriented Quantitative Investment P](https://arxiv.org/abs/2009.11189) (81.5/S) |
+| A3 High-Frequency Trading (HFT) | 107 | 54.4 | [NAPLES;Mining the lead-lag Relationship from N](https://arxiv.org/abs/2002.00724) (70.8/A) |
+| A4 Market Microstructure | 1205 | 54.3 | [JAX-LOB: A GPU-Accelerated limit order book si](https://arxiv.org/abs/2308.13289) (78.3/A) |
+| B1 Factor Investing | 298 | 55.4 | [Propose, Don&#39;t Judge: An Anytime-Valid Ref](https://arxiv.org/abs/2609.27051) (77.4/A) |
 | B2 Statistical Arbitrage | 100 | 56.1 | [Short-horizon mean reversion in cryptocurrency](https://arxiv.org/abs/2608.21888) (71.4/A) |
-| B3 Portfolio Optimization | 2194 | 55.8 | [Cleaning large-dimensional covariance matrices](https://arxiv.org/abs/2107.01352) (82.5/S) |
-| B4 Financial Econometrics | 2297 | 52.9 | [Forecasting day-ahead electricity prices: A re](https://arxiv.org/abs/2008.08004) (75.3/A) |
-| C1 Deep Learning Price Prediction | 951 | 47.5 | [Kronos: A Foundation Model for the Language of](https://arxiv.org/abs/2508.02739) (76.1/A) |
+| B3 Portfolio Optimization | 2202 | 55.8 | [Cleaning large-dimensional covariance matrices](https://arxiv.org/abs/2107.01352) (82.5/S) |
+| B4 Financial Econometrics | 2310 | 52.9 | [Forecasting day-ahead electricity prices: A re](https://arxiv.org/abs/2008.08004) (75.3/A) |
+| C1 Deep Learning Price Prediction | 957 | 47.5 | [Kronos: A Foundation Model for the Language of](https://arxiv.org/abs/2508.02739) (76.1/A) |
 | C2 Reinforcement Learning Portfolio Management | 627 | 54.4 | [FinRL-Meta: A Universe of Near-Real Market Env](https://arxiv.org/abs/2112.06753) (81.0/S) |
-| C3 NLP / Sentiment Analysis | 688 | 52.4 | [TriAgent: Divergence-Aware Multi-Agent Committ](https://arxiv.org/abs/2607.19794) (78.3/A) |
+| C3 NLP / Sentiment Analysis | 689 | 52.4 | [TriAgent: Divergence-Aware Multi-Agent Committ](https://arxiv.org/abs/2607.19794) (78.3/A) |
 | C4 LLM-based Trading Agents | 528 | 54.9 | [Time Travel is Cheating: Going Live with DeepF](https://arxiv.org/abs/2505.11065) (77.2/A) |
 | C5 Generative Models / Synthetic Data | 178 | 54.9 | [CTBench: Cryptocurrency Time Series Generation](https://arxiv.org/abs/2508.02758) (78.5/A) |
 
