@@ -51,4 +51,4 @@ Co-occurrence graph of methods/concepts, partitioned by modularity:
 9. **market efficiency · trend following · autocorrelation**
 10. **online learning · regret minimization · regret**
 11. **dependence structure · correlation · universal approximation**
-12. **representation learning · self supervised learning · contrastive learning**
+12. **stationarity · stochastic volterra equation · ergodicity**
