@@ -7,13 +7,13 @@
 | Sub-domain | Papers | Avg score | Top paper |
 |---|---|---|---|
 | A1 Technical Analysis | 56 | 47.8 | [Retail Trader&#39;s Ruin: An Anatomy of Popula](https://arxiv.org/abs/2607.20093) (70.0/A) |
-| A2 Algorithmic Trading | 637 | 49.1 | [Qlib: An AI-oriented Quantitative Investment P](https://arxiv.org/abs/2009.11189) (81.5/S) |
-| A3 High-Frequency Trading (HFT) | 107 | 54.4 | [NAPLES;Mining the lead-lag Relationship from N](https://arxiv.org/abs/2002.00724) (70.8/A) |
-| A4 Market Microstructure | 1224 | 54.3 | [JAX-LOB: A GPU-Accelerated limit order book si](https://arxiv.org/abs/2308.13289) (78.3/A) |
+| A2 Algorithmic Trading | 643 | 49.2 | [Qlib: An AI-oriented Quantitative Investment P](https://arxiv.org/abs/2009.11189) (81.5/S) |
+| A3 High-Frequency Trading (HFT) | 107 | 54.5 | [NAPLES;Mining the lead-lag Relationship from N](https://arxiv.org/abs/2002.00724) (70.8/A) |
+| A4 Market Microstructure | 1226 | 54.4 | [JAX-LOB: A GPU-Accelerated limit order book si](https://arxiv.org/abs/2308.13289) (78.3/A) |
 | B1 Factor Investing | 300 | 55.3 | [Propose, Don&#39;t Judge: An Anytime-Valid Ref](https://arxiv.org/abs/2609.27051) (77.4/A) |
 | B2 Statistical Arbitrage | 101 | 56.2 | [Short-horizon mean reversion in cryptocurrency](https://arxiv.org/abs/2608.21888) (71.4/A) |
-| B3 Portfolio Optimization | 2241 | 55.8 | [Cleaning large-dimensional covariance matrices](https://arxiv.org/abs/2107.01352) (82.5/S) |
-| B4 Financial Econometrics | 2350 | 53.0 | [Forecasting day-ahead electricity prices: A re](https://arxiv.org/abs/2008.08004) (75.3/A) |
+| B3 Portfolio Optimization | 2238 | 55.8 | [Cleaning large-dimensional covariance matrices](https://arxiv.org/abs/2107.01352) (82.5/S) |
+| B4 Financial Econometrics | 2345 | 52.9 | [Forecasting day-ahead electricity prices: A re](https://arxiv.org/abs/2008.08004) (75.3/A) |
 | C1 Deep Learning Price Prediction | 967 | 47.6 | [Kronos: A Foundation Model for the Language of](https://arxiv.org/abs/2508.02739) (76.1/A) |
 | C2 Reinforcement Learning Portfolio Management | 636 | 54.5 | [FinRL-Meta: A Universe of Near-Real Market Env](https://arxiv.org/abs/2112.06753) (81.0/S) |
 | C3 NLP / Sentiment Analysis | 693 | 52.4 | [TriAgent: Divergence-Aware Multi-Agent Committ](https://arxiv.org/abs/2607.19794) (78.3/A) |
