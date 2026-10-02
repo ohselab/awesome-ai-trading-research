@@ -1,6 +1,6 @@
 # S/A-Tier Paper Curation
 
-> Human-approved curation of the top **816** papers (S and A tier) from the live KB. Updated 2026-10-02.
+> Human-approved curation of the top **816** papers (S and A tier) from the live KB. Updated 2026-10-03.
 
 Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (strong). Tiers come from a 0–100 weighted 5-dimension score; the published selection is reviewed and approved by a human curator.
 
