@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **4 S-tier** and **812 A-tier** papers.
+themes below. Currently publishing **3 S-tier** and **824 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 10020                                   |
-| S-tier (published)       | 4                                       |
-| A-tier (published)       | 812                                     |
+| Relevant papers screened | 10077                                   |
+| S-tier (published)       | 3                                       |
+| A-tier (published)       | 824                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -65,18 +65,18 @@ The highest-scoring papers across all domains:
 
 - [Cleaning large-dimensional covariance matrices for correlated samples](https://arxiv.org/abs/2107.01352) - We elucidate the problem of estimating large-dimensional covariance matrices in the presence of correlations between samples.
 - [Qlib: An AI-oriented Quantitative Investment Platform](https://arxiv.org/abs/2009.11189) - Quantitative investment aims to maximize the return and minimize the risk in a sequential trading period over a set of financial instruments.
-- [The Efficient Frontier from a LASSO Solver](https://arxiv.org/abs/2609.37108) - In a recent paper, Schmelzer and Hastie argue that Markowitz's Critical Line Algorithm and the LASSO path trace the same curve.
 - [FinRL-Meta: A Universe of Near-Real Market Environments for Data-Driven Deep Reinforcement Learning in Quantitative Finance](https://arxiv.org/abs/2112.06753) - Deep reinforcement learning (DRL) has shown huge potentials in building financial market simulators recently.
 - [FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning](https://arxiv.org/abs/2211.03107) - Finance is a particularly difficult playground for deep reinforcement learning.
 - [Evidence of Crowding on Russell 3000 Reconstitution Events](https://arxiv.org/abs/2006.07456) - We develop a methodology which replicates in great accuracy the FTSE Russell indexes reconstitutions, including the quarterly rebalancings due to new initial public offerings (IPOs).
+- [Stochastic Knothe-Rosenblatt: Light-speed Calibration of Stochastic Local Volatility Models](https://arxiv.org/abs/2609.39256) - European option smiles determine the risk-neutral marginal laws of an asset, but not their intertemporal coupling, which is decisive for many applications.
 - [CTBench: Cryptocurrency Time Series Generation Benchmark](https://arxiv.org/abs/2508.02758) - Synthetic time series are essential tools for data augmentation, stress testing, and algorithmic prototyping in quantitative finance.
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
-- [Propose, Don&#39;t Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors](https://arxiv.org/abs/2609.27051) - Language-model agents now run the whole of quantitative factor research: they propose investment factors, backtest them, select the survivors and retire them.
+- [Portfolio liquidation under transient price impact -- theoretical solution and implementation with 100 NASDAQ stocks](https://arxiv.org/abs/1912.06426) - We derive an explicit solution for deterministic market impact parameters in the Graewe and Horst (2017) portfolio liquidation model.
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; large language model · transformer · sentiment analysis; limit order book · liquidity provision · market making; machine learning · volatility forecasting · financial time series; graph neural network · systemic risk · clustering; factor model · deep neural network · statistical arbitrage; wasserstein distance · distributionally robust optimization · optimal transport.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; limit order book · liquidity provision · market making; large language model · transformer · sentiment analysis; machine learning · volatility forecasting · financial time series; graph neural network · systemic risk · clustering; online learning · electricity price forecasting · probabilistic forecasting; distributionally robust optimization · wasserstein distance · optimal transport.
 
 ## Contributing
 
