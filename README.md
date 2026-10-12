@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **3 S-tier** and **867 A-tier** papers.
+themes below. Currently publishing **3 S-tier** and **874 A-tier** papers.
 
 ## Research Domains
 
@@ -55,7 +55,7 @@ Systems Trading & Quant R&D
 | ------------------------ | --------------------------------------- |
 | Relevant papers screened | 10473                                   |
 | S-tier (published)       | 3                                       |
-| A-tier (published)       | 867                                     |
+| A-tier (published)       | 874                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 

@@ -1,6 +1,6 @@
 # S/A-Tier Paper Curation
 
-> Human-approved curation of the top **870** papers (S and A tier) from the live KB. Updated 2026-10-12.
+> Human-approved curation of the top **877** papers (S and A tier) from the live KB. Updated 2026-10-12.
 
 Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (strong). Tiers come from a 0–100 weighted 5-dimension score; the published selection is reviewed and approved by a human curator.
 
@@ -13,7 +13,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Retail Trader&#39;s Ruin: An Anatomy of Popular Signal Failure](https://arxiv.org/abs/2607.20093) - We test whether five widely promoted retail signal families - trend, oscillator, candlestick, volume, and calendar rules - deliver a positive, economically meaningful, net-of-cost, and survivable edge.
 - [Trends, Reversion, and Critical Phenomena in Financial Markets](https://arxiv.org/abs/2006.07847) - Financial markets across all asset classes are known to exhibit trends.
 
-### A2. Algorithmic Trading (21)
+### A2. Algorithmic Trading (24)
 
 **S-tier**
 
@@ -24,6 +24,9 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Evidence of Crowding on Russell 3000 Reconstitution Events](https://arxiv.org/abs/2006.07456) - We develop a methodology which replicates in great accuracy the FTSE Russell indexes reconstitutions, including the quarterly rebalancings due to new initial public offerings (IPOs).
 - [Cyclic Arbitrage in Decentralized Exchanges](https://arxiv.org/abs/2105.02784) - Decentralized Exchanges (DEXes) enable users to create markets for exchanging any pair of cryptocurrencies.
 - [The Science and Practice of Trend-Following Systems](https://arxiv.org/abs/2607.19497) - We present a unified approach to designing trend-following (TF) systems and classify them into European, American, and Time Series Momentum categories.
+- [On the Boundary of Admission Gates: An Injected-Truth Study of Falsification-First Selection in Quantitative Strategy Research](https://arxiv.org/abs/2610.07701) - Strategy research conflates two problems: finding a profitable rule, and establishing that the finding is not search luck.
+- [Learned Monotone Recurrent Features in Governed Credit Scoring: The Price of the Frame and the Necessity of Macro Conditioning](https://arxiv.org/abs/2610.08869) - Regulated credit scoring requires scores monotone non-decreasing in every exposure input.
+- [Trading Strategy Optimization via Textual Gradient](https://arxiv.org/abs/2610.03128) - Quantitative trading strategy design aims to discover trading programs from historical data that remain effective in future markets, which can be viewed as a black-box program optimization problem.
 - [Predictive Extrema, Unprofitable Policies: An AI-Assisted Audit of Candle-Based Binance Spot Timing Models](https://arxiv.org/abs/2607.19453) - We audit whether candle-based machine-learning models can turn predictions of cryptocurrency extrema or short-horizon outcomes into positive Binance Spot paper policies after assumed costs.
 - [If It Walks Like an Arbitrage: Protocol-Agnostic Detection with Decidable Structural Equivalence](https://arxiv.org/abs/2608.20377) - Ethereum transactions admit a canonical structural form.
 - [Towards Generalizable Reinforcement Learning for Trade Execution](https://arxiv.org/abs/2307.11685) - Optimized trade execution is to sell (or buy) a given amount of assets in a given time with the lowest possible trading cost.
@@ -58,7 +61,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Data-driven measures of high-frequency trading](https://arxiv.org/abs/2405.08101) - High-frequency trading (HFT) accounts for almost half of equity trading volume, yet it is not identified in public data.
 - [Interpretable ML for High-Frequency Execution](https://arxiv.org/abs/2307.04863) - Order placement tactics play a crucial role in high-frequency trading algorithms and their design is based on understanding the dynamics of the order book.
 
-### A4. Market Microstructure (85)
+### A4. Market Microstructure (86)
 
 
 - [JAX-LOB: A GPU-Accelerated limit order book simulator to unlock large scale reinforcement learning for trading](https://arxiv.org/abs/2308.13289) - Financial exchanges across the world use limit order books (LOBs) to process orders and match trades.
@@ -71,6 +74,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Nonparametric Estimation of Self- and Cross-Impact](https://arxiv.org/abs/2510.06879) - We introduce an offline nonparametric estimator for concave multi-asset propagator models based on a dataset of correlated price trajectories and metaorders.
 - [Autodeleveraging: Impossibilities and Optimization](https://arxiv.org/abs/2512.01112) - Autodeleveraging (ADL) is a last-resort loss socialization mechanism for perpetual futures venues.
 - [Generative AI for End-to-End Limit Order Book Modelling: A Token-Level Autoregressive Generative Model of Message Flow Using a Deep State Space Network](https://arxiv.org/abs/2309.00638) - Developing a generative model of realistic order flow in financial markets is a challenging open problem, with numerous applications for market participants.
+- [How Execution Assumptions Change Short-Horizon Sharpe Rankings: Evidence from a Synthetic Trading Benchmark](https://arxiv.org/abs/2610.05077) - Backtests of LLM trading agents often assume that every order fills at the closing price.
 - [Optimal Dynamic Fees for Automated Market Makers: A Stochastic Control Approach to Loss-Versus-Rebalancing](https://arxiv.org/abs/2606.21769) - We study the fee policy of a liquidity provider (LP) in a constant-product automated market maker (AMM) whose fee can be adjusted continuously, as enabled by programmable hooks.
 - [Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision](https://arxiv.org/abs/2309.08431) - Constant product markets with concentrated liquidity (CL) are the most popular type of automated market makers.
 - [Optimal Cross-Correlation Estimates from Asynchronous Tick-by-Tick Trading Data](https://arxiv.org/abs/2303.16153) - Given two time series, A and B, sampled asynchronously at different times {t_A_i} and {t_B_j}, termed "ticks", how can one best estimate the correlation coefficient ρbetween changes in A and B?
@@ -493,7 +497,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Statistical Learning with Conditional Value at Risk](https://arxiv.org/abs/2002.05826) - We propose a risk-averse statistical learning framework wherein the performance of a learning algorithm is evaluated by the conditional value-at-risk (CVaR) of losses rather than the expected loss.
 - [Supermartingale deflators in the absence of a numéraire](https://arxiv.org/abs/2001.05906) - In this paper we study arbitrage theory of financial markets in the absence of a numéraire both in discrete and continuous time.
 
-### B4. Financial Econometrics (190)
+### B4. Financial Econometrics (191)
 
 
 - [Forecasting day-ahead electricity prices: A review of state-of-the-art algorithms, best practices and an open-access benchmark](https://arxiv.org/abs/2008.08004) - While the field of electricity price forecasting has benefited from plenty of contributions in the last two decades, it arguably lacks a rigorous approach to evaluating new predictive algorithms.
@@ -522,6 +526,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Fear and Volatility in Digital Assets](https://arxiv.org/abs/2010.15611) - We show Bitcoin implied volatility on a 5 minute time horizon is modestly predictable from price, volatility momentum and alternative data including sentiment and engagement.
 - [Traveling Waves in Equity Markets with Rank-Based Entry and Exit](https://arxiv.org/abs/2608.27156) - We model equity markets using geometric Brownian particles entering and exiting at rank-dependent intensities.
 - [Inversion of Convex Ordering: Local Volatility Does Not Maximize the Price of VIX Futures](https://arxiv.org/abs/1910.05750) - It has often been stated that, within the class of continuous stochastic volatility models calibrated to vanillas, the price of a VIX future is maximized by the Dupire local volatility model.
+- [TRACE: A Reproducible Benchmark for Electricity Price Forecasting with Official Operational Text](https://arxiv.org/abs/2610.02256) - Electricity price forecasting (EPF) supports scheduling, bidding, and risk management in electricity markets, yet existing benchmarks focus mainly on numerical inputs, leaving the forecasting value of forecast-time.
 - [Trends and Reversion in Financial Markets on Time Scales from Minutes to Decades](https://arxiv.org/abs/2501.16772) - We empirically analyze the reversion of financial market trends with time horizons ranging from minutes to decades.
 - [tsbootstrap: Distribution-Free Uncertainty Quantification and Conformal Prediction for Time Series](https://arxiv.org/abs/2607.06690) - Finance, sensing, and demand streams violate the exchangeability that IID conformal prediction and the IID bootstrap assume, and existing libraries implement either a general resampling engine or conformal.
 - [Path-dependent Affine Processes](https://arxiv.org/abs/2606.23099) - We extend the classical theory of affine processes to a path-dependent setting by introducing path-dependent coefficients and provide analytic formulas for their Fourier--Laplace transform in terms of generalized.
@@ -542,6 +547,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Backtesting Systemic Risk Forecasts using Multi-Objective Elicitability](https://arxiv.org/abs/2104.10673) - Systemic risk measures such as CoVaR, CoES and MES are widely-used in finance, macroeconomics and by regulatory bodies.
 - [From quadratic Hawkes processes to super-Heston rough volatility models with Zumbach effect](https://arxiv.org/abs/1907.06151) - Using microscopic price models based on Hawkes processes, it has been shown that under some no-arbitrage condition, the high degree of endogeneity of markets together with the phenomenon of metaorders splitting.
 - [Short dated smile under Rough Volatility: asymptotics and numerics](https://arxiv.org/abs/2009.08814) - In [Precise Asymptotics for Robust Stochastic Volatility Models; Ann.
+- [StaFIR: Convex Learning of Stationarity-Aware Causal Filters](https://arxiv.org/abs/2610.07430) - Reducing nonstationarity in a persistent time series entails deciding how much of its temporal dependence to remove.
 - [Statistical inference for rough volatility: Minimax Theory](https://arxiv.org/abs/2210.01214) - Rough volatility models have gained considerable interest in the quantitative finance community in recent years.
 - [A Censored Transformed Model for Proportional Outcomes with Boundary Mass and an Application to Loss Given Default Modeling](https://arxiv.org/abs/2606.21515) - We introduce the zero-one censored transformed normal (ZOC-TN) model for proportional responses with potential probability mass at the boundaries 0 and 1.
 - [A rough SABR formula](https://arxiv.org/abs/2105.05359) - Following an approach originally suggested by Balland in the context of the SABR model, we derive an ODE that is satisfied by normalized volatility smiles for short maturities under a rough volatility extension of.
@@ -623,7 +629,6 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [High-Frequency-Based Volatility Model with Network Structure](https://arxiv.org/abs/2204.12933) - This paper introduces one new multivariate volatility model that can accommodate an appropriately defined network structure based on low-frequency and high-frequency data.
 - [Markov-Modulated Affine Processes](https://arxiv.org/abs/2106.16240) - We study Markov-modulated affine processes (abbreviated MMAPs), a class of Markov processes that are created from affine processes by allowing some of their coefficients to be a function of an exogenous Markov process.
 - [The Market Price of Risk for Delivery Periods: Pricing Swaps and Options in Electricity Markets](https://arxiv.org/abs/2002.07561) - In electricity markets, futures contracts typically function as a swap since they deliver the underlying over a period of time.
-- [TRACE: A Reproducible Benchmark for Electricity Price Forecasting with Official Operational Text](https://arxiv.org/abs/2610.02256) - Electricity price forecasting (EPF) supports scheduling, bidding, and risk management in electricity markets, yet existing benchmarks focus mainly on numerical inputs, leaving the forecasting value of forecast-time.
 - [Statistical Validation of Contagion Centrality in Financial Networks](https://arxiv.org/abs/2404.14337) - In this paper, we introduce an impact centrality measure to evaluate shock propagation on financial networks capturing a notion of contagion and systemic risk contributions, permitting comparisons of these risks over.
 - [Eigenvalue tests for the number of latent factors in short panels](https://arxiv.org/abs/2210.16042) - This paper studies new tests for the number of latent factors in a large cross-sectional factor model with small time dimension.
 - [American options in the Volterra Heston model](https://arxiv.org/abs/2103.11734) - We price American options using kernel-based approximations of the Volterra Heston model.
@@ -690,7 +695,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 
 ## C. AI/ML Trading
 
-### C1. Deep Learning Price Prediction (30)
+### C1. Deep Learning Price Prediction (31)
 
 
 - [Kronos: A Foundation Model for the Language of Financial Markets](https://arxiv.org/abs/2508.02739) - The success of large-scale pre-training paradigm, exemplified by Large Language Models (LLMs), has inspired the development of Time Series Foundation Models (TSFMs).
@@ -700,6 +705,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Global Neural Networks and The Data Scaling Effect in Financial Time Series Forecasting](https://arxiv.org/abs/2309.02072) - Neural networks have revolutionized many empirical fields, yet their application to financial time series forecasting remains controversial.
 - [Nyström Attention Matches Full Attention for Cross-Sectional Stock Prediction](https://arxiv.org/abs/2609.08106) - MASTER's inter-stock multi-head attention -- the module responsible for modeling cross-sectional stock relationships -- accounts for 42.5% of model parameters and 25% of predictive value.
 - [Approximation Rates for Deep Calibration of (Rough) Stochastic Volatility Models](https://arxiv.org/abs/2309.14784) - We derive quantitative error bounds for deep neural networks (DNNs) approximating option prices on a $d$-dimensional risky asset as functions of the underlying model parameters, payoff parameters and initial conditions.
+- [DIVINE: Simple Cross-Market Stock Pretraining via Diverse Indicator Reconstruction](https://arxiv.org/abs/2610.02866) - Financial time-series pretraining typically learns from masked observations, contrastive relations, or future outcomes---yet existing objectives struggle to simultaneously avoid future-supervision uncertainty and.
 - [CryptoGAT: Are Time Series Models Effective for Cryptocurrency Forecasting?](https://arxiv.org/abs/2606.27670) - Cryptocurrency price prediction is a significant challenge in quantitative investment.
 - [Deep ReLU Network Expression Rates for Option Prices in high-dimensional, exponential Lévy models](https://arxiv.org/abs/2101.11897) - We study the expression rates of deep neural networks (DNNs for short) for option prices written on baskets of $d$ risky assets, whose log-returns are modelled by a multivariate Lévy process with general correlation.
 - [Mathematics of Differential Machine Learning in Derivative Pricing and Hedging](https://arxiv.org/abs/2405.01233) - This article introduces the groundbreaking concept of the financial differential machine learning algorithm through a rigorous mathematical framework.
@@ -781,7 +787,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Risk-Sensitive Markov Decision Processes with Long-Run CVaR Criterion](https://arxiv.org/abs/2210.08740) - CVaR (Conditional Value at Risk) is a risk metric widely used in finance.
 - [Regret Bounds for Risk-Sensitive Reinforcement Learning](https://arxiv.org/abs/2210.05650) - In safety-critical applications of reinforcement learning such as healthcare and robotics, it is often desirable to optimize risk-sensitive objectives that account for tail outcomes rather than expected reward.
 
-### C3. NLP / Sentiment Analysis (51)
+### C3. NLP / Sentiment Analysis (52)
 
 
 - [TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient Financial Sentiment Analysis](https://arxiv.org/abs/2607.19794) - Production LLM-based financial sentiment analysis faces a structural cost trap: most queries are trivially classifiable, yet expensive cloud reasoners process them all, and the bill scales linearly with user count.
@@ -830,6 +836,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [The R package sentometrics to compute, aggregate and predict with textual sentiment](https://arxiv.org/abs/2110.10817) - We provide a hands-on introduction to optimized textual sentiment indexation using the R package sentometrics.
 - [Does Overnight News Explain Overnight Returns?](https://arxiv.org/abs/2507.04481) - Over the past 30 years, nearly all the gains in the U.S.
 - [Should You Take Investment Advice From WallStreetBets? A Data-Driven Approach](https://arxiv.org/abs/2105.02728) - Reddit's WallStreetBets (WSB) community has come to prominence in light of its notable role in affecting the stock prices of what are now referred to as meme stocks.
+- [FinDialogLens: Event Extraction over Multi-Party Dialogue for Missed-Trade Identification in Financial Chatrooms](https://arxiv.org/abs/2610.02455) - Multi-party financial chatrooms are vital for sales-and-trading professionals, but their complexity makes manual recovery of missed trades infeasible: each Request for Quote (RFQ) is an event whose final price and.
 - [Talk, Walk, and Market Response: Multimodal Measurement of AI Washing and Its Capital Market Consequences in China](https://arxiv.org/abs/2604.16367) - As artificial intelligence and generative large language models drive industrial upgrading, capital markets increasingly focus on AI-themed listed firms.
 - [Confidence Estimation for Financial Vision-Language Models in Chart and Document Understanding](https://arxiv.org/abs/2608.06532) - LVLMs are increasingly used to read financial charts, tables, and documents, where a single misread figure can move a decision and the most authoritative-looking answer is sometimes one the model produced without.
 - [On the impact of publicly available news and information transfer to financial markets](https://arxiv.org/abs/2010.12002) - We quantify the propagation and absorption of large-scale publicly available news articles from the World Wide Web to financial markets.
@@ -857,14 +864,14 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [Profit Mirage: Revisiting Information Leakage in LLM-based Financial Agents](https://arxiv.org/abs/2510.07920) - LLM-based financial agents have attracted widespread excitement for their ability to trade like human experts.
 - [When Agents Trade: Live Multi-Market Trading Benchmark for LLM Agents](https://arxiv.org/abs/2510.11695) - Although Large Language Model (LLM)-based agents are increasingly used in financial trading, it remains unclear whether they can reason and adapt in live markets, as most studies test models instead of agents, cover.
 - [MintEval: Do LLMs Implement the Trading Strategy You Asked For? A Behavioural-Equivalence Benchmark for Natural-Language-to-Strategy Code](https://arxiv.org/abs/2610.03080) - Large language models are moving from producing trading signals to writing the code that executes them.
-- [Knowledge or Calculator? Decomposing the Skill Premium in Verifiable Financial Agent Workflows](https://arxiv.org/abs/2610.03564) - Financial AI agents must do more than retrieve facts: investment workflows require correct quantitative execution, reliable use of procedural resources, and auditable structured outputs.
 - [Detecting Lookahead Bias in LLM Forecasts](https://arxiv.org/abs/2512.23847) - We develop a statistical procedure to detect lookahead bias in economic forecasts generated by large language models (LLMs).
 - [FrontierFinance: A Challenging Benchmark for Measuring Frontier Intelligence of Finance Agents](https://arxiv.org/abs/2608.11683) - AI agents are increasingly deployed for professional investment research, yet no benchmark captures the complexity of the full investor workflow.
+- [Knowledge or Calculator? Decomposing the Skill Premium in Verifiable Financial Agent Workflows](https://arxiv.org/abs/2610.03564) - Financial AI agents must do more than retrieve facts: investment workflows require correct quantitative execution, reliable use of procedural resources, and auditable structured outputs.
 - [What survives honest evaluation? Leakage-safe, search-aware assessment of LLM-driven trading strategy discovery](https://arxiv.org/abs/2608.27734) - Large language models (LLMs) are increasingly used to discover trading strategies, and much of the resulting literature shares a methodological weakness: many candidate strategies are generated, the best is reported.
 - [From Knowing to Doing: A Memory-Controlled Benchmark for LLM Trading Agents on Stock Markets](https://arxiv.org/abs/2605.28359) - Evaluating whether large language model (LLM) agents can profit in capital markets is increasingly framed as end-to-end trading: place an agent in a historical market, let it trade, and measure portfolio returns.
 - [PolyBench: Benchmarking LLM Forecasting and Trading Capabilities on Live Prediction Market Data](https://arxiv.org/abs/2604.14199) - Predicting real-world events from live market signals demands systems that fuse qualitative news with quantitative order-book dynamics under strict temporal discipline -- a challenge existing benchmarks fail to capture.
 - [The Memorization Problem: Can We Trust LLMs' Economic Forecasts?](https://arxiv.org/abs/2504.14765) - Large language models (LLMs) cannot be trusted for economic forecasts during periods covered by their training data.
-- [Do Your Own Research: Learning to Forecast by Learning to Search](https://arxiv.org/abs/2610.01955) - Outcome-based reinforcement learning can train language models to forecast real-world events, but prior forecasting work either freezes research context before training or deploys agentic research only at test time.
+- [Thin Evidence, Thick Priors: How Language Models Substitute Identity for Missing Financial Facts](https://arxiv.org/abs/2610.07798) - People increasingly ask large language models what to do with their money, yet seldom describe their finances in full.
 - [Fino1: On the Transferability of Reasoning-Enhanced LLMs and Reinforcement Learning to Finance](https://arxiv.org/abs/2502.08127) - As the fundamental capability behind decision-making in finance, financial reasoning poses distinct challenges for LLMs.
 - [QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies](https://arxiv.org/abs/2604.15151) - Large language models have demonstrated strong performance on general-purpose programming tasks, yet their ability to generate executable algorithmic trading strategies remains underexplored.
 - [SoK: Trading Agents or Market Crashers? Dissecting Robustness and Security Failures in Academic Financial LLM Trading Schemes](https://arxiv.org/abs/2609.19705) - Autonomous large language model (LLM) agents are moving rapidly into high-stakes domains, yet existing agentic-AI security studies remain largely domain-agnostic and overlook the distinctive, high-consequence attack.
@@ -890,6 +897,7 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol](https://arxiv.org/abs/2603.24943) - This paper introduces \textbf{FinMCP-Bench}, a novel benchmark for evaluating large language models (LLMs) in solving real-world financial problems through tool invocation of financial model context protocols.
 - [Towards Temporal-Aware Multi-Modal Retrieval Augmented Generation in Finance](https://arxiv.org/abs/2503.05185) - Finance decision-making often relies on in-depth data analysis across various data sources, including financial tables, news articles, stock prices, etc.
 - [AI Financial Advice: Supply, Demand, and Life Cycle Implications](https://arxiv.org/abs/2608.01607) - We ask a representative sample to write prompts seeking spending and investing advice from LLMs, then simulate the lifetime effects of following the advice under realistic asset and labor market conditions.
+- [Do Your Own Research: Learning to Forecast by Learning to Search](https://arxiv.org/abs/2610.01955) - Outcome-based reinforcement learning can train language models to forecast real-world events, but prior forecasting work either freezes research context before training or deploys agentic research only at test time.
 - [Martingale Doppelgänger-Eval: An Identification Framework for Auditing Candlestick Understanding in Vision-Language Models](https://arxiv.org/abs/2606.17423) - We introduce Martingale Doppelgänger-Eval, a public shadow-market benchmark for auditing whether vision-language models (VLMs) use candlestick evidence rather than extrapolate past trends.
 - [Tracing Positional Bias in Financial Decision-Making: Mechanistic Insights from Qwen2.5](https://arxiv.org/abs/2508.18427) - The growing adoption of large language models (LLMs) in finance exposes high-stakes decision-making to subtle, underexamined positional biases.
 - [EDINET-Bench: Evaluating LLMs on Complex Financial Tasks using Japanese Financial Statements](https://arxiv.org/abs/2506.08762) - Large Language Models (LLMs) have made remarkable progress, surpassing human performance on several benchmarks in domains such as mathematics and coding.
@@ -907,7 +915,6 @@ Within each sub-domain, **S-tier** (exceptional) is listed before **A-tier** (st
 - [AI PB: A Grounded Generative Agent for Personalized Investment Insights](https://arxiv.org/abs/2510.20099) - We present AI PB, a production-scale generative agent deployed in real retail finance.
 - [The Price of Agreement: Measuring LLM Sycophancy in Agentic Financial Applications](https://arxiv.org/abs/2604.24668) - Given the increased use of LLMs in financial systems today, it becomes important to evaluate the safety and robustness of such systems.
 - [Will LLMs be Professional at Fund Investment? DeepFund: A Live Arena Perspective](https://arxiv.org/abs/2503.18313) - Large Language Models (LLMs) have demonstrated impressive capabilities across various domains, but their effectiveness in financial decision-making remains inadequately evaluated.
-- [Thin Evidence, Thick Priors: How Language Models Substitute Identity for Missing Financial Facts](https://arxiv.org/abs/2610.07798) - People increasingly ask large language models what to do with their money, yet seldom describe their finances in full.
 - [Abliteration Is Not a Scalpel: Off-Target Effects of Refusal Removal on Decision Disposition Across Model Families](https://arxiv.org/abs/2607.17427) - Abliteration - deleting a model's refusal direction from its weights - is the standard recipe behind popular "uncensored" open-weight models.
 - [Market-Dependent Communication in Multi-Agent Alpha Generation](https://arxiv.org/abs/2511.13614) - Multi-strategy hedge funds face a fundamental organizational choice: should analysts generating trading strategies communicate, and if so, how?
 - [Can Agentic Trading Systems Pay for Their Own Intelligence?](https://arxiv.org/abs/2607.10286) - Large language model (LLM) agents are increasingly used in trading systems, where model reasoning, tool use, and continual decisions incur costs that are expected to produce trading value.
