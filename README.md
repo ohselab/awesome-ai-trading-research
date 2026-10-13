@@ -25,7 +25,7 @@ computed in code.
 Before any paper appears here, its S/A pre-score is **re-evaluated with a frontier model and reviewed and approved
 by a human curator** at [OHSE AI Lab](https://ohselab.com). Only the approved S- and A-tier papers are published;
 lower tiers stay internal. Entities (methods, concepts, datasets) are extracted and clustered into the research
-themes below. Currently publishing **3 S-tier** and **874 A-tier** papers.
+themes below. Currently publishing **3 S-tier** and **879 A-tier** papers.
 
 ## Research Domains
 
@@ -53,9 +53,9 @@ Systems Trading & Quant R&D
 
 | Metric                   | Value                                   |
 | ------------------------ | --------------------------------------- |
-| Relevant papers screened | 10473                                   |
+| Relevant papers screened | 10563                                   |
 | S-tier (published)       | 3                                       |
-| A-tier (published)       | 874                                     |
+| A-tier (published)       | 879                                     |
 | Sub-domains              | 13                                      |
 | Scoring                  | 5-dimension composite (domain-weighted) |
 
@@ -76,7 +76,7 @@ The highest-scoring papers across all domains:
 
 ## Research Themes
 
-Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · option pricing · neural network; limit order book · liquidity provision · market making; large language model · transformer · sentiment analysis; machine learning · volatility forecasting · financial time series; graph neural network · systemic risk · clustering; distributionally robust optimization · wasserstein distance · optimal transport; deep neural network · statistical arbitrage · mean reversion.
+Clusters auto-detected from the paper co-occurrence graph: reinforcement learning · portfolio optimization · stochastic control; deep learning · neural network · option pricing; limit order book · liquidity provision · market impact; large language model · transformer · sentiment analysis; machine learning · credit risk · volatility forecasting; graph neural network · systemic risk · clustering; factor model · deep neural network · statistical arbitrage; distributionally robust optimization · optimal transport · wasserstein distance.
 
 ## Contributing
 
